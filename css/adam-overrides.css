@@ -1,0 +1,43 @@
+/*
+-----------------------------------------------
+External Style Steet for Minchin.ca
+Copyright 2007-13 W. Minchin
+http://www.minchin.ca/css/adam-overrides.css
+Date:     December 16, 2012
+Version:  CSS 1.5.1
+----------------------------------------------- */
+/*
+This stylesheet was built to support by genealogy
+pages. I am using the Adam generator, but it plays
+with a number of my styles. This gets my pages
+looking good again.
+
+Adam: http://timforsythe.com/tools/adam
+
+Place this as the last CSS file loaded.
+*/
+
+h1#blog-title {
+    letter-spacing: 0;
+	color: rgb(238, 238, 204);
+}
+
+body {
+  padding: 20px 10px !important;
+}
+
+ul#navlist {
+  margin-bottom: 1em;
+}
+
+#site-header {
+  display: none;
+}
+
+#site-footer {
+  display: none;
+}
+
+.adam-version {
+  display: none;
+}
