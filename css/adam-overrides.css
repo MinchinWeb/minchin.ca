@@ -4,7 +4,8 @@ External Style Steet for Minchin.ca
 Copyright 2007-13 W. Minchin
 http://www.minchin.ca/css/adam-overrides.css
 Date:     December 16, 2012
-Version:  CSS 1.5.1
+Version:  CSS 1.5.2
+For Adam Version: 1.25.0.0
 ----------------------------------------------- */
 /*
 This stylesheet was built to support by genealogy
@@ -17,6 +18,7 @@ Adam: http://timforsythe.com/tools/adam
 Place this as the last CSS file loaded.
 */
 
+/* To get my site header to look good/consistent */
 h1#blog-title {
     letter-spacing: 0;
 	color: rgb(238, 238, 204);
@@ -30,6 +32,7 @@ ul#navlist {
   margin-bottom: 1em;
 }
 
+/* Modify ADAM output */
 #site-header {
   display: none;
 }
@@ -40,4 +43,29 @@ ul#navlist {
 
 .adam-version {
   display: none;
+}
+
+#site-content {
+  padding: 0;
+}
+
+#adam-wrapper {
+  margin-top: 0;
+}
+
+#site-wrapper {
+  margin-left: -15px;
+  margin-top: 10px; /* default Adam style */
+  margin-bottom: 10px;
+  border: none;
+  background: none;
+}
+
+.mapstatusspan {
+  width: auto;
+}
+
+#adam-inner-content {
+  background: none;
+  border: none;
 }
