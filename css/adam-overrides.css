@@ -69,3 +69,9 @@ ul#navlist {
   background: none;
   border: none;
 }
+
+/*	Adam v1.29.0.0 */
+.adam-chart_node {
+  height:30px;
+  width:151px;
+}
