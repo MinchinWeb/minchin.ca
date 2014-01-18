@@ -70,6 +70,22 @@ ul#navlist {
   border: none;
 }
 
+.adam-stats-wrapper, 
+.adam-heatmap-wrapper, 
+.adam-census-wrapper, 
+.adam-index-wrapper, 
+.adam-birthdays-wrapper,
+.adam-comment-wrapper,
+.adam-update-wrapper,
+#adam-tab-list,
+#tab-list {
+  background: none;
+}
+
+.adam-al_item {
+  clear:both;
+}
+
 /*	Adam v1.29.0.0 */
 .adam-chart_node {
   height:30px;
