@@ -82,6 +82,10 @@ ul#navlist {
   background: none;
 }
 
+adam-page-title {
+  display: none;
+}
+
 .adam-al_item {
   clear:both;
 }
