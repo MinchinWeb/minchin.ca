@@ -188,9 +188,6 @@ $RECYCLE.BIN/
 #############
 
 *.py[co]
-env/
-
-output/
 
 # Packages
 *.egg
@@ -216,3 +213,10 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+#############
+## Pelican
+#############
+env/
+_pelican/errors.txt
+_extras/

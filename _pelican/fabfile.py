@@ -3,7 +3,7 @@ import fabric.contrib.project as project
 import os
 
 # Local path configuration (can be absolute or relative to fabfile)
-env.deploy_path = 'output'
+env.deploy_path = '..'
 DEPLOY_PATH = env.deploy_path
 
 # Remote server configuration
@@ -17,9 +17,10 @@ env.cloudfiles_container = 'my_cloudfiles_container'
 
 
 def clean():
-    if os.path.isdir(DEPLOY_PATH):
-        local('rm -rf {deploy_path}'.format(**env))
-        local('mkdir {deploy_path}'.format(**env))
+	print ("You'll have to manually delete, so to not delete everything!")
+    #if os.path.isdir(DEPLOY_PATH):
+    #    local('rm -rf {deploy_path}'.format(**env))
+    #    local('mkdir {deploy_path}'.format(**env))
 
 def build():
     local('pelican -s pelicanconf.py')
@@ -58,3 +59,9 @@ def publish():
         local_dir=DEPLOY_PATH.rstrip('/') + '/',
         delete=True
     )
+
+# Add devsever
+# only works on Windows
+#  need to kill the second window manually
+def devserver():
+	local('start pelican -r -s pelicanconf.py && cd {deploy_path} && python -m SimpleHTTPServer'.format(**env))
