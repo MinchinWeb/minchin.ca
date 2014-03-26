@@ -218,5 +218,6 @@ pip-log.txt
 ## Pelican
 #############
 env/
+_env/
 _pelican/errors.txt
 _extras/
