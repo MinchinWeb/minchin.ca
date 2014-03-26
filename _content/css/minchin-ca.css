@@ -3,6 +3,11 @@ body {
     padding-top: 20px;
 }
 
+/* have links only below the header image */
+.navbar-nonheader {
+  clear: left;
+}
+
 /* make sidebar nav vertical */
 /* from  http://www.jonathanbriehl.com/2014/01/17/vertical-menu-for-bootstrap-3/
  */
