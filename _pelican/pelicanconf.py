@@ -62,8 +62,10 @@ TAG_SAVE_AS = ''
 CATEGORY_URL = ''
 CATEGORY_SAVE_AS = ''
 
-ARTICLE_URL = "{slug}"
+ARTICLE_URL = "{slug}.html"
 ARTICLE_SAVE_AS = "{slug}.html"
+PAGE_URL = "{slug}/"
+PAGE_SAVE_AS = "{slug}/index.html"
 
 
 # Theme Related
