@@ -1,10 +1,10 @@
-#!/usr/bin/env python
+﻿#!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
 AUTHOR = u'Wm. Minchin'
 SITENAME = u'Minchin.ca'
-SITEURL = ''
+SITEURL = 'http://minchin.ca'
 
 TIMEZONE = 'America/Edmonton'
 
@@ -28,11 +28,17 @@ TRANSLATION_FEED_ATOM = None
 DEFAULT_PAGINATION = False
 
 # static paths will be copied under the same name
-STATIC_PATHS = ['images', '_extras']
+STATIC_PATHS = ['images', '_extras', 'css']
 
 # A list of files to copy from the source to the destination
 EXTRA_PATH_METADATA = {
-    '_extras\minchin.ico': {'path': 'favicon.ico'},
+	'_extras\.gitattributes': 		{'path': '.gitattributes'},
+	'_extras\.gitignore': 			{'path': '.gitignore'},
+	'_extras\README.txt': 			{'path': 'README.txt'},
+	'_extras\CNAME': 				{'path': 'CNAME'},
+    '_extras\minchin.ico': 			{'path': 'favicon.ico'},
+	'_extras\MTS_1v1.xlsm': 		{'path': 'MTS_1v1.xlsm'},
+	'_extras\TRB_Minchin.ca.XSL': 	{'path': 'TRB_Minchin.ca.XSL'},
     }
 
 # Uncomment following line if you want document-relative URLs when developing
@@ -50,18 +56,39 @@ MARKUP = (( 'rst',
 PATH = '../_content'
 OUTPUT_PATH = '../'
 
+# disable Tags
+TAGS_SAVE_AS = ''
+TAG_SAVE_AS = ''
+CATEGORY_URL = ''
+CATEGORY_SAVE_AS = ''
+
+ARTICLE_URL = "{slug}"
+ARTICLE_SAVE_AS = "{slug}.html"
+
+
 # Theme Related
 TYPOGRIFY = True
 THEME = 'themes/pelican-minchin-ca'
-DISPLAY_CATEGORIES_ON_MENU = False
 SITELOGO = 'images/MinchindotCA-200.png'
-SITELOGO_SIZE = 200
-HIDE_SITENAME = True
+SITELOGO_SIZE = '100%'
 PYGMENTS_STYLE = 'friendly'
 DISPLAY_BREADCRUMBS = True
 FAVICON = 'favicon.ico'
-HIDE_SIDEBAR = True
 BOOTSTRAP_THEME = 'cerulean'
 # like fonts of simplex, shamrock
+USE_OPEN_GRAPH = True
+CUSTOM_CSS = 'css/minchin-ca.css'
 
+GOOGLE_ANALYTICS_UNIVERSAL = 'UA-384291-3'
+GOOGLE_ANALYTICS_UNIVERSAL_PROPERTY = 'minchin.ca'
 
+# # Make things disappear
+DISPLAY_CATEGORIES_ON_MENU = True
+HIDE_SITENAME = True
+HIDE_SIDEBAR = True
+FEED_ALL_ATOM = False
+FEED_ALL_RSS = False
+GITHUB_USER = False
+ADDTHIS_PROFILE = False
+DISQUS_SITENAME = False
+PDF_PROCESSOR = False
