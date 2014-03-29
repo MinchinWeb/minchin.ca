@@ -61,9 +61,8 @@ TAGS_SAVE_AS = ''
 TAG_SAVE_AS = ''
 CATEGORY_URL = ''
 CATEGORY_SAVE_AS = ''
-
-ARTICLE_URL = "{slug}.html"
-ARTICLE_SAVE_AS = "{slug}.html"
+ARTICLE_URL = ''
+ARTICLE_SAVE_AS = ''
 PAGE_URL = "{slug}/"
 PAGE_SAVE_AS = "{slug}/index.html"
 
@@ -76,7 +75,8 @@ SITELOGO_SIZE = '100%'
 PYGMENTS_STYLE = 'friendly'
 DISPLAY_BREADCRUMBS = True
 FAVICON = 'favicon.ico'
-BOOTSTRAP_THEME = 'cerulean'
+BOOTSTRAP_THEME = 'minchin-ca'
+# BOOTSTRAP_THEME = 'darkly'
 # like fonts of simplex, shamrock
 USE_OPEN_GRAPH = True
 CUSTOM_CSS = 'css/minchin-ca.css'

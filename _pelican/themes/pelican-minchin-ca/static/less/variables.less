@@ -15,7 +15,7 @@
 @sol-grayLighter: #eee8d5;
 @sol-white: #fdf6e3;
  
-@sol-blue: #2aa198;
+@sol-blue: #2aa198;			// used here as the accent colour
 @sol-blueDark: #268bd2;
 @sol-green: #859900;
 @sol-red: #dc322f;
@@ -34,9 +34,9 @@
 @gray-light:             @sol-grayDark;     // was #999
 @gray-lighter:           @sol-grayDarker;   // was #eee
 
-@brand-primary:         @sol-blueDark;
+@brand-primary:         @sol-blue;
 @brand-success:         @sol-green;
-@brand-info:            @sol-blue;
+@brand-info:            @sol-blueDark;
 @brand-warning:         @sol-yellow;
 @brand-danger:          @sol-red;
 
@@ -87,7 +87,7 @@
 @headings-font-family:    inherit;
 @headings-font-weight:    500;
 @headings-line-height:    1.1;
-@headings-color:          inherit;
+@headings-color:          @brand-primary;
 
 
 //-- Iconography
@@ -144,7 +144,7 @@
 //** Default background color used for all tables.
 @table-bg:                      transparent;
 //** Background color used for `.table-striped`.
-@table-bg-accent:               #f9f9f9;
+@table-bg-accent:               lighten(@brand-primary, 10%);
 //** Background color used for `.table-hover`.
 @table-bg-hover:                #f5f5f5;
 @table-bg-active:               @table-bg-hover;
@@ -355,16 +355,16 @@
 @navbar-padding-vertical:          ((@navbar-height - @line-height-computed) / 2);
 @navbar-collapse-max-height:       340px;
 
-@navbar-default-color:             @gray-light;
-@navbar-default-bg:                @sol-white;
+@navbar-default-color:             @gray-darker;
+@navbar-default-bg:                @brand-primary;
 @navbar-default-border:            lighten(@navbar-default-bg, 6.5%);
 
 // Navbar links
-@navbar-default-link-color:                @gray-light;
-@navbar-default-link-hover-color:          @gray-lighter;
-@navbar-default-link-hover-bg:             darken(@navbar-default-bg, 6.5%);
-@navbar-default-link-active-color:         darken(@navbar-default-link-color, 6.5%);
-@navbar-default-link-active-bg:            darken(@navbar-default-bg, 6.5%);
+@navbar-default-link-color:                @gray-lighter;
+@navbar-default-link-hover-color:          @sol-white;
+@navbar-default-link-hover-bg:             lighten(@navbar-default-bg, 6.5%);
+@navbar-default-link-active-color:         @navbar-default-link-hover-color;
+@navbar-default-link-active-bg:            lighten(@navbar-default-bg, 6.5%);
 @navbar-default-link-disabled-color:       #ccc;
 @navbar-default-link-disabled-bg:          transparent;
 
@@ -746,7 +746,7 @@
 //
 //##
 
-@well-bg:                     #f5f5f5;
+@well-bg:                     @sol-white;
 @well-border:                 lighten(@well-bg, 7%);
 
 // THIS IS CUSTOM - WM
@@ -783,7 +783,7 @@
 //** Breadcrumb text color
 @breadcrumb-color:              @text-color-inverse;
 //** Text color of current page in the breadcrumb
-@breadcrumb-active-color:       @gray-light;
+@breadcrumb-active-color:       @brand-primary;
 //** Textual separator for between breadcrumb elements
 @breadcrumb-separator:          ">";
 

@@ -63,9 +63,11 @@ body {
     margin-right: 3px;
 }
 
+/* this is breaking my bootstrap theme..
 a, a:hover {
     color: inherit;
 }
+*/
 
 .entry-content a {
     text-decoration: none;
