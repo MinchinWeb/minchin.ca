@@ -1,9 +1,9 @@
 title: My Projects
-modified: March 25, 2014
+modified: March 29, 2014
 copy_date: 2012-14
 slug: projects
 
-
+<!-- _ Heading Photos are 16x9 ratio, 688x387px -->
 Lots of the Stuff I've Done
 
 Over the years, I've worked on a number of projects, both online and
@@ -13,13 +13,18 @@ particularly those found online.
 Highway Planning
 ----------------
 
+<div class="center-block thumbnail max-col-md-9">
+	<img src="../images/morinville-roundabout-688.jpg" />
+	<caption>Proposed Roundabout on Highway 642 in Morinville</cation>
+</div>
+
 My highway planning is all done offline, but I'll provide links where I
 can.
 
 -   **Highway 642 Functional Planning Study** -- 2012-13, Morinville, AB --
     Traffic forecasting and modeling, prepared proposed corridor
     treatment, public open houses
-    ([link](http://www2.morinville.ca/community-planning/coeur-de-morinville/highway-642-functional-planning-study))
+    ([link](http://www.morinville.ca/planning/fps))
 -   **Mildred Lake Traffic Impact Analysis (TIA)** -- 2012-13, RM Wood
     Buffalo, AB -- Analysing traffic counts, traffic modeling, traffic
     projections, and intersection treatment warrants
@@ -72,6 +77,11 @@ can.
 Web Design
 ----------
 
+-   **[Minchin.ca](http://www.Minchin.ca/index.htm) -- Bootstrap Edition** --
+    2014 -- in the 7 years since I originally designed the site, one of the
+	biggest changes is that so much of the web in now accessed through smart
+	phones. So this redesign was in large part abour making the site look good
+	on my phone.
 -   **[Metro Financial Planning](http://metrofinancialplanning.com)** --
     2011-12 -- A professional project. This is a wordpress driven site
     for a local financial planner. I set up the site and maintain it,
@@ -80,7 +90,7 @@ Web Design
     Park](http://BissettforPCMLA.ca)** -- 2011 -- A wordpress driven site
     for a friend running for nomination for the PC party in his riding.
     I set up the site and he provided the photos and copy.
--   **[Minchin.ca](http://www.Minchin.ca/index.htm) -- Kwick Edition** --
+-   **Minchin.ca -- Kwick Edition** --
     2010 -- This just went live for the main page of
     [Minchin.ca](http://www.Minchin.ca). I realize that it may not be
     obvious where the links are or what they do at first glance, but I
@@ -92,6 +102,11 @@ Web Design
 
 Programming
 -----------
+
+<div class="center-block thumbnail max-col-md-9">
+	<img src="../images/wmdot-twinned-freeways-688.png" />
+	<caption>WmDOT in action</caption>
+</div>
 
 -   **WmDOT** -- 2010-14 -- An AI for [OpenTTD](http://www.openttd.org),
     an open source remake of Transport Tycoon Deluxe. My AI is written
@@ -109,13 +124,16 @@ Programming
     projects. I've made use of it myself when working on professional
     web design projects. ([release
     post](http://blog.minchin.ca/2010/07/minchin-timesheet-system-version-11.html);
-    [direct download]({filename}/MTS_1v1.xlsm))
+    [direct download](../MTS_1v1.xlsm))
 -   **Transportation Research Board (TRB) Bibliography style** for
     Microsoft Word -- 2010 -- I did this while working on my Master's
     thesis. It is an XML files that creates a new bibliography style for
     use in Word. ([release
     post](http://blog.minchin.ca/2010/07/trb-transportation-research-board.html);
-    [direct download]({filename}/TRB_Minchin.ca.XSL))
+    [direct download](../TRB_Minchin.ca.XSL))
+	
+I also maintain a profile at [GitHub](https://github.com/MinchinWeb) and post
+the code there for several of these projects and several others as well.
 
 Articles
 --------
@@ -146,18 +164,26 @@ I have kept a blog at [blog.minchin.ca](http://blog.minchin.ca) since
 Photography
 -----------
 
+<div class="center-block thumbnail max-col-md-9">
+	<img src="../images/IMG_3252-paris-skyline-688.JPG" />
+</div> <!-- _ -->
+
 -   **[Project 365](http://blog.minchin.ca/search/label/Project%20365)** -
     2010-12 - It started with the goal to take a photo a day for a year. I
     got sidetracked for a while, but I keep pushing forward. Some of the
     most popular photos include:
     -   [The Paris
-    Skyline](http://blog.minchin.ca/2010/11/paris-skyline-photo-40-project-365.html)
+    Skyline](http://blog.minchin.ca/2010/11/paris-skyline-photo-40-project-365.html) (above)
 
 -   **[Flickr](http://www.flickr.com/photos/minchinweb)** - 2008-09 - some
 of my best shots, although it hasn't but updated in a while.
 
 Videos
 ------
+
+<div class="center-block thumbnail max-col-md-9">
+	<img src="../images/Lego-stop-motion-688.jpg" />
+</div>
 
 -   **[LEGO Dreams](http://www.youtube.com/watch?v=4hLO634gW94)** -- 2011 --
     I thought it would be fun to make a stop-motion video with LEGO.
