@@ -9,41 +9,14 @@ body {
 }
 
 /* make sidebar nav vertical */
-/* from  http://www.jonathanbriehl.com/2014/01/17/vertical-menu-for-bootstrap-3/
- */
+/* modifications for our logo */
 @media (min-width: 768px) {
-  .sidebar-nav .navbar .navbar-collapse {
-    padding: 0;
-    max-height: none;
-  }
-  .sidebar-nav .navbar ul {
-    float: none;
-    display: block;
-  }
-  .sidebar-nav .navbar li {
-    float: none;
-    display: block;
-  }
-  .sidebar-nav .navbar li a {
-    padding-top: 12px;
-    padding-bottom: 12px;
-  }
-  
   .navbar-header {
     margin-bottom: 15px;
   }
 }
 
 @media (max-width: 767px) {
-  body {
-    padding-top: 0;
-  }
-  
-  .sidebar-nav {
-    padding-left: -15px;
-	padding-right: -15px;
-  }
-  
   .navbar-header {
     margin-bottom: 45px;
 	/*  This is too much is the screen is narrow than about 250px */
