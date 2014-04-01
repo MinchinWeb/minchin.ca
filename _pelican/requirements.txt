@@ -11,7 +11,7 @@ feedgenerator==1.7
 paramiko==1.12.3
 pelican==3.3
 pycrypto==2.6.1
-pytz==2014.1.1
+pytz==2014.2
 six==1.6.1
 smartypants==1.8.3
 typogrify==2.0.4
