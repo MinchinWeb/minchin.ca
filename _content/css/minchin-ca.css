@@ -10,11 +10,6 @@ body {
 
 /* make sidebar nav vertical */
 /* modifications for our logo */
-@media (min-width: 768px) {
-  .navbar-header {
-    margin-bottom: 15px;
-  }
-}
 
 @media (max-width: 767px) {
   .navbar-header {

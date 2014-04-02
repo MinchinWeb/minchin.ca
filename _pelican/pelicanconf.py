@@ -52,7 +52,7 @@ MARKUP = (( 'rst',
 			'mkd',
 			'mdown',
 			'html',
-			'htm'))	 
+			'htm'       ))
 PATH = '../_content'
 OUTPUT_PATH = '../'
 
@@ -65,7 +65,6 @@ ARTICLE_URL = ''
 ARTICLE_SAVE_AS = ''
 PAGE_URL = "{slug}/"
 PAGE_SAVE_AS = "{slug}/index.html"
-
 
 # Theme Related
 TYPOGRIFY = True

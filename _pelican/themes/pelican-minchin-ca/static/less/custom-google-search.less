@@ -40,16 +40,25 @@ input.gsc-search-button {
 	border: none !important;
 }
 
+.gs-spelling {
+	a {
+		color: @link-color !important;
+	}
+	a:hover,
+	a:active,
+	a:visited {
+		color: @link-hover-color;
+	}
+}
+
+
 //	Hide sidebar adds if we're on a phone (xs layout)
 //
 // This only seems to be consider on page generation (not on resizing)
 
-@media (max-width: @screen-xs-max) {
-	.gsc-adBlockVertical {
-		display: none;
-	}
+.gsc-adBlockVertical {
+	.hidden-xs();
 }
-
 
 // pagination at bottom
 // copied and edited from pagination.less

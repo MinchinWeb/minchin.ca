@@ -64,4 +64,4 @@ def publish():
 # only works on Windows
 #  need to kill the second window manually
 def devserver():
-	local('start pelican -r -s pelicanconf.py && cd {deploy_path} && python -m SimpleHTTPServer'.format(**env))
+	local('start pelican -r -s pelicanconf.py && cd {deploy_path} && start python -m SimpleHTTPServer'.format(**env))
