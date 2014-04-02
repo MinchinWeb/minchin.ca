@@ -1,13 +1,14 @@
-Minchin.ca
-==========
+title: Minchin.ca
+url:
+save_as: index.html
+copy_date: 2007-14
+status: hidden
 
--   [My Blog](http://blog.minchin.ca/ "Blog")
--   [Links](http://links.minchin.ca/ "Links")
--   [Geneology](http://www.minchin.ca/genealogy/ "Genology")
--   [Search](http://www.minchin.ca/search.htm "Search")
--   [About
-    Minchin.ca](http://www.minchin.ca/about.htm "About Minchin.ca")
+<p class="lead" markdown=1>
+I aim to be a **Gentleman** & a **Scholar**.
+</p>
 
-![](images/SectionBreak.png)
+In the in-term, [read my writing](http://blog.minchin.ca/), explore [my family tree](genealogy/) (stretching back to 1100 AD), check out [my other projects](projects/), or [drop me a note](contact/)!
 
-![Minchin.ca](images/MinchindotCA-200.png "Minchin.ca")
+<img src="../images/MinchindotCA.png" alt="Minchin.ca" class="center-block img-responsive" />
+
