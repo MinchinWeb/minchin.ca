@@ -6,7 +6,7 @@ slug: projects
 <!-- _ Heading Photos are 16x9 ratio, 688x387px -->
 Lots of the Stuff I've Done
 
-Over the years, I've worked on a number of projects, both online and
+Over the years, I've worked on a number of projects, both online &
 off. This is meant to link to some of the more exciting ones,
 particularly those found online.
 

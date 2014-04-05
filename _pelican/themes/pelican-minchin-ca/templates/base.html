@@ -55,9 +55,11 @@
     {% if DOCUTIL_CSS %}
         <link href="{{ SITEURL }}/theme/css/html4css1.css" rel="stylesheet">
     {% endif %}
+	{# DISABLED -- moved this to my Bootstrap theme 
     {% if TYPOGRIFY %}
         <link href="{{ SITEURL }}/theme/css/typogrify.css" rel="stylesheet">
     {% endif %}
+	#}
     <link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css" type="text/css"/>
     {% if CUSTOM_CSS %}
         <link href="{{ SITEURL }}/{{ CUSTOM_CSS }}" rel="stylesheet">
