@@ -56,6 +56,9 @@ MARKUP = (( 'rst',
 PATH = '../_content'
 OUTPUT_PATH = '../'
 
+# Add Blog to sidebar
+MENUITEMS = ( ('Blog', 		'http://blog.minchin.ca/'), )
+
 # disable Tags
 TAGS_SAVE_AS = ''
 TAG_SAVE_AS = ''
