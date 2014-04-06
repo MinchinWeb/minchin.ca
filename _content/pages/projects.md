@@ -86,8 +86,8 @@ Web Design
     2011-12 -- A professional project. This is a wordpress driven site
     for a local financial planner. I set up the site and maintain it,
     and set up his email.
--   **[Matthew Bissett for PC MLA -- Sherwood
-    Park](../design/www.bissettforpcmla.ca/)** -- 2011 -- A wordpress driven site
+-   **Matthew Bissett for PC MLA -- Sherwood
+    Park** -- 2011 -- A wordpress driven site
     for a friend running for nomination for the PC party in his riding.
     I set up the site and he provided the photos and copy.
 -   **Minchin.ca -- Kwick Edition** --
