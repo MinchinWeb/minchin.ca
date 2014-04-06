@@ -3,7 +3,7 @@ import fabric.contrib.project as project
 import os
 
 # Local path configuration (can be absolute or relative to fabfile)
-env.deploy_path = '..'
+env.deploy_path = '../minchinweb.github.io-master'
 DEPLOY_PATH = env.deploy_path
 
 # Remote server configuration
@@ -17,7 +17,7 @@ env.cloudfiles_container = 'my_cloudfiles_container'
 
 
 def clean():
-	print ("You'll have to manually delete, so to not delete everything!")
+	print ("You'll have to manually delete the output folder")
     #if os.path.isdir(DEPLOY_PATH):
     #    local('rm -rf {deploy_path}'.format(**env))
     #    local('mkdir {deploy_path}'.format(**env))
@@ -30,10 +30,10 @@ def rebuild():
     build()
 
 def regenerate():
-    local('pelican -r -s pelicanconf.py')
+    local('start pelican -r -s pelicanconf.py')
 
 def serve():
-    local('cd {deploy_path} && python -m SimpleHTTPServer'.format(**env))
+    local('cd {deploy_path} && start python -m SimpleHTTPServer'.format(**env))
 
 def reserve():
     build()

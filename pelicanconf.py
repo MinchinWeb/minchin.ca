@@ -28,17 +28,17 @@ TRANSLATION_FEED_ATOM = None
 DEFAULT_PAGINATION = False
 
 # static paths will be copied under the same name
-STATIC_PATHS = ['images', '_extras', 'css']
+STATIC_PATHS = ['images', 'extras', 'css', 'design']
 
 # A list of files to copy from the source to the destination
 EXTRA_PATH_METADATA = {
-	'_extras\.gitattributes': 		{'path': '.gitattributes'},
-	'_extras\.gitignore': 			{'path': '.gitignore'},
-	'_extras\README.txt': 			{'path': 'README.txt'},
-	'_extras\CNAME': 				{'path': 'CNAME'},
-    '_extras\minchin.ico': 			{'path': 'favicon.ico'},
-	'_extras\MTS_1v1.xlsm': 		{'path': 'MTS_1v1.xlsm'},
-	'_extras\TRB_Minchin.ca.XSL': 	{'path': 'TRB_Minchin.ca.XSL'},
+	'.gitattributes': 				{'path': '.gitattributes'},
+	'.gitignore': 					{'path': '.gitignore'},
+	'README.txt': 					{'path': 'README.txt'},
+	'extras\CNAME': 				{'path': 'CNAME'},
+    'extras\minchin.ico': 			{'path': 'favicon.ico'},
+	'extras\MTS_1v1.xlsm': 			{'path': 'MTS_1v1.xlsm'},
+	'extras\TRB_Minchin.ca.XSL': 	{'path': 'TRB_Minchin.ca.XSL'},
     }
 
 # Uncomment following line if you want document-relative URLs when developing
@@ -53,8 +53,8 @@ MARKUP = (( 'rst',
 			'mdown',
 			'html',
 			'htm'       ))
-PATH = '../_content'
-OUTPUT_PATH = '../'
+PATH = 'content'
+OUTPUT_PATH = '../minchinweb.github.io-master/'
 
 # Add Blog to sidebar
 MENUITEMS = ( ('Blog', 		'http://blog.minchin.ca/'), )
