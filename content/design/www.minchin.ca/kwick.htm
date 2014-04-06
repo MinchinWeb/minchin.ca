@@ -32,11 +32,11 @@
 		#kwick .kwick 				{ display:block; cursor:pointer; overflow:hidden; height:63px; width:63px; }
 		#kwick .kwick span	 		{ display:none; }
 		
-		#kwick .blog 				{ background:url(../minchin.ca/tab-blog.png) no-repeat; }
-		#kwick .links 				{ background:url(../minchin.ca/tab-links.png) no-repeat; }
-		#kwick .gen 				{ background:url(../minchin.ca/tab-gen.png) no-repeat; }
-		#kwick .search 				{ background:url(../minchin.ca/tab-search.png) no-repeat; }
-		#kwick .about 				{ background:url(../minchin.ca/tab-about.png) no-repeat; }
+		#kwick .blog 				{ background:url(tab-blog.png) no-repeat; }
+		#kwick .links 				{ background:url(tab-links.png) no-repeat; }
+		#kwick .gen 				{ background:url(tab-gen.png) no-repeat; }
+		#kwick .search 				{ background:url(tab-search.png) no-repeat; }
+		#kwick .about 				{ background:url(tab-about.png) no-repeat; }
 	</style>
 
 	<script type="text/javascript">
@@ -55,7 +55,7 @@
 				var start_widths = new Array();
 				var kwicks = $$('#kwick .kwick');
 				//var fx = new Fx.Elements(kwicks, {wait: false, duration: 250, transition: Fx.Transitions.quadOut});
-				var fx = new Fx.Elements(kwicks, {wait: false, duration: 250, transition:Fx.Transitions.Cubic.easeOut});
+				var fx = new Fx.Elements(kwicks, {wait: false, duration: 250, transition: Fx.Transitions.Cubic.easeOut});
 				kwicks.each(function(kwick, i){
 					
 					start_widths[i] = kwick.getStyle('width').toInt();
@@ -90,8 +90,8 @@
 			}
 		};
 	</script>
-	<script type="text/javascript" src="../minchin.ca/moo1.2.js"></script>
-	<script type="text/javascript">window.addEvent('domready',Kwix.start);</script>
+	<script type="text/javascript" src="moo1.2.js"></script>
+	<script type="text/javascript">window.addEvent('domready', Kwix.start);</script>
 
 <script type="text/javascript">
 
@@ -123,9 +123,9 @@
 		</ul>
 	</div>
     
-    <div id="sectionbreak" ><img src="../minchin.ca/SectionBreak.png" width="458" height="103" /></div>
+    <div id="sectionbreak" ><img src="SectionBreak.png" width="458" height="103" /></div>
 
-	<p class="bottom"><img src="../minchin.ca/MinchindotCA-200.png" alt="Minchin.ca" title="Minchin.ca" width="200" height="68" align="right"/></p>
+	<p class="bottom"><img src="MinchindotCA-200.png" alt="Minchin.ca" title="Minchin.ca" width="200" height="68" align="right"/></p>
 	
 </div>
 
