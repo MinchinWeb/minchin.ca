@@ -82,21 +82,21 @@ Web Design
 	biggest changes is that so much of the web in now accessed through smart
 	phones. So this redesign was in large part abour making the site look good
 	on my phone.
--   **[Metro Financial Planning](http://metrofinancialplanning.com)** --
+-   **[Metro Financial Planning](../design/www.metrofinancialplanning.com/)** --
     2011-12 -- A professional project. This is a wordpress driven site
     for a local financial planner. I set up the site and maintain it,
     and set up his email.
 -   **[Matthew Bissett for PC MLA -- Sherwood
-    Park](http://BissettforPCMLA.ca)** -- 2011 -- A wordpress driven site
+    Park](../design/www.bissettforpcmla.ca/)** -- 2011 -- A wordpress driven site
     for a friend running for nomination for the PC party in his riding.
     I set up the site and he provided the photos and copy.
 -   **Minchin.ca -- Kwick Edition** --
     2010 -- This just went live for the main page of
-    [Minchin.ca](http://www.Minchin.ca). I realize that it may not be
+    [Minchin.ca](../design/www.minchin.ca/kwick.htm). I realize that it may not be
     obvious where the links are or what they do at first glance, but I
     love the effect.
 -   **Minchin.ca -- Rounders Edition** -- 2007 -- This version of
-    [Minchin.ca](http://www.Minchin.ca) was the first to go live. It was
+    [Minchin.ca](../design/www.minchin.ca/about.htm) was the first to go live. It was
     based on the Blogger template I was using at the time, but includes
     a picture I took in Hawaii as the header background.
 
