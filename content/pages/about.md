@@ -2,7 +2,8 @@ title: About Minchin.ca
 modified: March 29, 2014
 copy_date: 2007-14
 slug: about
- 
+
+<!-- _ --> 
 
 This started in April 2006 as a blog with Blogger and a site of
 GooglePages, moved to a new domain in July 2007 and went online for the
