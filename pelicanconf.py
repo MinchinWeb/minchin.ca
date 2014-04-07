@@ -10,6 +10,9 @@ TIMEZONE = 'America/Edmonton'
 
 DEFAULT_LANG = u'en'
 
+# Uncomment following line if you want document-relative URLs when developing
+RELATIVE_URLS = True
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -47,8 +50,7 @@ EXTRA_PATH_METADATA = {
 	'..\extras\TRB_Minchin.ca.XSL': {'path': 'TRB_Minchin.ca.XSL'},
     }
 
-# Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True
+
 
 # Custom settings
 #FILENAME_METADATA = ('(?P<date>\d{4}-\d{2}-\d{2}).*')	#default?
@@ -94,10 +96,10 @@ GOOGLE_ANALYTICS_UNIVERSAL_PROPERTY = 'minchin.ca'
 
 # Plugins
 PLUGIN_PATH = '../pelican-plugins'
-PLUGINS = ['assets', 'minify', 'sitemap',]
+PLUGINS = ['assets', 'minify', 'sitemap', 'optimize_images']
 
 ASSET_CSS = False	
-ASSET_JS = True
+ASSET_JS = False
 
 SITEMAP = {
 	"format": "xml",
