@@ -16,7 +16,7 @@ Highway Planning
 
 <div class="center-block thumbnail max-col-md-9">
 	<img src="../images/morinville-roundabout-688.jpg" />
-	<caption>Proposed Roundabout on Highway 642 in Morinville</cation>
+	<caption>Proposed Roundabout on Highway 642 in Morinville</caption>
 </div>
 
 My highway planning is all done offline, but I'll provide links where I

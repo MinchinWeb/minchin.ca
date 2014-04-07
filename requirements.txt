@@ -4,12 +4,17 @@ Markdown==2.4
 MarkupSafe==0.19
 Pygments==1.6
 Unidecode==0.04.14
+argparse==1.1
+beautifulsoup4==4.3.2
 blinker==1.3
+django-htmlmin==0.7.0
 docutils==0.11
 ecdsa==0.11
 feedgenerator==1.7
+html5lib==0.999
 paramiko==1.12.3
 pelican==3.3
+pelican-minify==0.4
 pycrypto==2.6.1
 pytz==2014.2
 six==1.6.1
