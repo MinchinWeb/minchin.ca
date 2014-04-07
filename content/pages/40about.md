@@ -1,10 +1,12 @@
-title: About Minchin.ca
+title: About
 modified: March 29, 2014
 copy_date: 2007-14
 slug: about
 icon: fa fa-info-circle
 
-<!-- _ --> 
+<!-- _ -->
+
+<p class="lead" markdown=1>All about Minchin.ca</p>
 
 This started in April 2006 as a blog with Blogger and a site of
 GooglePages, moved to a new domain in July 2007 and went online for the
@@ -52,15 +54,21 @@ There are a number of sections to this website. In brief:
     [Minchin.ca/Contact/](http://minchin.ca/contact/) -- If
     you want to get a hold of me, this page will give you the details.
 	
-* * * * *
+## Colophon {.page-header #colophon}
 
 This webpage is generated offline using [Pelican](http://docs.getpelican.com/),
 a [Python](https://www.python.org/) static site generator,
-and then hosted at [GitHub Pages](http://pages.github.com/). The theme is
+and then hosted at [GitHub Pages](http://pages.github.com/).
+
+The theme is
 based on [pelican-bootstrap3](https://github.com/DandyDev/pelican-bootstrap3),
-which in turn relies on [Twitter Bootstrap](http://getbootstrap.com/). The
+which in turn relies on [Twitter Bootstrap](http://getbootstrap.com/).
+The modified
 colour scheme was inspired by [Solarized](http://ethanschoonover.com/solarized).
-Font are provided by Google Fonts;
+
+Font are provided by Google Fonts:
 *[Expletus Sans](https://www.google.com/fonts/specimen/Expletus+Sans)* is used
 for headlines and *[Amaranth](https://www.google.com/fonts/specimen/Amaranth)*
 for body text.
+
+All content is copyright &copy; 2006-2014 Wm. Minchin.
