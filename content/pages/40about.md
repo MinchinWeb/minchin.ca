@@ -2,6 +2,7 @@ title: About Minchin.ca
 modified: March 29, 2014
 copy_date: 2007-14
 slug: about
+icon: fa fa-info-circle
 
 <!-- _ --> 
 

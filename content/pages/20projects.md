@@ -2,6 +2,7 @@ title: My Projects
 modified: March 29, 2014
 copy_date: 2012-14
 slug: projects
+icon: fa fa-flask
 
 <!-- _ Heading Photos are 16x9 ratio, 688x387px -->
 Lots of the Stuff I've Done

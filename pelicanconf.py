@@ -38,9 +38,9 @@ STATIC_PATHS = ['images',
 
 # A list of files to copy from the source to the destination
 EXTRA_PATH_METADATA = {
-	'.gitattributes': 				{'path': '.gitattributes'},
-	'.gitignore': 					{'path': '.gitignore'},
-	'README.txt': 					{'path': 'README.txt'},
+	'..\.gitattributes': 			{'path': '.gitattributes'},
+	'..\.gitignore': 				{'path': '.gitignore'},
+	'..\README.txt': 				{'path': 'README.txt'},
 	'..\extras\CNAME': 				{'path': 'CNAME'},
     '..\extras\minchin.ico': 		{'path': 'favicon.ico'},
 	'..\extras\MTS_1v1.xlsm': 		{'path': 'MTS_1v1.xlsm'},
@@ -63,7 +63,8 @@ PATH = 'content'
 OUTPUT_PATH = '../minchinweb.github.io-master/'
 
 # Add Blog to sidebar
-MENUITEMS = ( ('Blog', 		'http://blog.minchin.ca/'), )
+MENUITEMS = ( 	('Blog', 	'http://blog.minchin.ca/', 'fa fa-pencil'), )
+DISPLAY_PAGES_ON_MENU = True
 
 # disable Tags
 TAGS_SAVE_AS = ''
@@ -84,8 +85,6 @@ PYGMENTS_STYLE = 'friendly'
 DISPLAY_BREADCRUMBS = True
 FAVICON = 'favicon.ico'
 BOOTSTRAP_THEME = 'minchin-ca'
-# BOOTSTRAP_THEME = 'darkly'
-# like fonts of simplex, shamrock
 USE_OPEN_GRAPH = True
 CUSTOM_CSS = 'css/minchin-ca.css'
 
@@ -93,7 +92,7 @@ GOOGLE_ANALYTICS_UNIVERSAL = 'UA-384291-3'
 GOOGLE_ANALYTICS_UNIVERSAL_PROPERTY = 'minchin.ca'
 
 # # Make things disappear
-DISPLAY_CATEGORIES_ON_MENU = True
+DISPLAY_CATEGORIES_ON_MENU = False
 HIDE_SITENAME = True
 HIDE_SIDEBAR = True
 FEED_ALL_ATOM = False
