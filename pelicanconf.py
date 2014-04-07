@@ -87,22 +87,29 @@ FAVICON = 'favicon.ico'
 BOOTSTRAP_THEME = 'minchin-ca'
 USE_OPEN_GRAPH = True
 CUSTOM_CSS = 'css/minchin-ca.css'
+DOCUTIL_CSS = False
 
 GOOGLE_ANALYTICS_UNIVERSAL = 'UA-384291-3'
 GOOGLE_ANALYTICS_UNIVERSAL_PROPERTY = 'minchin.ca'
 
 # Plugins
 PLUGIN_PATH = '../pelican-plugins'
-PLUGINS = ['minify', 'sitemap',]
+PLUGINS = ['assets', 'minify', 'sitemap',]
 
-# `assets` sounds good, but I can't figure out how to get it to work
+ASSET_CSS = False	
+ASSET_JS = True
+
+SITEMAP = {
+	"format": "xml",
+}
+
+# `assets` sounds good, but I can't figure out how to get it to work for my CSS
 # `better_figures_and_images` didn't seem to do what I wanted (see Projects)
 # `gallery` looks good, but don't have a use here yet
 # `liquid_tags` & `pelican_comment_system` might be useful...
 # `optimize_images` works, but I don't have many images yet
 #		- requires `jpegtran.exe` <http://jpegclub.org/jpegtran/> and
 #			`optinpng.exe` <http://sourceforge.net/projects/optipng/>
-# `sitemap` and `extended-sitemap` both find some invalid filename...
 
 
 # # Make things disappear
