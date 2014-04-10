@@ -68,13 +68,19 @@ OUTPUT_PATH = '../minchinweb.github.io-master/'
 MENUITEMS = ( 	('Blog', 	'http://blog.minchin.ca/', 'fa fa-pencil'), )
 DISPLAY_PAGES_ON_MENU = True
 
-# disable Tags
+# disable Tags, etc
 TAGS_SAVE_AS = ''
 TAG_SAVE_AS = ''
 CATEGORY_URL = ''
 CATEGORY_SAVE_AS = ''
+CATEGORIES_URL = ''
+CATEGORIES_SAVE_AS = ''
 ARTICLE_URL = ''
 ARTICLE_SAVE_AS = ''
+AUTHORS_URL = ''
+AUTHORS_SAVE_AS = ''
+ARCHIVES_URL = ''
+ARCHIVES_SAVE_AS = ''
 PAGE_URL = "{slug}/"
 PAGE_SAVE_AS = "{slug}/index.html"
 
@@ -96,7 +102,8 @@ GOOGLE_ANALYTICS_UNIVERSAL_PROPERTY = 'minchin.ca'
 
 # Plugins
 PLUGIN_PATH = '../pelican-plugins'
-PLUGINS = ['assets', 'minify', 'sitemap', 'optimize_images']
+# PLUGINS = ['assets', 'minify', 'sitemap', 'optimize_images']
+PLUGINS = ['assets',]
 
 ASSET_CSS = False	
 ASSET_JS = False
