@@ -34,6 +34,7 @@ def regenerate():
 
 def serve():
     local('cd {deploy_path} && start python -m SimpleHTTPServer'.format(**env))
+	# in Python3000, use  python -m http.server
 
 def reserve():
     build()
@@ -42,26 +43,21 @@ def reserve():
 def preview():
     local('pelican -s publishconf.py')
 
-def cf_upload():
-    rebuild()
-    local('cd {deploy_path} && '
-          'swift -v -A https://auth.api.rackspacecloud.com/v1.0 '
-          '-U {cloudfiles_username} '
-          '-K {cloudfiles_api_key} '
-          'upload -c {cloudfiles_container} .'.format(**env))
+def upload():
+    publish()
+    local('cd {deploy_path}')
+	local('git add -A')
+	local('git commit')
+	local('git push')
 
 @hosts(production)
 def publish():
     local('pelican -s publishconf.py')
-    #project.rsync_project(
-    #    remote_dir=dest_path,
-    #    exclude=".DS_Store",
-    #    local_dir=DEPLOY_PATH.rstrip('/') + '/',
-    #    delete=True
-    #)
+
 
 # Add devsever
 # only works on Windows
 #  need to kill the second window manually
 def devserver():
-	local('start pelican -r -s pelicanconf.py && cd {deploy_path} && start python -m SimpleHTTPServer'.format(**env))
+	regenerate()
+	serve()
