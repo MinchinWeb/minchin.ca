@@ -32,40 +32,42 @@ DEFAULT_PAGINATION = False
 
 # static paths will be copied under the same name
 STATIC_PATHS = ['images',
-				'..\extras',
-				'css',
-				'design',
-				'..\.gitattributes',
-				'..\.gitignore',
-				'..\README.txt',]
+                '..\extras',
+                'css',
+                'design',
+                '..\.gitattributes',
+                '..\.gitignore',
+                '..\README.txt',]
 
 # A list of files to copy from the source to the destination
 EXTRA_PATH_METADATA = {
-	'..\.gitattributes': 			{'path': '.gitattributes'},
-	'..\.gitignore': 				{'path': '.gitignore'},
-	'..\README.txt': 				{'path': 'README.txt'},
-	'..\extras\CNAME': 				{'path': 'CNAME'},
-    '..\extras\minchin.ico': 		{'path': 'favicon.ico'},
-	'..\extras\MTS_1v1.xlsm': 		{'path': 'MTS_1v1.xlsm'},
-	'..\extras\TRB_Minchin.ca.XSL': {'path': 'TRB_Minchin.ca.XSL'},
+    '..\.gitattributes':            {'path': '.gitattributes'},
+    '..\.gitignore':                {'path': '.gitignore'},
+    '..\README.txt':                {'path': 'README.txt'},
+    '..\extras\CNAME':              {'path': 'CNAME'},
+    '..\extras\minchin.ico':        {'path': 'favicon.ico'},
+    '..\extras\MTS_1v1.xlsm':       {'path': 'MTS_1v1.xlsm'},
+    '..\extras\TRB_Minchin.ca.XSL': {'path': 'TRB_Minchin.ca.XSL'},
+    '..\extras\googlecbc66a9bfde8606b.html': {'path': 'googlecbc66a9bfde8606b.html'},
+    '..\extras\.nojekyll':          {'path': '.nojekyll'},
     }
 
 
 
 # Custom settings
-#FILENAME_METADATA = ('(?P<date>\d{4}-\d{2}-\d{2}).*')	#default?
+#FILENAME_METADATA = ('(?P<date>\d{4}-\d{2}-\d{2}).*')  #default?
 MARKUP = (( 'rst',
-			'md',
-			'markdown',
-			'mkd',
-			'mdown',
-			'html',
-			'htm'       ))
+            'md',
+            'markdown',
+            'mkd',
+            'mdown',
+            'html',
+            'htm',       ))
 PATH = 'content'
 OUTPUT_PATH = '../minchinweb.github.io-master/'
 
 # Add Blog to sidebar
-MENUITEMS = ( 	('Blog', 	'http://blog.minchin.ca/', 'fa fa-pencil'), )
+MENUITEMS = (   ('Blog',    'http://blog.minchin.ca/', 'fa fa-pencil'), )
 DISPLAY_PAGES_ON_MENU = True
 
 # disable Tags, etc
@@ -105,11 +107,11 @@ PLUGIN_PATH = '../pelican-plugins'
 # PLUGINS = ['assets', 'minify', 'sitemap', 'optimize_images']
 PLUGINS = ['assets',]
 
-ASSET_CSS = False	
+ASSET_CSS = False   
 ASSET_JS = False
 
 SITEMAP = {
-	"format": "xml",
+    "format": "xml",
 }
 
 # `assets` sounds good, but I can't figure out how to get it to work for my CSS
@@ -117,8 +119,8 @@ SITEMAP = {
 # `gallery` looks good, but don't have a use here yet
 # `liquid_tags` & `pelican_comment_system` might be useful...
 # `optimize_images` works, but I don't have many images yet
-#		- requires `jpegtran.exe` <http://jpegclub.org/jpegtran/> and
-#			`optinpng.exe` <http://sourceforge.net/projects/optipng/>
+#       - requires `jpegtran.exe` <http://jpegclub.org/jpegtran/> and
+#           `optinpng.exe` <http://sourceforge.net/projects/optipng/>
 
 
 # # Make things disappear

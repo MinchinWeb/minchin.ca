@@ -217,8 +217,13 @@ pip-log.txt
 #############
 ## Pelican
 #############
-env/
-env3/
-_env/
+env*/
+_env*/
 _pelican/errors.txt
 _extras/
+cache/
+
+#############
+## Other
+#############
+*.sublime-workspace
