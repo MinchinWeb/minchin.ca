@@ -37,7 +37,7 @@ STATIC_PATHS = ['images',
                 'design',
                 '..\.gitattributes',
                 '..\.gitignore',
-                '..\README.txt',]
+                '..\README.txt', ]
 
 # A list of files to copy from the source to the destination
 EXTRA_PATH_METADATA = {
@@ -52,22 +52,20 @@ EXTRA_PATH_METADATA = {
     '..\extras\.nojekyll':          {'path': '.nojekyll'},
     }
 
-
-
 # Custom settings
 #FILENAME_METADATA = ('(?P<date>\d{4}-\d{2}-\d{2}).*')  #default?
-MARKUP = (( 'rst',
-            'md',
-            'markdown',
-            'mkd',
-            'mdown',
-            'html',
-            'htm',       ))
+MARKUP = (('rst',
+           'md',
+           'markdown',
+           'mkd',
+           'mdown',
+           'html',
+           'htm',))
 PATH = 'content'
 OUTPUT_PATH = '../minchinweb.github.io-master/'
 
 # Add Blog to sidebar
-MENUITEMS = (   ('Blog',    'http://blog.minchin.ca/', 'fa fa-pencil'), )
+MENUITEMS = (('Blog',    'http://blog.minchin.ca/', 'fa fa-pencil'), )
 DISPLAY_PAGES_ON_MENU = True
 
 # disable Tags, etc
@@ -103,11 +101,11 @@ GOOGLE_ANALYTICS_UNIVERSAL = 'UA-384291-3'
 GOOGLE_ANALYTICS_UNIVERSAL_PROPERTY = 'minchin.ca'
 
 # Plugins
-PLUGIN_PATH = '../pelican-plugins'
+PLUGIN_PATHS = ['../pelican-plugins', ]
 # PLUGINS = ['assets', 'minify', 'sitemap', 'optimize_images']
-PLUGINS = ['assets',]
+PLUGINS = ['assets', ]
 
-ASSET_CSS = False   
+ASSET_CSS = False
 ASSET_JS = False
 
 SITEMAP = {

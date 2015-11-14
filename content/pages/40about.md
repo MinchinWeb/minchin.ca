@@ -1,6 +1,6 @@
 title: About
 modified: March 29, 2014
-copy_date: 2007-14
+copy_date: 2007-15
 slug: about
 icon: fa fa-info-circle
 
@@ -63,12 +63,12 @@ and then hosted at [GitHub Pages](http://pages.github.com/).
 The theme is
 based on [pelican-bootstrap3](https://github.com/DandyDev/pelican-bootstrap3),
 which in turn relies on [Twitter Bootstrap](http://getbootstrap.com/).
-The modified
-colour scheme was inspired by [Solarized](http://ethanschoonover.com/solarized).
+The modified colour scheme was inspired
+by [Solarized](http://ethanschoonover.com/solarized).
 
 Font are provided by Google Fonts:
 *[Expletus Sans](https://www.google.com/fonts/specimen/Expletus+Sans)* is used
 for headlines and *[Amaranth](https://www.google.com/fonts/specimen/Amaranth)*
 for body text.
 
-All content is copyright &copy; 2006-2014 Wm. Minchin.
+All content is copyright &copy; 2006-2015 Wm. Minchin.
