@@ -20,13 +20,16 @@ random things I've had running through my head. In no particular order:
 -   raclette set
 -   rosette iron set
 -   crescent wrench set
+-   tree branch trimmer (like Dad's, red handle, about 2 feet long)
+-   metric impact wrench sockets
+-   snow blower
 -   house numbers (big, like 6+" tall, and backlit)
 -   *Killer Bunnies* (card game)
 -   *Ticket to Ride* (board game)
 -   Microsoft Surface Pro
--   LEGO
 -   Nest thermostat
 -   Bamboo digitizer/tablet
 -   mechnaincal keyboard (backlit, including 10keys)
 -   Kindle (I've seen some 'new' used ones on Kijiji for ~$50)
+-   LEGO
 -   surprise me!!
