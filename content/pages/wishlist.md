@@ -6,7 +6,7 @@ status: hidden
 
 Christmas time's a coming...
 
-You always ask for Christmas ~~birthday~~ present ideas, so here's the
+You always ask for Christmas <del>birthday</del> present ideas, so here's the
 random things I've had running through my head. In no particular order:
 
 -   *The Book of Minchin: A Family for All Seasons* by Dorthy
@@ -17,7 +17,7 @@ random things I've had running through my head. In no particular order:
     and
     [4](http://www.byubookstore.com/ePOS?this_category=278&store=439&item_number=1-59156-574-X&form=shared3/gm/detail.html&design=439)
     at the BYU Bookstore)-->
--   raclette set
+-   raclette cheese
 -   rosette iron set
 -   crescent wrench set
 -   tree branch trimmer (like Dad's, red handle, about 2 feet long)
