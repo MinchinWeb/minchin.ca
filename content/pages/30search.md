@@ -1,6 +1,6 @@
 title: Search
 modified: December 18, 2013
-copy_date: 2008-14
+copy_date: 2008-15
 extra_footer: Search by [Google](http://www.google.ca/)
 slug: search
 icon: fa fa-search
@@ -20,5 +20,5 @@ To find everything else...
     s.parentNode.insertBefore(gcse, s);
   })();
 </script>
-<gcse:search></gcse:search>
+<gcse:search enableHistory="true" enableAutoComplete="true"></gcse:search>
 <!-- Google Search Result Snippet Ends -->

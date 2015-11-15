@@ -1,6 +1,6 @@
 title: My Projects
-modified: March 29, 2014
-copy_date: 2012-14
+modified: November 14, 2014
+copy_date: 2012-15
 slug: projects
 icon: fa fa-flask
 
@@ -78,12 +78,12 @@ can.
 Web Design
 ----------
 
--   **[Minchin.ca](http://www.Minchin.ca/index.htm) -- Bootstrap Edition** --
+-   **[Minchin.ca](http://www.Minchin.ca/index.html) -- Bootstrap Edition** --
     2014 -- in the 7 years since I originally designed the site, one of the
 	biggest changes is that so much of the web in now accessed through smart
 	phones. So this redesign was in large part abour making the site look good
 	on my phone.
--   **[Metro Financial Planning](../design/www.metrofinancialplanning.com/)** --
+-   **[Metro Financial Planning]({filename}../projects/design/www.metrofinancialplanning.com/index.html)** --
     2011-12 -- A professional project. This is a wordpress driven site
     for a local financial planner. I set up the site and maintain it,
     and set up his email.
@@ -93,11 +93,11 @@ Web Design
     I set up the site and he provided the photos and copy.
 -   **Minchin.ca -- Kwick Edition** --
     2010 -- This just went live for the main page of
-    [Minchin.ca](../design/www.minchin.ca/kwick.htm). I realize that it may not be
+    [Minchin.ca]({filename}../projects/design/www.minchin.ca/kwick.htm). I realize that it may not be
     obvious where the links are or what they do at first glance, but I
     love the effect.
 -   **Minchin.ca -- Rounders Edition** -- 2007 -- This version of
-    [Minchin.ca](../design/www.minchin.ca/about.htm) was the first to go live. It was
+    [Minchin.ca]({filename}../projects/design/www.minchin.ca/about.htm) was the first to go live. It was
     based on the Blogger template I was using at the time, but includes
     a picture I took in Hawaii as the header background.
 
@@ -169,14 +169,14 @@ Photography
 	<img src="../images/IMG_3252-paris-skyline-688.JPG" />
 </div> <!-- _ -->
 
--   **[Project 365](http://blog.minchin.ca/search/label/Project%20365)** -
-    2010-12 - It started with the goal to take a photo a day for a year. I
+-   **[Project 365](http://blog.minchin.ca/search/label/Project%20365)** --
+    2010-12 -- It started with the goal to take a photo a day for a year. I
     got sidetracked for a while, but I keep pushing forward. Some of the
     most popular photos include:
     -   [The Paris
     Skyline](http://blog.minchin.ca/2010/11/paris-skyline-photo-40-project-365.html) (above)
 
--   **[Flickr](http://www.flickr.com/photos/minchinweb)** - 2008-09 - some
+-   **[Flickr](http://www.flickr.com/photos/minchinweb)** -- 2008-09 -- some
 of my best shots, although it hasn't but updated in a while.
 
 Videos
@@ -205,5 +205,5 @@ Videos
     Concept](http://www.youtube.com/watch?v=1RLX7K3a06o)** -- 2008 -- a
     time lapse of my backyard, most to prove that it could be done. I
     rigged a graphing calculator to send the signal to take the
-    photos.([blog post
+    photos. ([blog post
     introduction](http://blog.minchin.ca/2008/06/life-at-280x.html))

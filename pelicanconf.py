@@ -34,22 +34,22 @@ DEFAULT_PAGINATION = False
 STATIC_PATHS = ['images',
                 '..\extras',
                 'css',
-                'design',
+                'projects\design',
                 '..\.gitattributes',
                 '..\.gitignore',
                 '..\README.txt', ]
 
 # A list of files to copy from the source to the destination
 EXTRA_PATH_METADATA = {
-    '..\.gitattributes':            {'path': '.gitattributes'},
-    '..\.gitignore':                {'path': '.gitignore'},
-    '..\README.txt':                {'path': 'README.txt'},
-    '..\extras\CNAME':              {'path': 'CNAME'},
-    '..\extras\minchin.ico':        {'path': 'favicon.ico'},
-    '..\extras\MTS_1v1.xlsm':       {'path': 'MTS_1v1.xlsm'},
-    '..\extras\TRB_Minchin.ca.XSL': {'path': 'TRB_Minchin.ca.XSL'},
-    '..\extras\googlecbc66a9bfde8606b.html': {'path': 'googlecbc66a9bfde8606b.html'},
-    '..\extras\.nojekyll':          {'path': '.nojekyll'},
+    '../.gitattributes':                     {'path': '.gitattributes'},
+    '../.gitignore':                         {'path': '.gitignore'},
+    '../README.txt':                         {'path': 'README.txt'},
+    '../extras/CNAME':                       {'path': 'CNAME'},
+    '../extras/minchin.ico':                 {'path': 'favicon.ico'},
+    '../extras/MTS_1v1.xlsm':                {'path': 'MTS_1v1.xlsm'},
+    '../extras/TRB_Minchin.ca.XSL':          {'path': 'TRB_Minchin.ca.XSL'},
+    '../extras/googlecbc66a9bfde8606b.html': {'path': 'googlecbc66a9bfde8606b.html'},
+    '../extras/.nojekyll':                   {'path': '.nojekyll'},
     }
 
 # Custom settings
@@ -58,9 +58,9 @@ MARKUP = (('rst',
            'md',
            'markdown',
            'mkd',
-           'mdown',
-           'html',
-           'htm',))
+           'mdown',))  # don't include htm and html files
+READERS = {'html': None,
+           'htm': None}
 PATH = 'content'
 OUTPUT_PATH = '../minchinweb.github.io-master/'
 
