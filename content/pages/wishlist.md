@@ -1,5 +1,5 @@
 title: My Wishlist
-modified: November 17, 2015
+modified: November 18, 2015
 copy_date: 2007-15
 slug: wishlist
 status: hidden
@@ -32,5 +32,6 @@ random things I've had running through my head. In no particular order:
 -   mechnaincal keyboard (backlit, including 10keys)
 -   Kindle (I've seen some 'new' used ones on Kijiji for ~$50)
 -   5.1 speaker system (for front room) (suggestions on how to mount speakers?)
+-   16+ port gigabit rack-mounted ethernet swtich
 -   LEGO
 -   surprise me!!
