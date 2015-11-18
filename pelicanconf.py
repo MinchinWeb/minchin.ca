@@ -44,12 +44,16 @@ EXTRA_PATH_METADATA = {
     '../.gitattributes':                     {'path': '.gitattributes'},
     '../.gitignore':                         {'path': '.gitignore'},
     '../README.txt':                         {'path': 'README.txt'},
+    # CNAME file tells GitHub Pages to display this site at minchin.ca
     '../extras/CNAME':                       {'path': 'CNAME'},
     '../extras/minchin.ico':                 {'path': 'favicon.ico'},
     '../extras/MTS_1v1.xlsm':                {'path': 'MTS_1v1.xlsm'},
     '../extras/TRB_Minchin.ca.XSL':          {'path': 'TRB_Minchin.ca.XSL'},
     '../extras/googlecbc66a9bfde8606b.html': {'path': 'googlecbc66a9bfde8606b.html'},
     '../extras/.nojekyll':                   {'path': '.nojekyll'},
+    # prism is used by the blog for code highlighting
+    '../extras/prism.js':                    {'path': 'js/prism.js'},
+    '../extras/prism.css':                   {'path': 'css/prism.css'},
     }
 
 # Custom settings
