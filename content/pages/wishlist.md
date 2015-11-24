@@ -23,6 +23,7 @@ random things I've had running through my head. In no particular order:
 -   tree branch trimmer (like Dad's, red handle, about 2 feet long)
 -   metric impact wrench sockets
 -   snow blower
+-   tickle charger (for car battery)
 -   house numbers (big, like 6+" tall, and backlit)
 -   *Killer Bunnies* (card game)
 -   *Ticket to Ride* (board game)
