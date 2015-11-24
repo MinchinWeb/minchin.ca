@@ -1,19 +1,25 @@
-from fabric.api import *
-import fabric.contrib.project as project
-import os
+from invoke import run, task
+from pathlib import Path
+
+# from fabric.api import *
+# import fabric.contrib.project as project
+# import os
 
 # Local path configuration (can be absolute or relative to fabfile)
-env.deploy_path = '../minchinweb.github.io-master'
-DEPLOY_PATH = env.deploy_path
+#env.deploy_path = '../minchinweb.github.io-master'
+#DEPLOY_PATH = env.deploy_path
 
 # Remote server configuration
-production = 'root@localhost:22'
-dest_path = '/var/www'
+#production = 'root@localhost:22'
+#dest_path = '/var/www'
 
 # Rackspace Cloud Files configuration settings
-env.cloudfiles_username = 'my_rackspace_username'
-env.cloudfiles_api_key = 'my_rackspace_api_key'
-env.cloudfiles_container = 'my_cloudfiles_container'
+#env.cloudfiles_username = 'my_rackspace_username'
+#env.cloudfiles_api_key = 'my_rackspace_api_key'
+#env.cloudfiles_container = 'my_cloudfiles_container'
+
+p = Path.cwd()
+deploy_path = p.parents[0] / 'minchinweb.github.io-master'
 
 
 def clean():
@@ -23,49 +29,58 @@ def clean():
     #    local('mkdir {deploy_path}'.format(**env))
 
 
+@task
 def build():
-    local('pelican -s pelicanconf.py')
+    run('pelican -s pelicanconf.py')
 
 
+@task
 def rebuild():
     clean()
     build()
 
 
+@task
 def regenerate():
-    local('start pelican -r -s pelicanconf.py')
+    run('start pelican -r -s pelicanconf.py')
 
 
+@task
 def serve():
-    local('cd {deploy_path} && start python -m SimpleHTTPServer'.format(**env))
+    # local('cd {deploy_path} && start python -m SimpleHTTPServer'.format(**env))
     # in Python3000, use  python -m http.server
+    run('cd {} && start python -m http.server'.format(deploy_path))
 
 
+@task
 def reserve():
     build()
     serve()
 
 
+@task
 def preview():
-    local('pelican -s publishconf.py')
+    run('pelican -s publishconf.py')
 
 
+@task
 def upload():
     publish()
-    local('cd {deploy_path}')
-    local('git add -A')
-    local('git commit')
-    local('git push')
+    run('cd {deploy_path}')
+    run('git add -A')
+    run('git commit')
+    run('git push')
 
 
-@hosts(production)
+@task
 def publish():
-    local('pelican -s publishconf.py')
+    run('pelican -s publishconf.py')
 
 
 # Add devsever
 # only works on Windows
 #  need to kill the second window manually
+@task
 def devserver():
     regenerate()
     serve()
