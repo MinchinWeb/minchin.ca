@@ -1,5 +1,5 @@
 title: About
-modified: March 29, 2014
+modified: December 29, 2015
 copy_date: 2007-15
 slug: about
 icon: fa fa-info-circle
@@ -68,7 +68,7 @@ by [Solarized](http://ethanschoonover.com/solarized).
 
 Font are provided by Google Fonts:
 *[Expletus Sans](https://www.google.com/fonts/specimen/Expletus+Sans)* is used
-for headlines and *[Amaranth](https://www.google.com/fonts/specimen/Amaranth)*
+for headlines and *[Cabin](https://www.google.com/fonts/specimen/Cabin)*
 for body text.
 
 All content is copyright &copy; 2006-2015 Wm. Minchin.
