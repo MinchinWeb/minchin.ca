@@ -5,7 +5,7 @@ slug: projects
 icon: fa fa-flask
 
 <!-- _ Heading Photos are 16x9 ratio, 688x387px -->
-Lots of the Stuff I've Done
+Lots of the Stuff I've Done.
 
 Over the years, I've worked on a number of projects, both online &
 off. This is meant to link to some of the more exciting ones,
@@ -22,16 +22,15 @@ Highway Planning
 My highway planning is all done offline, but I'll provide links where I
 can.
 
--   **Highway 642 Functional Planning Study** -- 2012-13, Morinville, AB --
-    Traffic forecasting and modeling, prepared proposed corridor
-    treatment, public open houses
-    ([link](http://www.morinville.ca/planning/fps))
+-   **Highway 642 Functional Planning Study**&nbsp;-- 2012-13, Morinville, AB --
+    Traffic forecasting and modeling, prepared proposed corridor treatment,
+    public open houses ([link](http://www.morinville.ca/planning/fps))
 -   **Mildred Lake Traffic Impact Analysis (TIA)** -- 2012-13, RM Wood
     Buffalo, AB -- Analysing traffic counts, traffic modeling, traffic
     projections, and intersection treatment warrants
 -   **Avenir / Cassidy Lands / St Albert Sports City** -- 2012, St
     Albert, AB -- traffic modelling and intersection analysis
--   **Bellamy Hill TIA** - 2012, Edmonton, AB -- Site traffic generation
+-   **Bellamy Hill TIA** -- 2012, Edmonton, AB -- Site traffic generation
     and site access requirements
 -   **Grove Drive & Pioneer Road** -- 2012, Spruce Grove, AB --
     Preliminary roundabout design and analysis
@@ -41,7 +40,7 @@ can.
 -   **Grove Drive & Spruce Ridge Road** -- 2012, Spruce Grove, AB --
     Intersection level of service analysis
 -   **Queen Street & Jespersen Avenue, Queen Street & Church Road** --
-    2012, Spruce Grove, AB - Intersection level of service analysis
+    2012, Spruce Grove, AB -- Intersection level of service analysis
 -   **Highway 16 & Campsite Road Interchange** -- 2012, Spruce Grove, AB --
     traffic volume forecasts
 -   **Highway 14 Passing Lanes** -- 2012, Alberta Transportation -- Public
@@ -63,7 +62,7 @@ can.
     house
 -   **Tomlinson Acreage** -- 2011, Strathcona County, AB -- Traffic Impact
     Analysis
--   **Provo Towne Centre Site Redevelopment** - 2010, Provo, UT --
+-   **Provo Towne Centre Site Redevelopment** -- 2010, Provo, UT --
     Traffic Impact Analysis for proposed mixed use redevelopment
 -   **US-6 & US-89 Junction** -- 2010, Spanish Fork Canyon, UT -- Drafting
     and design of proposed alignment for highway twinning

@@ -1,5 +1,5 @@
 title: My Wishlist
-modified: November 18, 2015
+modified: December 29, 2015
 copy_date: 2007-15
 slug: wishlist
 status: hidden
@@ -18,7 +18,6 @@ random things I've had running through my head. In no particular order:
     [4](http://www.byubookstore.com/ePOS?this_category=278&store=439&item_number=1-59156-574-X&form=shared3/gm/detail.html&design=439)
     at the BYU Bookstore)-->
 -   raclette cheese
--   rosette iron set
 -   crescent wrench set
 -   tree branch trimmer (like Dad's, red handle, about 2 feet long)
 -   metric impact wrench sockets
@@ -31,7 +30,6 @@ random things I've had running through my head. In no particular order:
 -   Nest thermostat
 -   Bamboo digitizer/tablet
 -   mechnaincal keyboard (backlit, including 10keys)
--   Kindle (I've seen some 'new' used ones on Kijiji for ~$50)
 -   5.1 speaker system (for front room) (suggestions on how to mount speakers?)
 -   16+ port gigabit rack-mounted ethernet swtich
 -   LEGO
