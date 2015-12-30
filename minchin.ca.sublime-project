@@ -12,7 +12,8 @@
 	[
 		{
 			"follow_symlinks": true,
-			"path": "."
+			"path": ".",
+			"folder_exclude_patterns": ["__pycache__"]
 		}
 	]
 }

@@ -9,7 +9,7 @@ Jinja2==2.8
 Markdown==2.6.4
 MarkupSafe==0.23
 pelican==3.6.3
-pelican-minify==0.8
+pelican-minify==0.9
 Pygments==2.0.2
 python-dateutil==2.4.2
 pytz==2015.7
