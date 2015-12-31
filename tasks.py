@@ -53,6 +53,13 @@ def serve():
 
 
 @task
+def serve_on(port):
+    # local('cd {deploy_path} && start python -m SimpleHTTPServer'.format(**env))
+    # in Python3000, use  python -m http.server
+    run('cd {} && start python -m http.server {}'.format(deploy_path, port))
+
+
+@task
 def reserve():
     build()
     serve()
