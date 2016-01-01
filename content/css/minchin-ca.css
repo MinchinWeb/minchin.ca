@@ -14,6 +14,6 @@ body {
 @media (max-width: 767px) {
   .navbar-header {
     margin-bottom: 45px;
-	/*  This is too much is the screen is narrow than about 250px */
+	/*  This is too much if the screen is narrower than about 250px */
   }
 }
