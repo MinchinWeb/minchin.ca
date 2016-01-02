@@ -1,6 +1,6 @@
 title: My Projects
-modified: November 14, 2014
-copy_date: 2012-15
+modified: January 1, 2016
+copy_date: 2012-16
 slug: projects
 icon: fa fa-flask
 
@@ -22,6 +22,7 @@ Highway Planning
 My highway planning is all done offline, but I'll provide links where I
 can.
 
+<div class="real-list" markdown=1>
 -   **Highway 642 Functional Planning Study**&nbsp;-- 2012-13, Morinville, AB --
     Traffic forecasting and modeling, prepared proposed corridor treatment,
     public open houses ([link](http://www.morinville.ca/planning/fps))
@@ -73,10 +74,12 @@ can.
 -   **Highways 2A & 616** -- 2008, Kaynaugh, AB -- Traffic counting
 -   **Highways 2 & 3 Urban Bypass** -- 2008, Fort MacLeod, AB -- Traffic
     forecasting and modeling
+</div>
 
 Web Design
 ----------
 
+<div class="real-list" markdown=1>
 -   **[Minchin.ca](http://www.Minchin.ca/index.html) -- Bootstrap Edition** --
     2014 -- in the 7 years since I originally designed the site, one of the
 	biggest changes is that so much of the web in now accessed through smart
@@ -99,6 +102,7 @@ Web Design
     [Minchin.ca]({filename}../projects/design/www.minchin.ca/about.htm) was the first to go live. It was
     based on the Blogger template I was using at the time, but includes
     a picture I took in Hawaii as the header background.
+</div>
 
 Programming
 -----------
@@ -108,6 +112,7 @@ Programming
 	<caption>WmDOT in action</caption>
 </div>
 
+<div class="real-list" markdown=1>
 -   **WmDOT** -- 2010-14 -- An AI for [OpenTTD](http://www.openttd.org),
     an open source remake of Transport Tycoon Deluxe. My AI is written
     in Squirrel (somewhat similar to C++) and serves to build out the
@@ -131,6 +136,7 @@ Programming
     use in Word. ([release
     post](http://blog.minchin.ca/2010/07/trb-transportation-research-board.html);
     [direct download](../TRB_Minchin.ca.XSL))
+</div>
 	
 I also maintain a profile at [GitHub](https://github.com/MinchinWeb) and post
 the code there for several of these projects and several others as well.
@@ -141,6 +147,7 @@ Articles
 I have kept a blog at [blog.minchin.ca](http://blog.minchin.ca) since
 2006. Almost all of my online writing first appear here.
 
+<div class="real-list" markdown=1>
 -   **[Low Cost Index
     Investing](http://blog.minchin.ca/2012/03/low-cost-index-investing.html)** --
     2012 -- my system for investing in index funds, and thus the
@@ -160,23 +167,25 @@ I have kept a blog at [blog.minchin.ca](http://blog.minchin.ca) since
     employment, and particularly how land use planning and
     transportation planning, by working together, has brought that
     about.
+</div>
 
 Photography
 -----------
 
 <div class="center-block thumbnail max-col-md-9">
 	<img src="../images/IMG_3252-paris-skyline-688.JPG" />
-</div> <!-- _ -->
+</div>
 
+<div class="real-list" markdown=1>
 -   **[Project 365](http://blog.minchin.ca/search/label/Project%20365)** --
     2010-12 -- It started with the goal to take a photo a day for a year. I
     got sidetracked for a while, but I keep pushing forward. Some of the
     most popular photos include:
     -   [The Paris
     Skyline](http://blog.minchin.ca/2010/11/paris-skyline-photo-40-project-365.html) (above)
-
 -   **[Flickr](http://www.flickr.com/photos/minchinweb)** -- 2008-09 -- some
 of my best shots, although it hasn't but updated in a while.
+</div>
 
 Videos
 ------
@@ -185,6 +194,7 @@ Videos
 	<img src="../images/Lego-stop-motion-688.jpg" />
 </div>
 
+<div class="real-list" markdown=1>
 -   **[LEGO Dreams](http://www.youtube.com/watch?v=4hLO634gW94)** -- 2011 --
     I thought it would be fun to make a stop-motion video with LEGO.
     Four hours later, I had this 15 seconds of film...
@@ -206,3 +216,4 @@ Videos
     rigged a graphing calculator to send the signal to take the
     photos. ([blog post
     introduction](http://blog.minchin.ca/2008/06/life-at-280x.html))
+</div>

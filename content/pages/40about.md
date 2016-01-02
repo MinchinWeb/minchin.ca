@@ -1,6 +1,6 @@
 title: About
-modified: December 29, 2015
-copy_date: 2007-15
+modified: January 1, 2016
+copy_date: 2007-16
 slug: about
 icon: fa fa-info-circle
 
@@ -19,6 +19,7 @@ technologies and to have my own little (virtual) space.
 
 There are a number of sections to this website. In brief:
 
+<div class="real-list" markdown=1>
 -   **Home** --
     [Minchin.ca/](http://minchin.ca/) --
     Probably the first page you came across. It looks cool and links to
@@ -53,6 +54,7 @@ There are a number of sections to this website. In brief:
 -   **Contact Me** --
     [Minchin.ca/Contact/](http://minchin.ca/contact/) -- If
     you want to get a hold of me, this page will give you the details.
+</div>
 	
 ## Colophon {.page-header #colophon}
 
@@ -71,4 +73,4 @@ Font are provided by Google Fonts:
 for headlines and *[Cabin](https://www.google.com/fonts/specimen/Cabin)*
 for body text.
 
-All content is copyright &copy; 2006-2015 Wm. Minchin.
+All content is copyright &copy; 2006-2016 Wm. Minchin.

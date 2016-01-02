@@ -1,6 +1,6 @@
 title: My Wishlist
 modified: December 29, 2015
-copy_date: 2007-15
+copy_date: 2007-16
 slug: wishlist
 status: hidden
 
@@ -9,6 +9,7 @@ Christmas time's a coming...
 You always ask for Christmas <del>birthday</del> present ideas, so here's the
 random things I've had running through my head. In no particular order:
 
+<div class="real-list" markdown=1>
 -   *The Book of Minchin: A Family for All Seasons* by Dorthy
     Minchin-Comm
 <!-- -   Hugh Nibley's *Teachings of the Book of Mormon* (Parts
@@ -34,3 +35,4 @@ random things I've had running through my head. In no particular order:
 -   16+ port gigabit rack-mounted ethernet swtich
 -   LEGO
 -   surprise me!!
+</div>
