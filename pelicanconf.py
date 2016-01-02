@@ -5,6 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = u'Wm. Minchin'
 SITENAME = u'Minchin.ca'
 SITEURL = 'http://minchin.ca'
+SITE_ROOT_URL = SITEURL
 
 TIMEZONE = 'America/Edmonton'
 
