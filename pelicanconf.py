@@ -99,7 +99,7 @@ DISPLAY_BREADCRUMBS = True
 FAVICON = 'favicon.ico'
 BOOTSTRAP_THEME = 'minchin-ca'
 USE_OPEN_GRAPH = True
-CUSTOM_CSS = 'css/minchin-ca.css'
+#CUSTOM_CSS = 'css/minchin-ca.css'  # folded into Bootstrap theme
 DOCUTIL_CSS = False
 
 GOOGLE_ANALYTICS_UNIVERSAL = 'UA-384291-3'
@@ -136,3 +136,21 @@ GITHUB_USER = False
 ADDTHIS_PROFILE = False
 DISQUS_SITENAME = False
 PDF_PROCESSOR = False
+
+
+# Jijna2 filters
+
+def datetimefilter(value, format='%Y/%m/%d %H:%M'):
+    """convert a datetime to a different format."""
+    return value.strftime(format)
+
+def article_date(value):
+    """Converts a date to the format we want it displayed on the article
+       template.
+    """
+    return value.strftime('%A, %B %-d, %Y')
+
+JINJA_FILTERS = {
+  'datetimefilter': datetimefilter,
+  'article_date':   article_date,
+}
