@@ -25,7 +25,7 @@ can.
 <div class="real-list" markdown=1>
 -   **Highway 642 Functional Planning Study**&nbsp;-- 2012-13, Morinville, AB --
     Traffic forecasting and modeling, prepared proposed corridor treatment,
-    public open houses ([link](http://www.morinville.ca/planning/fps))
+    public open houses ([link](http://www.morinville.ca/index.php/fps))
 -   **Mildred Lake Traffic Impact Analysis (TIA)** -- 2012-13, RM Wood
     Buffalo, AB -- Analysing traffic counts, traffic modeling, traffic
     projections, and intersection treatment warrants
