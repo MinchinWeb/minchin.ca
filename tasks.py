@@ -18,7 +18,7 @@ from pathlib import Path
 #env.cloudfiles_api_key = 'my_rackspace_api_key'
 #env.cloudfiles_container = 'my_cloudfiles_container'
 
-INVOKE_SHELL = 'C:\Windows\system32\cmd.EXE'
+# INVOKE_SHELL = 'C:\Windows\system32\cmd.EXE'
 
 p = Path.cwd()
 deploy_path = p.parents[0] / 'minchinweb.github.io-master'
@@ -33,7 +33,9 @@ def clean(ctx):
 
 @task
 def build(ctx):
-    run('pelican -s pelicanconf.py', shell=INVOKE_SHELL)
+    run('pelican -s pelicanconf.py',
+        # shell=INVOKE_SHELL
+        )
 
 
 @task
@@ -44,21 +46,21 @@ def rebuild(ctx):
 
 @task
 def regenerate(ctx):
-    run('start pelican -r -s pelicanconf.py', shell=INVOKE_SHELL)
+    run('start pelican -r -s pelicanconf.py')
 
 
 @task
 def serve(ctx):
     # local('cd {deploy_path} && start python -m SimpleHTTPServer'.format(**env))
     # in Python3000, use  python -m http.server
-    run('cd {} && start python -m http.server'.format(deploy_path), shell=INVOKE_SHELL)
+    run('cd {} && start python -m http.server'.format(deploy_path))
 
 
 @task
 def serve_on(ctx, port):
     # local('cd {deploy_path} && start python -m SimpleHTTPServer'.format(**env))
     # in Python3000, use  python -m http.server
-    run('cd {} && start python -m http.server {}'.format(deploy_path, port), shell=INVOKE_SHELL)
+    run('cd {} && start python -m http.server {}'.format(deploy_path, port))
 
 
 @task
@@ -69,21 +71,21 @@ def reserve(ctx):
 
 @task
 def preview(ctx):
-    run('pelican -s publishconf.py', shell=INVOKE_SHELL)
+    run('pelican -s publishconf.py')
 
 
 @task
 def upload(ctx):
     publish(ctx)
-    run('cd {deploy_path}', shell=INVOKE_SHELL)
-    run('git add -A', shell=INVOKE_SHELL)
-    run('git commit', shell=INVOKE_SHELL)
-    run('git push', shell=INVOKE_SHELL)
+    run('cd {deploy_path}')
+    run('git add -A')
+    run('git commit')
+    run('git push')
 
 
 @task
 def publish(ctx):
-    run('pelican -s publishconf.py', shell=INVOKE_SHELL)
+    run('pelican -s publishconf.py')
 
 
 # Add devsever
@@ -99,6 +101,6 @@ def less(ctx):
     #run('lessc theme\\burst-energy\\less\\bootstrap.burst-energy.less > ' +
     #    env_deploy_path + '\\css\\style.css')
     #   lessc themes\pelican-minchin-ca\static\less\bootstrap.minchin-ca.min.less > themes\pelican-minchin-ca\static\css\bootstrap.minchin-ca.min.css
-    source = p / 'themes\pelican-minchin-ca\static\less\\bootstrap.minchin-ca.min.less'
-    dest = p / 'themes\pelican-minchin-ca\static\css\\bootstrap.minchin-ca.min.css'
-    run('lessc {} > {}'.format(source, dest), shell=INVOKE_SHELL)
+    source = p / 'themes\pelican-minchin-ca\static\less' / 'bootstrap.minchin-ca.min.less'
+    dest = p / 'themes\pelican-minchin-ca\static\css' / 'bootstrap.minchin-ca.min.css'
+    run('lessc {} > {}'.format(source, dest))
