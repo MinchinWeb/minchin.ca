@@ -1,10 +1,13 @@
 ﻿#!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+from datetime import date
+import seafoam
 
 AUTHOR = u'Wm. Minchin'
 SITENAME = u'Minchin.ca'
-SITEURL = 'http://minchin.ca'
+# SITEURL = 'http://minchin.ca'
+SITEURL = ''
 SITE_ROOT_URL = SITEURL
 
 TIMEZONE = 'America/Edmonton'
@@ -91,24 +94,27 @@ PAGE_SAVE_AS = "{slug}/index.html"
 
 # Theme Related
 TYPOGRIFY = True
-THEME = 'themes/pelican-minchin-ca'
+# THEME = 'themes/pelican-minchin-ca'
+THEME = seafoam.get_path()
 SITELOGO = 'images/MinchindotCA-200.png'
 SITELOGO_SIZE = '100%'
-PYGMENTS_STYLE = 'friendly'
+# PYGMENTS_STYLE = 'friendly'
 DISPLAY_BREADCRUMBS = True
 FAVICON = 'favicon.ico'
 BOOTSTRAP_THEME = 'minchin-ca'
 USE_OPEN_GRAPH = True
 #CUSTOM_CSS = 'css/minchin-ca.css'  # folded into Bootstrap theme
 DOCUTIL_CSS = False
-
-GOOGLE_ANALYTICS_UNIVERSAL = 'UA-384291-3'
-GOOGLE_ANALYTICS_UNIVERSAL_PROPERTY = 'minchin.ca'
+INDEX_COPY_DATE = '2007-{}'.format(str(date.today().year)[-2:])
 
 # Plugins
 PLUGIN_PATHS = ['../pelican-plugins', ]
-# PLUGINS = ['assets', 'minify', 'sitemap', 'optimize_images']
-PLUGINS = ['assets', ]
+PLUGINS = [
+           'assets',
+           'minchin.pelican.jinja_filters',
+           'minchin.pelican.plugins.cname',
+           'minchin.pelican.plugins.nojekyll',
+           ]
 
 ASSET_CSS = False
 ASSET_JS = False
@@ -136,21 +142,3 @@ GITHUB_USER = False
 ADDTHIS_PROFILE = False
 DISQUS_SITENAME = False
 PDF_PROCESSOR = False
-
-
-# Jijna2 filters
-
-def datetimefilter(value, format='%Y/%m/%d %H:%M'):
-    """convert a datetime to a different format."""
-    return value.strftime(format)
-
-def article_date(value):
-    """Converts a date to the format we want it displayed on the article
-       template.
-    """
-    return value.strftime('%A, %B %-d, %Y')
-
-JINJA_FILTERS = {
-  'datetimefilter': datetimefilter,
-  'article_date':   article_date,
-}

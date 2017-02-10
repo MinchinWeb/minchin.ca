@@ -1,6 +1,5 @@
 title: About
 modified: January 1, 2016
-copy_date: 2007-16
 slug: about
 icon: fa fa-info-circle
 

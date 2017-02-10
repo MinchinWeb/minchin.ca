@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-#SITEURL = ''
+SITEURL = 'http://minchin.ca'
 RELATIVE_URLS = False
 
 #FEED_ALL_ATOM = 'feeds/all.atom.xml'
@@ -21,6 +21,12 @@ RELATIVE_URLS = False
 # Following items are often useful when publishing
 
 #DISQUS_SITENAME = ""
-#GOOGLE_ANALYTICS = ""
+GOOGLE_ANALYTICS_UNIVERSAL = 'UA-384291-3'
+GOOGLE_ANALYTICS_UNIVERSAL_PROPERTY = 'minchin.ca'
 
-PLUGINS = ['assets', 'minify', 'sitemap', 'optimize_images']
+PLUGINS = PLUGINS + [
+                     'assets',
+                     'minify',
+                     'sitemap',
+                     'optimize_images',
+                     ]

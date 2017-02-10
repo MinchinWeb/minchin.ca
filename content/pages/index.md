@@ -1,7 +1,6 @@
 title: Minchin.ca
 url:
 save_as: index.html
-copy_date: 2007-16
 status: hidden
 
 <!--

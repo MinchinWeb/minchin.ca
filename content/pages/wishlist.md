@@ -1,6 +1,5 @@
 title: My Wishlist
 modified: February 5, 2016
-copy_date: 2007-16
 slug: wishlist
 status: hidden
 
