@@ -12,6 +12,7 @@ from pelicanconf import *
 
 SITEURL = 'http://minchin.ca'
 RELATIVE_URLS = False
+LOAD_CONTENT_CACHE = False
 
 #FEED_ALL_ATOM = 'feeds/all.atom.xml'
 #CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
@@ -25,7 +26,7 @@ GOOGLE_ANALYTICS_UNIVERSAL = 'UA-384291-3'
 GOOGLE_ANALYTICS_UNIVERSAL_PROPERTY = 'minchin.ca'
 
 PLUGINS = PLUGINS + [
-                     'assets',
+                     # 'assets',
                      'minify',
                      'sitemap',
                      'optimize_images',

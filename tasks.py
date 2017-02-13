@@ -33,9 +33,7 @@ def clean(ctx):
 
 @task
 def build(ctx):
-    run('pelican -s pelicanconf.py',
-        # shell=INVOKE_SHELL
-        )
+    run('pelican -s pelicanconf.py')
 
 
 @task
@@ -95,12 +93,3 @@ def publish(ctx):
 def devserver(ctx):
     regenerate(ctx)
     serve(ctx)
-
-@task
-def less(ctx):
-    #run('lessc theme\\burst-energy\\less\\bootstrap.burst-energy.less > ' +
-    #    env_deploy_path + '\\css\\style.css')
-    #   lessc themes\pelican-minchin-ca\static\less\bootstrap.minchin-ca.min.less > themes\pelican-minchin-ca\static\css\bootstrap.minchin-ca.min.css
-    source = p / 'themes\pelican-minchin-ca\static\less' / 'bootstrap.minchin-ca.min.less'
-    dest = p / 'themes\pelican-minchin-ca\static\css' / 'bootstrap.minchin-ca.min.css'
-    run('lessc {} > {}'.format(source, dest))

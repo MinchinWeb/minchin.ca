@@ -4,6 +4,10 @@ from __future__ import unicode_literals
 from datetime import date
 import seafoam
 
+# Caching
+CACHE_CONTENT = True
+LOAD_CONTENT_CACHE = True
+
 AUTHOR = u'Wm. Minchin'
 SITENAME = u'Minchin.ca'
 # SITEURL = 'http://minchin.ca'
@@ -48,16 +52,10 @@ EXTRA_PATH_METADATA = {
     '../.gitattributes':                     {'path': '.gitattributes'},
     '../.gitignore':                         {'path': '.gitignore'},
     '../README.txt':                         {'path': 'README.txt'},
-    # CNAME file tells GitHub Pages to display this site at minchin.ca
-    '../extras/CNAME':                       {'path': 'CNAME'},
     '../extras/minchin.ico':                 {'path': 'favicon.ico'},
     '../extras/MTS_1v1.xlsm':                {'path': 'MTS_1v1.xlsm'},
     '../extras/TRB_Minchin.ca.XSL':          {'path': 'TRB_Minchin.ca.XSL'},
     '../extras/googlecbc66a9bfde8606b.html': {'path': 'googlecbc66a9bfde8606b.html'},
-    '../extras/.nojekyll':                   {'path': '.nojekyll'},
-    # prism is used by the blog for code highlighting
-    '../extras/prism.js':                    {'path': 'js/prism.js'},
-    '../extras/prism.css':                   {'path': 'css/prism.css'},
     }
 
 # Custom settings
@@ -96,12 +94,12 @@ PAGE_SAVE_AS = "{slug}/index.html"
 TYPOGRIFY = True
 # THEME = 'themes/pelican-minchin-ca'
 THEME = seafoam.get_path()
+BOOTSTRAP_THEME = 'seafoam'
 SITELOGO = 'images/MinchindotCA-200.png'
 SITELOGO_SIZE = '100%'
 # PYGMENTS_STYLE = 'friendly'
 DISPLAY_BREADCRUMBS = True
 FAVICON = 'favicon.ico'
-BOOTSTRAP_THEME = 'minchin-ca'
 USE_OPEN_GRAPH = True
 #CUSTOM_CSS = 'css/minchin-ca.css'  # folded into Bootstrap theme
 DOCUTIL_CSS = False
@@ -110,7 +108,6 @@ INDEX_COPY_DATE = '2007-{}'.format(str(date.today().year)[-2:])
 # Plugins
 PLUGIN_PATHS = ['../pelican-plugins', ]
 PLUGINS = [
-           'assets',
            'minchin.pelican.jinja_filters',
            'minchin.pelican.plugins.cname',
            'minchin.pelican.plugins.nojekyll',

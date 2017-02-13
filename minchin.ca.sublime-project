@@ -13,7 +13,7 @@
 		{
 			"follow_symlinks": true,
 			"path": ".",
-			"folder_exclude_patterns": ["__pycache__", "env*", ]
+			"folder_exclude_patterns": ["__pycache__", "env*", "cache", ]
 		}
 	]
 }
