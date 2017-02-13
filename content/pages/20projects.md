@@ -81,10 +81,14 @@ Web Design
 
 <div class="real-list" markdown=1>
 -   **[Minchin.ca](http://www.Minchin.ca/index.html) -- Bootstrap Edition** --
-    2014 -- in the 7 years since I originally designed the site, one of the
+    2014-present -- in the 7 years since I originally designed the site,
+    one of the
 	biggest changes is that so much of the web in now accessed through smart
 	phones. So this redesign was in large part abour making the site look good
-	on my phone.
+	on my phone. The theme has now been repackaged as
+    [Seafoam](https://github.com/minchinweb/seafoam), a standalone theme for
+    Pelican, a static site generator written in Python and what is used to
+    generate this site.
 -   **[Metro Financial Planning]({filename}../projects/design/www.metrofinancialplanning.com/index.html)** --
     2011-12 -- A professional project. This is a wordpress driven site
     for a local financial planner. I set up the site and maintain it,
@@ -106,6 +110,49 @@ Web Design
 
 Programming
 -----------
+
+<div class="real-list" markdown=1>
+-   **Colourettu** -- 2014-present -- An open-source Python library.
+    Colourettu is a small collection of colour functions that can be used to
+    determine the (relative) luminosity of a colour and the contrast between
+    two colours. There is also the palette class for dealing with a 'list' of
+    colours. In addition to the code, it has been packaged (and is available
+    on [PyPI](https://pypi.python.org/pypi/colourettu)),
+    [documentation](http://minchin.ca/colourettu/) is online, and
+    [automated testing](https://travis-ci.org/MinchinWeb/colourettu)
+    (continuous integration) is in place.
+-   **topydo** -- 2015-present -- A powerful todo list application for the
+    console, written in Python. I provided several Pull Requests, including to
+    provide colour support on Windows CMD (see
+    [PR49](https://github.com/bram85/topydo/pull/49)), code style improvements
+    to bring the code base in better compliance with [PEP8](http://pep8.org/)
+    (see [PR55](https://github.com/bram85/topydo/pull/55)), remove platform
+    specific hacks to creating temporary files (see
+    [commit](https://github.com/bram85/topydo/commit/0e5977729c2fe357fb8689c79c4d8a09eba699ff)),
+    added the ability to print a "screen-ful" of top todo items (see
+    [PR118](https://github.com/bram85/topydo/pull/118)), and added a filter to
+    selectively hide todo items (see
+    [PR131](https://github.com/bram85/topydo/pull/131)).
+-   **green** -- 2016 -- A clean, colorful, fast Python test runner. I
+    provided a [Pull Request](https://github.com/CleanCut/green/pull/120) to
+    resolve issues when outputting colour to Windows CMD.
+-   **release** -- 2016 -- A powerful Sphinx changelog-generating extension.
+    (Sphinx in a documentation generator for Python source code.) I
+    provided a [Pull Request](https://github.com/bitprophet/releases/pull/61)
+    to allow specifing multiple changelog files, and another
+    [Pull Request](https://github.com/bitprophet/releases/pull/60) to supply
+    the version number to Sphinx.
+-   **jrnl** -- 2013-2015 -- A simple command line journal application that
+    stores your journal in a plain text file, written in Python. I provided
+    Pull Requests to add an 'export to Pelican' feature (see
+    [PR347](https://github.com/maebert/jrnl/pull/347)), expanding
+    documentation (see [PR124](https://github.com/maebert/jrnl/pull/124)), and
+    to fix numerous bugs (see
+    [PR110](https://github.com/maebert/jrnl/pull/110),
+    [PR349](https://github.com/maebert/jrnl/pull/349),
+    [PR397](https://github.com/maebert/jrnl/pull/397), and
+    [PR416](https://github.com/maebert/jrnl/pull/416)).
+</div>
 
 <div class="center-block thumbnail max-col-md-9">
 	<img src="../images/wmdot-twinned-freeways-688.png" />
