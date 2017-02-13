@@ -14,13 +14,22 @@ particularly those found online.
 Highway Planning
 ----------------
 
+My highway and transportation projects have largely consisted of *Functional
+Planning Studies* (FPS) and *Traffic Impact Analyses*. A *Functional Planning
+Study* will look at a section of highway and image how it might be used into
+the future. A common time horizon for these studies is 50 years out. A
+*Traffic Impact Analysis* is usually smaller in both geography and time, many
+times looking at an intersection 5 to 20 years into the future. A TIA will
+often be done to determine what road system improvements should be made as a
+result of a adjacent, proposed land development project.
+
+My highway planning is all done offline, but I'll provide links where I
+can.
+
 <div class="center-block thumbnail max-col-md-9">
 	<img src="../images/morinville-roundabout-688.jpg" />
 	<caption>Proposed Roundabout on Highway 642 in Morinville</caption>
 </div>
-
-My highway planning is all done offline, but I'll provide links where I
-can.
 
 <div class="real-list" markdown=1>
 -   **Highway 642 Functional Planning Study** -- 2012-13, Morinville, AB --
@@ -79,6 +88,9 @@ can.
 Web Design
 ----------
 
+I have maintained my own personal website since 2007, and have done some web
+design for others as well.
+
 <div class="real-list" markdown=1>
 -   **[Minchin.ca](http://www.Minchin.ca/index.html) -- Bootstrap Edition** --
     2014-present -- in the 7 years since I originally designed the site,
@@ -110,6 +122,11 @@ Web Design
 
 Programming
 -----------
+
+Programming is something I have enjoyed for many years. Between 2010 and 2013, by focus was largely on writing AI's for OpenTTD (see WmDOT below). Since 2013, my focus has been solving problems of personal interest using Python. Some of my projects are listed below.
+
+I also maintain a profile at [GitHub](https://github.com/MinchinWeb) and post
+the code there for most of these projects and several others as well.
 
 <div class="real-list" markdown=1>
 -   **Colourettu** -- 2014-present -- An open-source Python library.
@@ -184,9 +201,7 @@ Programming
     post](http://blog.minchin.ca/2010/07/trb-transportation-research-board.html);
     [direct download](../TRB_Minchin.ca.XSL))
 </div>
-	
-I also maintain a profile at [GitHub](https://github.com/MinchinWeb) and post
-the code there for several of these projects and several others as well.
+
 
 Articles
 --------
