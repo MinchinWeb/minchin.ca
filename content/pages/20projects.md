@@ -182,12 +182,14 @@ the code there for most of these projects and several others as well.
     in Squirrel (somewhat similar to C++) and serves to build out the
     road network for you.
     ([code](https://github.com/MinchinWeb/openttd-wmdot); [release
-    thread](http://www.tt-forums.net/viewtopic.php?f=65&t=53698))
+    thread](http://www.tt-forums.net/viewtopic.php?f=65&t=53698)).
+    As of Feb. 2017, this has been downloaded over 260,000 times!
 -   **MinchinWeb's MetaLibrary** (MWML) -- 2010-15 -- A library for
     programming AIs for OpenTTD that started as an offshoot of WmDOT.
     ([code](https://github.com/MinchinWeb/openttd-metalibrary);
     [documentation](http://minchin.ca/openttd-metalibrary/); [release
-    thread](http://www.tt-forums.net/viewtopic.php?f=65&t=57903))
+    thread](http://www.tt-forums.net/viewtopic.php?f=65&t=57903)).
+    As of Feb. 2017, this has been downloaded over 599,000 times!
 -   **MTS** (Minchin Timesheet System) -- 2010 -- Written in VBA in Excel,
     this is designed to keep track of your time spent on various
     projects. I've made use of it myself when working on professional
