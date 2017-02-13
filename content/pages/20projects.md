@@ -1,6 +1,5 @@
 title: My Projects
-modified: January 1, 2016
-copy_date: 2012-16
+modified: February 13, 2017
 slug: projects
 icon: fa fa-flask
 
