@@ -55,6 +55,7 @@ EXTRA_PATH_METADATA = {
     '../extras/minchin.ico':                 {'path': 'favicon.ico'},
     '../extras/MTS_1v1.xlsm':                {'path': 'MTS_1v1.xlsm'},
     '../extras/TRB_Minchin.ca.XSL':          {'path': 'TRB_Minchin.ca.XSL'},
+    '../extras/TRB_Minchin.ca.2013.XSL':     {'path': 'TRB_Minchin.ca.2013.XSL'},
     '../extras/googlecbc66a9bfde8606b.html': {'path': 'googlecbc66a9bfde8606b.html'},
     }
 
