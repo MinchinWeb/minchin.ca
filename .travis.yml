@@ -18,7 +18,9 @@ install:
 before_script:
   - invoke --list
 script:
-  - invoke publish-carefully
+  # use `publish` rather than `publish-carefully` as Travis complains about
+  # some links on my Projects page
+  - invoke publish
 after_success:
 
 # see https://github.com/timwis/vizwit/blob/master/.travis.yml#L15-L21
