@@ -1,27 +1,15 @@
-from invoke import run, task
 from pathlib import Path
+import time
 
-# from fabric.api import *
-# import fabric.contrib.project as project
-# import os
-
-# Local path configuration (can be absolute or relative to fabfile)
-#env.deploy_path = '../minchinweb.github.io-master'
-#DEPLOY_PATH = env.deploy_path
-
-# Remote server configuration
-#production = 'root@localhost:22'
-#dest_path = '/var/www'
-
-# Rackspace Cloud Files configuration settings
-#env.cloudfiles_username = 'my_rackspace_username'
-#env.cloudfiles_api_key = 'my_rackspace_api_key'
-#env.cloudfiles_container = 'my_cloudfiles_container'
+from invoke import run, task
 
 # INVOKE_SHELL = 'C:\Windows\system32\cmd.EXE'
 
 p = Path.cwd()
-deploy_path = p.parents[0] / 'minchinweb.github.io-master'
+# used for local testing
+deploy_path = p.parents[0] / 'minchinweb.github.io-temp'
+# used for the version to be put on the wider internet
+publish_path = p.parents[0] / 'minchinweb.github.io-master'
 
 
 def clean(ctx):
@@ -33,57 +21,67 @@ def clean(ctx):
 
 @task
 def build(ctx):
-    run('pelican -s pelicanconf.py')
+    """Build a local version of the blog."""
+    ctx.run('pelican -s pelicanconf.py')
+
+
+@task
+def build_debug(ctx):
+    """Use debug output to build a local version of the blog."""
+    ctx.run('pelican -s pelicanconf.py --debug')
 
 
 @task
 def rebuild(ctx):
+    """clean and build."""
     clean(ctx)
     build(ctx)
 
 
 @task
 def regenerate(ctx):
-    run('start pelican -r -s pelicanconf.py')
+    """Rebuild a local version of the blog if files change."""
+    ctx.run('start pelican -r -s pelicanconf.py')
 
 
 @task
 def serve(ctx):
-    # local('cd {deploy_path} && start python -m SimpleHTTPServer'.format(**env))
-    # in Python3000, use  python -m http.server
-    run('cd {} && start python -m http.server'.format(deploy_path))
+    """Serve the local blog output on port 8000."""
+    ctx.run('cd {} && start python -m http.server'.format(deploy_path))
 
 
 @task
 def serve_on(ctx, port):
-    # local('cd {deploy_path} && start python -m SimpleHTTPServer'.format(**env))
-    # in Python3000, use  python -m http.server
-    run('cd {} && start python -m http.server {}'.format(deploy_path, port))
-
+    """Serve the local blog output on a port of your choosing."""
+    ctx.run('cd {} && start python -m http.server {}'.format(deploy_path, port))
 
 @task
 def reserve(ctx):
+    """build and serve."""
     build(ctx)
     serve(ctx)
 
 
 @task
-def preview(ctx):
-    run('pelican -s publishconf.py')
-
-
-@task
 def upload(ctx):
+    """publish and then push the result to GitHub."""
     publish(ctx)
-    run('cd {deploy_path}')
-    run('git add -A')
-    run('git commit')
-    run('git push')
+    ctx.run('cd {} && git add -A && git commit -m "[Generated] {}" && git push'\
+            .format(publish_path, time.strftime("%Y-%m-%d")))
 
 
 @task
 def publish(ctx):
-    run('pelican -s publishconf.py')
+    """Build a publication version of the blog."""
+    ctx.run('pelican -s publishconf.py')
+
+
+@task
+def publish_carefully(ctx):
+    """(Carefully) Build a publication version of the blog.
+
+    i.e. fail on any warnings from pelican."""
+    ctx.run('pelican -s publishconf.py --fatal=warnings')
 
 
 # Add devsever
@@ -91,5 +89,15 @@ def publish(ctx):
 #  need to kill the second window manually
 @task
 def devserver(ctx):
+    """regeneration and serve."""
     regenerate(ctx)
     serve(ctx)
+
+
+@task
+def test(ctx):
+    """Test invoke is working."""
+    #print(ctx)
+    print(run)
+    ctx.run('dir')
+    #run('dir', shell=INVOKE_SHELL)

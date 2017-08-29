@@ -69,7 +69,7 @@ MARKUP = (('rst',
 READERS = {'html': None,
            'htm': None}
 PATH = 'content'
-OUTPUT_PATH = '../minchinweb.github.io-master/'
+OUTPUT_PATH = '../minchinweb.github.io-temp/'
 
 # Add Blog to sidebar
 MENUITEMS = (('Blog',    'http://blog.minchin.ca/', 'fa fa-pencil'), )
@@ -109,25 +109,16 @@ INDEX_COPY_DATE = '2007-{}'.format(str(date.today().year)[-2:])
 # Plugins
 PLUGIN_PATHS = ['../pelican-plugins', ]
 PLUGINS = [
-           'minchin.pelican.jinja_filters',
-           'minchin.pelican.plugins.cname',
-           'minchin.pelican.plugins.nojekyll',
+           'minchin.pelican.jinja_filters',  # required by seafoam theme
            ]
 
 ASSET_CSS = False
 ASSET_JS = False
 
-SITEMAP = {
-    "format": "xml",
-}
-
 # `assets` sounds good, but I can't figure out how to get it to work for my CSS
 # `better_figures_and_images` didn't seem to do what I wanted (see Projects)
 # `gallery` looks good, but don't have a use here yet
-# `liquid_tags` & `pelican_comment_system` might be useful...
-# `optimize_images` works, but I don't have many images yet
-#       - requires `jpegtran.exe` <http://jpegclub.org/jpegtran/> and
-#           `optinpng.exe` <http://sourceforge.net/projects/optipng/>
+# `liquid_tags` might be useful...
 
 
 # # Make things disappear

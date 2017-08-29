@@ -13,6 +13,7 @@ from pelicanconf import *
 SITEURL = 'http://minchin.ca'
 RELATIVE_URLS = False
 LOAD_CONTENT_CACHE = False
+OUTPUT_PATH = '../minchinweb.github.io-master/'
 
 #FEED_ALL_ATOM = 'feeds/all.atom.xml'
 #CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
@@ -27,7 +28,9 @@ GOOGLE_ANALYTICS_UNIVERSAL_PROPERTY = 'minchin.ca'
 
 PLUGINS = PLUGINS + [
                      # 'assets',
-                     'minify',
-                     'sitemap',
-                     'optimize_images',
+                     'minify',  # pelican-minify
+                     'extended_sitemap',  # pelican-extended-sitemap
+                     'minchin.pelican.plugins.optimize_images',  # need executables for Linux to do this on Travis-CI
+                     'minchin.pelican.plugins.cname',
+                     'minchin.pelican.plugins.nojekyll',
                      ]

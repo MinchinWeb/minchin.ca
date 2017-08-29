@@ -1,0 +1,11 @@
+invoke >= 0.20.2
+markdown
+minchin.pelican.plugins.cname
+minchin.pelican.plugins.nojekyll
+minchin.pelican.plugins.optimize_images
+pelican >= 3.7
+pelican-extended-sitemap
+pelican-minify
+pip-tools
+seafoam >= 2.1.5
+typogrify
