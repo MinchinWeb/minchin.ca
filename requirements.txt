@@ -10,13 +10,20 @@ click==6.7                # via pip-tools
 docutils==0.14            # via pelican
 feedgenerator==1.9        # via pelican
 first==2.0.1              # via pip-tools
+htmlmin==0.1.10           # via pelican-minify
 invoke==0.20.4
 jinja2==2.9.6             # via pelican
+joblib==0.11              # via pelican-minify
 markdown==2.6.9
 markupsafe==1.0           # via jinja2
 minchin.pelican.jinja-filters==1.0.4  # via seafoam
+minchin.pelican.plugins.cname==1.0.4
 minchin.pelican.plugins.image-process==1.1.3  # via seafoam
+minchin.pelican.plugins.nojekyll==1.0.2
+minchin.pelican.plugins.optimize-images==1.1.1
 olefile==0.44             # via pillow
+pelican-extended-sitemap==1.0.4
+pelican-minify==0.9
 pelican==3.7.1
 pillow==4.2.1             # via minchin.pelican.plugins.image-process
 pip-tools==1.9.0
@@ -25,5 +32,7 @@ python-dateutil==2.6.1    # via pelican
 pytz==2017.2              # via feedgenerator, pelican
 seafoam==2.1.5
 six==1.10.0               # via feedgenerator, minchin.pelican.plugins.image-process, pelican, pip-tools, python-dateutil
+smartypants==2.0.0        # via typogrify
 titlecase==0.11.0         # via minchin.pelican.jinja-filters
+typogrify==2.0.7
 unidecode==0.4.21         # via pelican

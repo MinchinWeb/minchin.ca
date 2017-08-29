@@ -10,7 +10,6 @@ p = Path.cwd()
 deploy_path = p.parents[0] / 'minchinweb.github.io-temp'
 # used for the version to be put on the wider internet
 publish_path = p.parents[0] / 'minchinweb.github.io-master'
-# deploy_path = p.parents[0] / 'minchinweb.github.io-master'
 
 
 def clean(ctx):
