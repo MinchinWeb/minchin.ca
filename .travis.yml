@@ -1,0 +1,33 @@
+sudo: false  # run on new infrastructure
+language: python
+python:
+  - 3.6
+# Cache Dependencies
+cache: pip
+addons:
+  apt:
+    packages:
+    - optipng  # for optimize images plugin
+    - libjpeg-progs  # for jpegtran for optimize images plugin
+
+before_install:
+# command to install dependencies
+install:
+  - pip install --upgrade pip
+  - pip install -r requirements.txt
+before_script:
+  - invoke --list
+script:
+  - invoke publish-carefully
+after_success:
+
+# see https://github.com/timwis/vizwit/blob/master/.travis.yml#L15-L21
+# see https://travis-ci.org/MinchinWeb/blog.minchin.ca
+deploy:
+  provider: pages
+  local_dir: ../blog.minchin.ca-master/
+  target-branch: master
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard
+  on:
+    branch: pelican

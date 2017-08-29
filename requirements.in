@@ -1,0 +1,5 @@
+pip-tools
+pelican == 3.6.3
+markdown
+seafoam >= 2.1.5
+invoke
