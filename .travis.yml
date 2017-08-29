@@ -31,4 +31,4 @@ deploy:
   on:
     branch: pelican
 after_script:
-   - tree ../minchinweb.github.io-master/
+   - tree -aC ../minchinweb.github.io-master/
