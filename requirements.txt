@@ -17,7 +17,7 @@ markupsafe==1.0           # via jinja2
 minchin.pelican.jinja-filters==1.0.4  # via seafoam
 minchin.pelican.plugins.image-process==1.1.3  # via seafoam
 olefile==0.44             # via pillow
-pelican==3.6.3
+pelican==3.7.1
 pillow==4.2.1             # via minchin.pelican.plugins.image-process
 pip-tools==1.9.0
 pygments==2.2.0           # via pelican
