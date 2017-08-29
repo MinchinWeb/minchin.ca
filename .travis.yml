@@ -9,6 +9,7 @@ addons:
     packages:
     - optipng  # for optimize images plugin
     - libjpeg-progs  # for jpegtran for optimize images plugin
+    - tree  # for file listings
 
 before_install:
 # command to install dependencies
