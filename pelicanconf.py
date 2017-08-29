@@ -40,12 +40,12 @@ DEFAULT_PAGINATION = False
 
 # static paths will be copied under the same name
 STATIC_PATHS = ['images',
-                '..\extras',
+                '../extras',
                 'css',
-                'projects\design',
-                '..\.gitattributes',
-                '..\.gitignore',
-                '..\README.txt', ]
+                'projects/design',
+                '../.gitattributes',
+                '../.gitignore',
+                '../README.txt', ]
 
 # A list of files to copy from the source to the destination
 EXTRA_PATH_METADATA = {

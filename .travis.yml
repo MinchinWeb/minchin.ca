@@ -18,11 +18,9 @@ install:
 before_script:
   - invoke --list
 script:
-  # use `publish` rather than `publish-carefully` as Travis complains about
-  # some links on my Projects page
-  - invoke publish
-after_success:
-
+  - invoke publish-carefully
+before_deploy:
+   - tree ../minchinweb.github.io-master/
 # see https://github.com/timwis/vizwit/blob/master/.travis.yml#L15-L21
 # see https://travis-ci.org/MinchinWeb/blog.minchin.ca
 deploy:
