@@ -100,7 +100,7 @@ design for others as well.
     [Seafoam](https://github.com/minchinweb/seafoam), a standalone theme for
     Pelican, a static site generator written in Python and what is used to
     generate this site.
--   **[Metro Financial Planning]({filename}../projects/design/www.metrofinancialplanning.com/index.html)** --
+-   **[Metro Financial Planning]({filename}/projects/design/www.metrofinancialplanning.com/index.html)** --
     2011-12 -- A professional project. This is a wordpress driven site
     for a local financial planner. I set up the site and maintain it,
     and set up his email.
@@ -110,11 +110,11 @@ design for others as well.
     I set up the site and he provided the photos and copy.
 -   **Minchin.ca -- Kwick Edition** --
     2010 -- This just went live for the main page of
-    [Minchin.ca]({filename}../projects/design/www.minchin.ca/kwick.htm). I realize that it may not be
+    [Minchin.ca]({filename}/projects/design/www.minchin.ca/kwick.htm). I realize that it may not be
     obvious where the links are or what they do at first glance, but I
     love the effect.
 -   **Minchin.ca -- Rounders Edition** -- 2007 -- This version of
-    [Minchin.ca]({filename}../projects/design/www.minchin.ca/about.htm) was the first to go live. It was
+    [Minchin.ca]({filename}/projects/design/www.minchin.ca/about.htm) was the first to go live. It was
     based on the Blogger template I was using at the time, but includes
     a picture I took in Hawaii as the header background.
 </div>
