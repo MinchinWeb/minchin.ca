@@ -8,7 +8,7 @@
                 Maggie McNamara (maggie.l.mcnamara@gmail.com) - Update to 2013/2016
                
      Copyright: Copyright (c) 2009 Yves Dhondt
-						              (c) 2010 William Minchin
+                          (c) 2010 William Minchin
                           (c) 2017 Maggie McNamara
 
                 Permission is hereby granted, free of charge, to any person obtaining a
