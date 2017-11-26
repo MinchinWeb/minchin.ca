@@ -1,5 +1,5 @@
 from pathlib import Path
-import time
+from datetime import date
 
 from invoke import run, task
 
@@ -66,8 +66,12 @@ def reserve(ctx):
 def upload(ctx):
     """publish and then push the result to GitHub."""
     publish(ctx)
-    ctx.run('cd {} && git add -A && git commit -m "[Generated] {}" && git push'\
-            .format(publish_path, time.strftime("%Y-%m-%d")))
+    # run('cd {}'.format(deploy_path))
+    # run('git add -A')
+    # run('git commit -m "[Generated {}]"'.format(date.today().isoformat()))
+    # run('git push')
+    run('cd {} && git add -A && git commit -m "[Generated {}]" && git push'
+        .format(deploy_path, date.today().isoformat()))
 
 
 @task

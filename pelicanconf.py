@@ -115,6 +115,17 @@ PLUGINS = [
 ASSET_CSS = False
 ASSET_JS = False
 
+SITEMAP = {
+    "format": "xml",
+}
+
+MD_EXTENSIONS = [
+                 'codehilite(css_class=highlight)',
+                 'extra',
+                 'def_list',
+                 # 'markdown.extensions.def_list',
+                 ]
+
 # `assets` sounds good, but I can't figure out how to get it to work for my CSS
 # `better_figures_and_images` didn't seem to do what I wanted (see Projects)
 # `gallery` looks good, but don't have a use here yet
