@@ -121,12 +121,12 @@ SITEMAP = {
 
 MARKDOWN = {
     'extension_configs': {
-        # 'markdown.extensions.codehilite': {'css_class': 'highlight'},
-        # 'markdown.extensions.extra': {},
-        # 'markdown.extensions.meta': {},
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
         'markdown.extensions.def_list': {},
     },
-    # 'output_format': 'html5',
+    'output_format': 'html5',
 }
 
 # `assets` sounds good, but I can't figure out how to get it to work for my CSS

@@ -7,5 +7,5 @@ pelican >= 3.7
 pelican-extended-sitemap
 pelican-minify
 pip-tools
-seafoam >= 2.1.5
+seafoam >= 2.3.2
 typogrify
