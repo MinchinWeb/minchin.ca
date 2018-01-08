@@ -1,0 +1,19 @@
+/* No top navigation */
+body {
+    padding-top: 20px;
+}
+
+/* have links only below the header image */
+.navbar-nonheader {
+  clear: left;
+}
+
+/* make sidebar nav vertical */
+/* modifications for our logo */
+
+@media (max-width: 767px) {
+  .navbar-header {
+    margin-bottom: 45px;
+	/*  This is too much if the screen is narrower than about 250px */
+  }
+}
