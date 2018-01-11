@@ -7,8 +7,8 @@
 
 [build]
   base    = ""
-  publish = "../minchinweb.github.io-master"
-  command = "invoke build_carefully"
+  publish = "output"
+  command = "invoke publish-carefully"
 
 # Production context: All deploys to the main
 # repository branch will inherit these settings.

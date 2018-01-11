@@ -13,7 +13,7 @@ from pelicanconf import *
 SITEURL = 'http://minchin.ca'
 RELATIVE_URLS = False
 LOAD_CONTENT_CACHE = False
-OUTPUT_PATH = '../minchinweb.github.io-master/'
+# OUTPUT_PATH = '../minchinweb.github.io-master/'  # default is 'output/'
 
 #FEED_ALL_ATOM = 'feeds/all.atom.xml'
 #CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'

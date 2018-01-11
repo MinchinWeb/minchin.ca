@@ -7,9 +7,11 @@ from invoke import run, task
 
 p = Path.cwd()
 # used for local testing
-deploy_path = p.parents[0] / 'minchinweb.github.io-temp'
+# deploy_path = p.parents[0] / 'minchinweb.github.io-temp'
+deploy_path = p / 'output'
 # used for the version to be put on the wider internet
-publish_path = p.parents[0] / 'minchinweb.github.io-master'
+# publish_path = p.parents[0] / 'minchinweb.github.io-master'
+publish_path = p / 'output'
 
 
 def clean(ctx):
