@@ -223,6 +223,7 @@ _env*/
 _pelican/errors.txt
 _extras/
 cache/
+output/
 
 #############
 ## Other

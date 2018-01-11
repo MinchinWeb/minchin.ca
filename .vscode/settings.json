@@ -340,6 +340,7 @@
         "_pelican/errors.txt": true,
         "_extras/": true,
         "cache/": true,
+        "output/": true,
         "## Other": true,
         "*.sublime-workspace": true
     },

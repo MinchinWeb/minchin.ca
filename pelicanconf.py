@@ -69,7 +69,7 @@ MARKUP = (('rst',
 READERS = {'html': None,
            'htm': None}
 PATH = 'content'
-OUTPUT_PATH = '../minchinweb.github.io-temp/'
+# OUTPUT_PATH = '../minchinweb.github.io-temp/'  # default is 'output/'
 
 # Add Blog to sidebar
 MENUITEMS = (('Blog',    'http://blog.minchin.ca/', 'fa fa-pencil'), )
