@@ -91,9 +91,12 @@ ARCHIVES_SAVE_AS = ''
 PAGE_URL = "{slug}/"
 PAGE_SAVE_AS = "{slug}/index.html"
 
+TEMPLATE_PAGES = {
+    '404.html':     '404.html',
+}
+
 # Theme Related
 TYPOGRIFY = True
-# THEME = 'themes/pelican-minchin-ca'
 THEME = seafoam.get_path()
 BOOTSTRAP_THEME = 'seafoam'
 SITELOGO = 'images/MinchindotCA-200.png'
