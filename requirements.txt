@@ -21,7 +21,7 @@ minchin.pelican.plugins.cname==1.0.4
 minchin.pelican.plugins.image-process==1.1.4  # via seafoam
 minchin.pelican.plugins.nojekyll==1.0.2
 minchin.pelican.plugins.optimize-images==1.1.1
-pelican-extended-sitemap==1.0.4
+pelican-extended-sitemap==1.0.5
 pelican-minify==0.9
 pelican==3.7.1
 pillow==5.0.0             # via minchin.pelican.plugins.image-process
