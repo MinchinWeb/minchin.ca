@@ -17,7 +17,7 @@ joblib==0.11              # via pelican-minify
 markdown==2.6.11
 markupsafe==1.0           # via jinja2
 minchin.pelican.jinja-filters==1.0.4  # via seafoam
-minchin.pelican.plugins.cname==1.0.4
+minchin.pelican.plugins.cname==1.1.0
 minchin.pelican.plugins.image-process==1.1.4  # via seafoam
 minchin.pelican.plugins.nojekyll==1.0.2
 minchin.pelican.plugins.optimize-images==1.1.1
