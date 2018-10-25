@@ -26,8 +26,10 @@ deploy:
   provider: pages
   local_dir: ../minchinweb.github.io-master/
   target-branch: master
-  skip_cleanup: true
+  skip-cleanup: true
+  keep-history: true
   github_token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard
+  fqdm: minchin.ca
   on:
     branch: pelican
 after_script:
