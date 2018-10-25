@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'http://minchin.ca'
+SITEURL = '//minchin.ca'
 RELATIVE_URLS = False
 LOAD_CONTENT_CACHE = False
 # OUTPUT_PATH = '../minchinweb.github.io-master/'  # default is 'output/'

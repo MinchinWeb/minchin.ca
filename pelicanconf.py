@@ -8,15 +8,15 @@ import seafoam
 CACHE_CONTENT = True
 LOAD_CONTENT_CACHE = True
 
-AUTHOR = u'Wm. Minchin'
-SITENAME = u'Minchin.ca'
+AUTHOR = 'Wm. Minchin'
+SITENAME = 'Minchin.ca'
 # SITEURL = 'http://minchin.ca'
 SITEURL = ''
 SITE_ROOT_URL = SITEURL
 
 TIMEZONE = 'America/Edmonton'
 
-DEFAULT_LANG = u'en'
+DEFAULT_LANG = 'en'
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
