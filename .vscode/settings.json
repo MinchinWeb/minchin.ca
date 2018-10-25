@@ -344,5 +344,5 @@
         "## Other": true,
         "*.sublime-workspace": true
     },
-    "python.pythonPath": "${workspaceFolder}\\venv\\Scripts\\python.exe"
+    "python.pythonPath": "C:\\Python36\\python.exe"
 }
