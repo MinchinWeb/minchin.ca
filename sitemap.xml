@@ -1,32 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://minchin.ca/sitemap-stylesheet.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//minchin.ca/sitemap-stylesheet.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://minchin.ca/</loc>
+<loc>//minchin.ca/</loc>
 <lastmod>2017-08-29</lastmod>
 <changefreq>daily</changefreq>
 <priority>1.00</priority>
 </url><url>
-<loc>http://minchin.ca/projects/</loc>
+<loc>//minchin.ca/projects/</loc>
 <lastmod>2017-08-29</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.50</priority>
 </url><url>
-<loc>http://minchin.ca/about/</loc>
+<loc>//minchin.ca/about/</loc>
 <lastmod>2016-01-01</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.50</priority>
 </url><url>
-<loc>http://minchin.ca/genealogy/</loc>
+<loc>//minchin.ca/genealogy/</loc>
 <lastmod>2014-02-02</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.50</priority>
 </url><url>
-<loc>http://minchin.ca/search/</loc>
+<loc>//minchin.ca/search/</loc>
 <lastmod>2013-12-18</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.50</priority>
 </url><url>
-<loc>http://minchin.ca/contact/</loc>
+<loc>//minchin.ca/contact/</loc>
 <lastmod>2012-12-18</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.50</priority>
