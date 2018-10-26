@@ -1,7 +1,7 @@
 sudo: false  # run on new infrastructure
 language: python
 python:
-  - 3.6
+  - 3.7
 # Cache Dependencies
 cache: pip
 addons:
@@ -19,12 +19,12 @@ install:
 before_script:
   - invoke --list
 script:
-  - invoke publish-carefully
+  - invoke build --carefully --travis
 # see https://github.com/timwis/vizwit/blob/master/.travis.yml#L15-L21
 # see https://travis-ci.org/MinchinWeb/blog.minchin.ca
 deploy:
   provider: pages
-  local_dir: ../minchinweb.github.io-master/
+  local_dir: output
   target-branch: master
   skip-cleanup: true
   keep-history: true
@@ -33,4 +33,4 @@ deploy:
   on:
     branch: pelican
 after_script:
-   - tree -aC ../minchinweb.github.io-master/
+   - tree -aC output
