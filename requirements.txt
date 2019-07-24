@@ -7,7 +7,7 @@
 beautifulsoup4==4.6.3     # via minchin.pelican.plugins.image-process
 blinker==1.4              # via pelican
 click==7.0                # via pip-tools
-docutils==0.14            # via pelican
+docutils==0.15.1            # via pelican
 feedgenerator==1.9        # via pelican
 htmlmin==0.1.12           # via pelican-minify
 invoke==1.2.0
