@@ -1,5 +1,5 @@
 title: My Projects
-modified: August 29, 2017
+modified: July 18, 2020
 slug: projects
 icon: fa fa-flask
 
@@ -128,7 +128,26 @@ I also maintain a profile at [GitHub](https://github.com/MinchinWeb) and post
 the code there for most of these projects and several others as well.
 
 <div class="real-list" markdown=1>
--   **Colourettu** -- 2014-present -- An open-source Python library.
+-   **jrnl** -- 2013-present -- A simple command line journal application that
+    stores your journal in a plain text file, written in Python. I provided
+    Pull Requests to add an 'export to Pelican' feature (see
+    [PR347](https://github.com/jrnl-org/jrnl/pull/347)), expanding
+    documentation (see [PR124](https://github.com/jrnl-org/jrnl/pull/124)), 
+    maintained DayOne ("classic") support (see
+    [PR742](https://github.com/jrnl-org/jrnl/pull/742),
+    [PR773](https://github.com/jrnl-org/jrnl/pull/773),
+    [PR785](https://github.com/jrnl-org/jrnl/pull/785),
+    [PR786](https://github.com/jrnl-org/jrnl/pull/786),
+    [PR928](https://github.com/jrnl-org/jrnl/pull/928), and
+    [PR990](https://github.com/jrnl-org/jrnl/pull/990))
+    and to fix numerous bugs (see
+    [PR110](https://github.com/jrnl-org/jrnl/pull/110),
+    [PR349](https://github.com/jrnl-org/jrnl/pull/349),
+    [PR397](https://github.com/jrnl-org/jrnl/pull/397),
+    [PR416](https://github.com/jrnl-org/jrnl/pull/416),
+    [PR707](https://github.com/jrnl-org/jrnl/pull/704), and
+    [PR909](https://github.com/jrnl-org/jrnl/pull/909)).
+-   **Colourettu** -- 2014-17 -- An open-source Python library.
     Colourettu is a small collection of colour functions that can be used to
     determine the (relative) luminosity of a colour and the contrast between
     two colours. There is also the palette class for dealing with a 'list' of
@@ -137,7 +156,7 @@ the code there for most of these projects and several others as well.
     [documentation](http://minchin.ca/colourettu/) is online, and
     [automated testing](https://travis-ci.org/MinchinWeb/colourettu)
     (continuous integration) is in place.
--   **topydo** -- 2015-present -- A powerful todo list application for the
+-   **topydo** -- 2015-16 -- A powerful todo list application for the
     console, written in Python. I provided several Pull Requests, including to
     provide colour support on Windows CMD (see
     [PR49](https://github.com/bram85/topydo/pull/49)), code style improvements
@@ -152,22 +171,12 @@ the code there for most of these projects and several others as well.
 -   **green** -- 2016 -- A clean, colorful, fast Python test runner. I
     provided a [Pull Request](https://github.com/CleanCut/green/pull/120) to
     resolve issues when outputting colour to Windows CMD.
--   **release** -- 2016 -- A powerful Sphinx changelog-generating extension.
+-   **releases** -- 2016 -- A powerful Sphinx changelog-generating extension.
     (Sphinx in a documentation generator for Python source code.) I
     provided a [Pull Request](https://github.com/bitprophet/releases/pull/61)
     to allow specifing multiple changelog files, and another
     [Pull Request](https://github.com/bitprophet/releases/pull/60) to supply
     the version number to Sphinx.
--   **jrnl** -- 2013-2015 -- A simple command line journal application that
-    stores your journal in a plain text file, written in Python. I provided
-    Pull Requests to add an 'export to Pelican' feature (see
-    [PR347](https://github.com/maebert/jrnl/pull/347)), expanding
-    documentation (see [PR124](https://github.com/maebert/jrnl/pull/124)), and
-    to fix numerous bugs (see
-    [PR110](https://github.com/maebert/jrnl/pull/110),
-    [PR349](https://github.com/maebert/jrnl/pull/349),
-    [PR397](https://github.com/maebert/jrnl/pull/397), and
-    [PR416](https://github.com/maebert/jrnl/pull/416)).
 </div>
 
 <div class="center-block thumbnail max-col-md-9">

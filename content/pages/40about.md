@@ -1,5 +1,5 @@
 title: About
-modified: January 1, 2016
+modified: July 18, 2020
 slug: about
 icon: fa fa-info-circle
 
@@ -59,9 +59,10 @@ which in turn relies on [Twitter Bootstrap](http://getbootstrap.com/).
 The modified colour scheme was inspired
 by [Solarized](http://ethanschoonover.com/solarized).
 
-Font are provided by Google Fonts:
+Font are provided by Google Fonts (although they are now locally hosted by the
+website theme):
 *[Expletus Sans](https://www.google.com/fonts/specimen/Expletus+Sans)* is used
 for headlines and *[Cabin](https://www.google.com/fonts/specimen/Cabin)*
 for body text.
 
-All content is copyright &copy; 2006-2017 Wm. Minchin.
+All content is copyright &copy; 2006-2020 Wm. Minchin.
