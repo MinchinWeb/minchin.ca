@@ -14,7 +14,7 @@ invoke==1.4.1             # via -r ./requirements.in
 jinja2==2.11.2            # via pelican
 joblib==0.16.0            # via pelican-minify
 markdown==3.2.2           # via -r ./requirements.in
-markupsafe==1.1.1         # via jinja2
+markupsafe==2.0.1         # via jinja2
 minchin.pelican.jinja-filters==1.0.4  # via seafoam
 minchin.pelican.plugins.cname==1.2.1  # via -r ./requirements.in
 minchin.pelican.plugins.image-process==1.2.0  # via seafoam
