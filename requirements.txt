@@ -18,7 +18,7 @@ markupsafe==1.1.1         # via jinja2
 minchin.pelican.jinja-filters==1.0.4  # via seafoam
 minchin.pelican.plugins.cname==1.2.1  # via -r ./requirements.in
 minchin.pelican.plugins.image-process==1.2.0  # via seafoam
-minchin.pelican.plugins.nojekyll==1.0.2  # via -r ./requirements.in
+minchin.pelican.plugins.nojekyll==1.1.0  # via -r ./requirements.in
 minchin.pelican.plugins.optimize-images==1.1.1  # via -r ./requirements.in
 pelican-extended-sitemap==1.2.3  # via -r ./requirements.in
 pelican-minify==0.9       # via -r ./requirements.in
