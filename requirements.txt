@@ -4,38 +4,87 @@
 #
 #    pip-compile --output-file=./requirements.txt ./requirements.in
 #
-beautifulsoup4==4.9.1     # via minchin.pelican.plugins.image-process
-blinker==1.4              # via pelican
-click==7.1.2              # via pip-tools
-docutils==0.16            # via pelican
-feedgenerator==1.9.1      # via pelican
-htmlmin==0.1.12           # via pelican-minify
-invoke==1.4.1             # via -r ./requirements.in
-jinja2==2.11.2            # via pelican
-joblib==0.16.0            # via pelican-minify
-markdown==3.2.2           # via -r ./requirements.in
-markupsafe==1.1.1         # via jinja2
-minchin.pelican.jinja-filters==1.0.4  # via seafoam
-minchin.pelican.plugins.cname==1.2.1  # via -r ./requirements.in
-minchin.pelican.plugins.image-process==1.2.0  # via seafoam
-minchin.pelican.plugins.nojekyll==1.0.2  # via -r ./requirements.in
-minchin.pelican.plugins.optimize-images==1.1.1  # via -r ./requirements.in
-pelican-extended-sitemap==1.2.3  # via -r ./requirements.in
-pelican-minify==0.9       # via -r ./requirements.in
-pelican==4.2.0            # via -r ./requirements.in, minchin.pelican.jinja-filters, minchin.pelican.plugins.cname, minchin.pelican.plugins.image-process, minchin.pelican.plugins.nojekyll, minchin.pelican.plugins.optimize-images, pelican-minify, seafoam
-pillow==7.2.0             # via minchin.pelican.plugins.image-process
-pip-tools==5.2.1          # via -r ./requirements.in
-pygments==2.6.1           # via pelican
-python-dateutil==2.8.1    # via pelican
-pytz==2020.1              # via feedgenerator, pelican
-regex==2020.7.14          # via titlecase
-seafoam==2.5.0            # via -r ./requirements.in
-six==1.15.0               # via feedgenerator, minchin.pelican.plugins.image-process, pelican, pip-tools, python-dateutil
-smartypants==2.0.1        # via typogrify
-soupsieve==2.0.1          # via beautifulsoup4
-titlecase==1.1.1          # via minchin.pelican.jinja-filters
-typogrify==2.0.7          # via -r ./requirements.in
-unidecode==1.1.1          # via pelican
+beautifulsoup4==4.9.1
+    # via pelican-image-process
+blinker==1.4
+    # via pelican
+click==7.1.2
+    # via pip-tools
+docutils==0.16
+    # via pelican
+feedgenerator==1.9.1
+    # via pelican
+htmlmin==0.1.12
+    # via pelican-minify
+invoke==1.4.1
+    # via -r requirements.in
+jinja2==2.11.2
+    # via pelican
+joblib==0.16.0
+    # via pelican-minify
+lxml==4.6.3
+    # via pelican-image-process
+markdown==3.2.2
+    # via -r requirements.in
+markupsafe==1.1.1
+    # via jinja2
+minchin.pelican.plugins.cname==1.2.1
+    # via -r requirements.in
+minchin.pelican.plugins.nojekyll==1.0.2
+    # via -r requirements.in
+minchin.pelican.plugins.optimize-images==1.1.1
+    # via -r requirements.in
+pelican-extended-sitemap==1.2.3
+    # via -r requirements.in
+pelican-image-process==2.1.2
+    # via seafoam
+pelican-jinja-filters==2.1.0
+    # via seafoam
+pelican-minify==0.9
+    # via -r requirements.in
+pelican==4.2.0
+    # via
+    #   -r requirements.in
+    #   minchin.pelican.plugins.cname
+    #   minchin.pelican.plugins.nojekyll
+    #   minchin.pelican.plugins.optimize-images
+    #   pelican-image-process
+    #   pelican-jinja-filters
+    #   pelican-minify
+    #   seafoam
+pillow==8.2.0
+    # via pelican-image-process
+pip-tools==5.2.1
+    # via -r requirements.in
+pygments==2.6.1
+    # via pelican
+python-dateutil==2.8.1
+    # via pelican
+pytz==2020.1
+    # via
+    #   feedgenerator
+    #   pelican
+regex==2020.7.14
+    # via titlecase
+seafoam==2.5.0
+    # via -r requirements.in
+six==1.15.0
+    # via
+    #   feedgenerator
+    #   pelican
+    #   pelican-image-process
+    #   pip-tools
+    #   python-dateutil
+smartypants==2.0.1
+    # via typogrify
+soupsieve==2.0.1
+    # via beautifulsoup4
+titlecase==1.1.1
+    # via pelican-jinja-filters
+typogrify==2.0.7
+    # via -r requirements.in
+unidecode==1.1.1
+    # via pelican
 
 # The following packages are considered to be unsafe in a requirements file:
 # pip
