@@ -24,7 +24,7 @@ pelican-extended-sitemap==1.2.3  # via -r ./requirements.in
 pelican-minify==0.9       # via -r ./requirements.in
 pelican==4.2.0            # via -r ./requirements.in, minchin.pelican.jinja-filters, minchin.pelican.plugins.cname, minchin.pelican.plugins.image-process, minchin.pelican.plugins.nojekyll, minchin.pelican.plugins.optimize-images, pelican-minify, seafoam
 pillow==7.2.0             # via minchin.pelican.plugins.image-process
-pip-tools==5.2.1          # via -r ./requirements.in
+pip-tools==6.2.0          # via -r ./requirements.in
 pygments==2.6.1           # via pelican
 python-dateutil==2.8.1    # via pelican
 pytz==2020.1              # via feedgenerator, pelican
