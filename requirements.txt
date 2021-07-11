@@ -10,7 +10,7 @@ click==7.1.2              # via pip-tools
 docutils==0.16            # via pelican
 feedgenerator==1.9.1      # via pelican
 htmlmin==0.1.12           # via pelican-minify
-invoke==1.4.1             # via -r ./requirements.in
+invoke==1.6.0             # via -r ./requirements.in
 jinja2==2.11.2            # via pelican
 joblib==0.16.0            # via pelican-minify
 markdown==3.2.2           # via -r ./requirements.in
