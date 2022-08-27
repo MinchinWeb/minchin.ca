@@ -2,7 +2,9 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 from datetime import date
-import seafoam
+
+from minchin.pelican.plugins import autoloader
+# from pelican.plugins import seafoam
 
 # Caching
 CACHE_CONTENT = True
@@ -100,7 +102,7 @@ TEMPLATE_PAGES = {
 
 # Theme Related
 TYPOGRIFY = True
-THEME = seafoam.get_path()
+# THEME = seafoam.get_path()
 BOOTSTRAP_THEME = "seafoam"
 SITELOGO = "images/MinchindotCA-200.png"
 SITELOGO_SIZE = "100%"
@@ -113,11 +115,16 @@ DOCUTIL_CSS = False
 INDEX_COPY_DATE = "2007-{}".format(str(date.today().year)[-2:])
 
 # Plugins
-PLUGIN_PATHS = [
-    "../pelican-plugins",
-]
+# PLUGIN_PATHS = [
+#     "../pelican-plugins",
+# ]
 PLUGINS = [
-    "minchin.pelican.jinja_filters",  # required by seafoam theme
+    # "minchin.pelican.jinja_filters",  # required by seafoam theme
+    "minchin.pelican.plugins.autoloader",
+]
+AUTOLOADER_NAMESPACES = autoloader.DEFAULT_NAMESPACE_LIST + [
+    "pelican.plugins",
+    # other namespaces
 ]
 
 ASSET_CSS = False
