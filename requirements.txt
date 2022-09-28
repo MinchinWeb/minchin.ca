@@ -111,7 +111,7 @@ tomli==2.0.1
     #   pep517
 typogrify==2.0.7
     # via -r requirements.in
-unidecode==1.3.4
+unidecode==1.3.5
     # via pelican
 wheel==0.37.1
     # via pip-tools
