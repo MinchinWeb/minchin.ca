@@ -73,7 +73,7 @@ pep517==0.13.0
     # via build
 pillow==9.2.0
     # via pelican-image-process
-pip-tools==6.8.0
+pip-tools==6.10.0
     # via -r requirements.in
 pygments==2.13.0
     # via
