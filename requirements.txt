@@ -48,7 +48,7 @@ minchin-pelican-plugins-nojekyll==1.1.1
     # via -r requirements.in
 minchin-pelican-plugins-optimize-images==1.2.1
     # via -r requirements.in
-packaging==21.3
+packaging==23.0
     # via build
 pelican==4.8.0
     # via
