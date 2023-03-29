@@ -22,14 +22,12 @@ def clean(ctx):
 
 
 @task
-def build(ctx, publish=False, carefully=False, travis=False):
+def build(ctx, publish=False, carefully=False):
     """Build a local version of the blog."""
 
     config = "pelicanconf.py"
     if publish:
         config = "publishconf.py"
-    if travis:
-        config = "travisconf.py"
 
     if carefully:
         carefully_cli = " --fatal=warnings"
