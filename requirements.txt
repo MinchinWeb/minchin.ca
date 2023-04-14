@@ -20,7 +20,7 @@ colorama==0.4.6
     #   click
 docutils==0.19
     # via pelican
-feedgenerator==2.0.0
+feedgenerator==2.1.0
     # via pelican
 htmlmin==0.1.12
     # via pelican-minify
