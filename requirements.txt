@@ -18,7 +18,7 @@ colorama==0.4.6
     # via
     #   build
     #   click
-docutils==0.19
+docutils==0.20.1
     # via pelican
 feedgenerator==2.0.0
     # via pelican
