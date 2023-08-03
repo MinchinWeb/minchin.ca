@@ -73,7 +73,7 @@ pelican-minify==0.9
     # via -r requirements.in
 pillow==9.4.0
     # via pelican-image-process
-pip-tools==6.12.3
+pip-tools==7.2.0
     # via -r requirements.in
 pygments==2.14.0
     # via
