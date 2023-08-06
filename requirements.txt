@@ -75,7 +75,7 @@ pillow==9.4.0
     # via pelican-image-process
 pip-tools==6.12.3
     # via -r requirements.in
-pygments==2.14.0
+pygments==2.16.1
     # via
     #   pelican
     #   rich
