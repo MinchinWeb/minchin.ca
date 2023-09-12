@@ -1,5 +1,5 @@
 title: My Wishlist
-modified: July 18, 2020
+modified: Sept 11, 2023
 slug: wishlist
 status: hidden
 
@@ -17,14 +17,11 @@ random things I've had running through my head. In no particular order:
     and
     [4](http://www.byubookstore.com/ePOS?this_category=278&store=439&item_number=1-59156-574-X&form=shared3/gm/detail.html&design=439)
     at the BYU Bookstore)-->
-- 1080p projector
+- 4k projector
 - dash camera
 - ChiliPad Queen <!-- https://www.chilitechnology.com/products/chilipad-cube-dual-zone-queen -->
 - raclette cheese
-- crescent wrench set
-- tree branch trimmer (like Dad's, red handle, about 2 feet long)
 - metric impact wrench sockets
-- snow blower
 - *Killer Bunnies* (card game)
 - Microsoft Surface Pro
 - LEGO
