@@ -1,5 +1,5 @@
 title: My Model Railroad Roaster
-modified: Sept 21, 2023
+modified: Oct 4, 2023
 slug: rr
 status: hidden
 
@@ -7,7 +7,7 @@ status: hidden
 | ---- | ---------- | -------------------------- | -------------- | ---------------- | -------------- | ---------------------- | ----- | ------------------------------------------ |
 | CP   | Jupiter    |                            | American 4-4-0 | Bachmann         | 51174          |                        |       | DC                                         |
 | CP   | 9138       | Golden Beaver              | SD90/43MAC     | Kato             | 176-5616       | Edmonton train show    |       | DC                                         |
-| SNCF | X73816     | TER                        | X73500         | Arnold           | HN2479         | Hampshire Models, 2023 | ~$240 | DC                                         |
+| SNCF | X73816     | TER                        | X73500         | Arnold           | HN2479         | Hampshire Models, 2023 | ~$280 | DC                                         |
 | \*   |            |                            |                |                  |                |                        |       |                                            |
 | SP   | 101        | Daylight                   | 36' OT         | Roundhouse       | 8909           | Edmonton train show    |       | Overton Coach                              |
 | SP   | 102        | Daylight                   | 36' OT         | Roundhouse       | 8910           | Edmonton train show    |       | Overton Combine                            |
