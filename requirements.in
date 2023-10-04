@@ -10,3 +10,6 @@ pelican-minify
 pip-tools
 seafoam >= 2.4.1
 typogrify
+
+# sub-dependencies; minimums for security
+pillow >= 10.0.1
