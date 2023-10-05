@@ -1,11 +1,12 @@
 title: Terms of Use for Minchin.ca (and subdomains)
-modified: 2023-10-04 22:43 -0600
+modified: 2023-10-05 09:59 -0600
 status: hidden
+slug: terms
 
 These are the Terms of Use that govern your use of
 [minchin.ca](https://minchin.ca) and its subdomains (this "Site"). If you do
 not agree to be bound by these Terms of Use, you are not authorized to use this
-Site. Furthermore, you agree to only access this Site in a legal manor.
+Site. Furthermore, you agree to only access this Site in a legal manner.
 
 The contents of this Site (unless otherwise indicated) are owned by W. Minchin
 (the "Webmaster"); the Webmaster reserves the copyright in these contents, a
@@ -15,7 +16,7 @@ the Site name and logo that you agree to respect.
 The contents of this Site is believed to be accurate when published, but are
 supplied "As Is" and without warranty of any kind, expess or implied, and the
 contents may no longer be accurate or up to date. It is your responsibility to
-verify any information presented here you wish to rely on.
+verify any information presented here that you wish to rely on.
 
 You are invited to provide comments ("Comments") on many pages of this Site. If
 you provide Comments, you retain your copyright in them, however you grant the
@@ -64,7 +65,7 @@ These Terms of Use are our entire agreement, and superseed any prior agreement.
 
 Any disputes arise under these Terms of Use or your use of the website will be
 resolved under the laws of Alberta without regard conflict of law rules. You
-agree to bring any claim under these Terms of Use before the courts of Alberta.
+agree to bring any claim under these Terms of Use before the Courts of Alberta.
 
 These Terms of Use are subject to revision without notice; new revisions will
 be posted to this page. Your continued use of this Site and/or material from
