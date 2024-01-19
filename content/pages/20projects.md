@@ -35,7 +35,7 @@ My highway planning is all done offline, but I'll provide links where I can.
 -   **Burma Road Gravel Pit TIA** -- 2024, Calgary, Alberta -- Intersection
     (Synchro) modelling, intersection treatment warrant <!-- 4171.T01 -->
 -   **McTel/Douglasdale TIA** -- 2023, Calgary, Alberta -- Traffic generation,
-    intersetion (Synchro) modelling, multi-use internal site capture, right of
+    intersection (Synchro) modelling, multi-use internal site capture, right of
     way review, parking (vehicle, bicycle, and loading stalls) review, transit
     review <!-- 4161.T01 -->
 -   **Hughes Gravel Pit Access Review** -- 2023, County of Rocky View, Alberta --
