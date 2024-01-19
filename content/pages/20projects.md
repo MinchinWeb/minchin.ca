@@ -1,29 +1,28 @@
 title: My Projects
-modified: July 18, 2020
+modified: January 19, 2024
 slug: projects
 icon: fa fa-flask
 
 <!-- _ Heading Photos are 16x9 ratio, 688x387px -->
 Lots of the Stuff I've Done.
 
-Over the years, I've worked on a number of projects, both online &
-off. This is meant to link to some of the more exciting ones,
-particularly those found online.
+Over the years, I've worked on a number of projects, both online & off. This is
+meant to link to some of the more exciting ones, particularly those found
+online.
 
 Highway Planning
 ----------------
 
 My highway and transportation projects have largely consisted of *Functional
-Planning Studies* (FPS) and *Traffic Impact Analyses*. A *Functional Planning
-Study* will look at a section of highway and image how it might be used into
-the future. A common time horizon for these studies is 50 years out. A
-*Traffic Impact Analysis* is usually smaller in both geography and time, many
+Planning Studies* (FPS's) and *Traffic Impact Analyses* (TIAs). A *Functional
+Planning Study* will look at a section of highway and image how it might be
+used into the future. A common time horizon for these studies is 50 years out.
+A *Traffic Impact Analysis* is usually smaller in both geography and time, many
 times looking at an intersection 5 to 20 years into the future. A TIA will
 often be done to determine what road system improvements should be made as a
 result of a adjacent, proposed land development project.
 
-My highway planning is all done offline, but I'll provide links where I
-can.
+My highway planning is all done offline, but I'll provide links where I can.
 
 <div class="center-block thumbnail max-col-md-9">
 	<img src="../images/morinville-roundabout-688.jpg" />
@@ -31,56 +30,69 @@ can.
 </div>
 
 <div class="real-list" markdown=1>
--   **Highway 642 Functional Planning Study** -- 2012-13, Morinville, AB --
-    Traffic forecasting and modeling, prepared proposed corridor treatment,
-    public open houses ([link](http://www.morinville.ca/index.php/fps))
--   **Mildred Lake Traffic Impact Analysis (TIA)** -- 2012-13, RM Wood
-    Buffalo, AB -- Analysing traffic counts, traffic modeling, traffic
-    projections, and intersection treatment warrants
--   **Avenir / Cassidy Lands / St Albert Sports City** -- 2012, St
-    Albert, AB -- traffic modelling and intersection analysis
--   **Bellamy Hill TIA** -- 2012, Edmonton, AB -- Site traffic generation
+-   **East Vistas Outline Plan TIA** -- 2024, Leduc County, Alberta -- Traffic
+    generation, traffic distribution, capacity analysis <!-- 4173.T01 -->
+-   **Burma Road Gravel Pit TIA** -- 2024, Calgary, Alberta -- Intersection
+    (Synchro) modelling, intersection treatment warrant <!-- 4171.T01 -->
+-   **McTel/Douglasdale TIA** -- 2023, Calgary, Alberta -- Traffic generation,
+    intersetion (Synchro) modelling, multi-use internal site capture, right of
+    way review, parking (vehicle, bicycle, and loading stalls) review, transit
+    review <!-- 4161.T01 -->
+-   **Hughes Gravel Pit Access Review** -- 2023, County of Rocky View, Alberta --
+    Intersection treatment warrant <!-- 4142.T01 -->
+-   **Highway 512 & Range Road 210A Transportation Review** -- 2023,
+    Lethbridge, Alberta -- Intersection treatment warrant <!-- 4157.T01 -->
+-   **Star Building Supplies TIA** -- 2023, Balzac, Alberta -- Parking review,
+    trip generation, access management <!-- 3857.E01 -->
+-   **Highway 642 Functional Planning Study** (FPS) -- 2012-13, Morinville,
+    Alberta -- Traffic forecasting and modeling, prepared proposed corridor
+    treatment, public open houses
+    ([historical capture of final report](https://web.archive.org/web/20170628111039/http://www.morinville.ca/index.php/fps))
+-   **Mildred Lake TIA** -- 2012-13, RM Wood Buffalo, Alberta -- Analysing
+    traffic counts, traffic modeling, traffic projections, and intersection
+    treatment warrants
+-   **Avenir / Cassidy Lands / St Albert Sports City** -- 2012, St Albert,
+    Alberta -- traffic modelling and intersection analysis
+-   **Bellamy Hill TIA** -- 2012, Edmonton, Alberta -- Site traffic generation
     and site access requirements
--   **Grove Drive & Pioneer Road** -- 2012, Spruce Grove, AB --
+-   **Grove Drive & Pioneer Road** -- 2012, Spruce Grove, Alberta --
     Preliminary roundabout design and analysis
--   **Grove Drive & Spruce Village Way** -- 2012, Spruce Grove, AB --
+-   **Grove Drive & Spruce Village Way** -- 2012, Spruce Grove, Alberta --
     Intersection level of service analysis and pedestrian crossing
     control warrant analysis
--   **Grove Drive & Spruce Ridge Road** -- 2012, Spruce Grove, AB --
+-   **Grove Drive & Spruce Ridge Road** -- 2012, Spruce Grove, Alberta --
     Intersection level of service analysis
--   **Queen Street & Jespersen Avenue, Queen Street & Church Road** --
-    2012, Spruce Grove, AB -- Intersection level of service analysis
--   **Highway 16 & Campsite Road Interchange** -- 2012, Spruce Grove, AB --
+-   **Queen Street & Jespersen Avenue, Queen Street & Church Road** -- 2012,
+    Spruce Grove, Alberta -- Intersection level of service analysis
+-   **Highway 16 & Campsite Road Interchange** -- 2012, Spruce Grove, Alberta --
     traffic volume forecasts
--   **Highway 14 Passing Lanes** -- 2012, Alberta Transportation -- Public
-    open house
--   **Meadow Hawk Estates** -- 2012, Strathcona County, AB -- Traffic
+-   **Highway 14 Passing Lanes** -- 2012, Strathcona County, Alberta / Alberta
+    Transportation -- Public open house
+-   **Meadow Hawk Estates** -- 2012, Strathcona County, Alberta -- Traffic
     modelling and intersection treatment warrants
--   **Ardrossan Lands** -- 2012, Strathcona County, AB -- Traffic
+-   **Ardrossan Lands** -- 2012, Strathcona County, Alberta -- Traffic
     modelling and intersection treatment warrants
 -   **Highway 2 Functional Planning Study** (North of Morinville to
     North of Clyde) -- 2012, Alberta Transportation -- Access management
     and cost estimate
--   **Taylor Drive** -- 2011-12, Red Deer, AB -- Traffic forecasting and
+-   **Taylor Drive** -- 2011-12, Red Deer, Alberta -- Traffic forecasting and
     Synchro modeling for proposed geometric improvements
 -   **Highway 11** (East of Rocky Mountain House to West of Sylvan Lake) --
     2011, Alberta Transportation -- Preliminary geometric assessment,
     field work for report preparation
--   **Highways 13 & 21 Roundabout** -- 2011, Alberta Transportation --
+-   **Highways 13 & 21 Roundabout** -- 2011, Camrose, Alberta / Alberta Transportation --
     Synchro modeling of the roundabout, AutoTURN modelling, Public open
     house
--   **Tomlinson Acreage** -- 2011, Strathcona County, AB -- Traffic Impact
-    Analysis
--   **Provo Towne Centre Site Redevelopment** -- 2010, Provo, UT --
+-   **Tomlinson Acreage TIA** -- 2011, Strathcona County, Alberta
+-   **Provo Towne Centre Site Redevelopment** -- 2010, Provo, Utah --
     Traffic Impact Analysis for proposed mixed use redevelopment
--   **US-6 & US-89 Junction** -- 2010, Spanish Fork Canyon, UT -- Drafting
+-   **US-6 & US-89 Junction** -- 2010, Spanish Fork Canyon, Utah -- Drafting
     and design of proposed alignment for highway twinning
--   **Highway 1** (East of Calgary) -- 2008, Alberta Transportation --
-    Functional Planning Study, traffic forecasting and alternative
-    routings developed
--   **Highway 28A** -- 2008, CFB Namao, AB -- Traffic counting
--   **Highways 2A & 616** -- 2008, Kaynaugh, AB -- Traffic counting
--   **Highways 2 & 3 Urban Bypass** -- 2008, Fort MacLeod, AB -- Traffic
+-   **Highway 1 FPS** (East of Calgary) -- 2008, Alberta Transportation --
+    Traffic forecasting and alternative routings developed
+-   **Highway 28A** -- 2008, CFB Namao, Alberta -- Traffic counting
+-   **Highways 2A & 616** -- 2008, Kaynaugh, Alberta -- Traffic counting
+-   **Highways 2 & 3 Urban Bypass** -- 2008, Fort MacLeod, Alberta -- Traffic
     forecasting and modeling
 </div>
 
