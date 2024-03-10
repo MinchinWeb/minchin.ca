@@ -6,7 +6,7 @@ minchin.pelican.plugins.nojekyll
 minchin.pelican.plugins.optimize_images
 pelican >= 3.7
 pelican-extended-sitemap
-pelican-minify
+# pelican-minify  # causes issues with jquery
 pip-tools
 seafoam >= 2.4.1
 typogrify
