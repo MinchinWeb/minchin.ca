@@ -25,19 +25,24 @@ result of a adjacent, proposed land development project.
 My highway planning is all done offline, but I'll provide links where I can.
 
 <div class="center-block thumbnail max-col-md-9">
-	<img src="../images/morinville-roundabout-688.jpg" />
-	<caption>Proposed Roundabout on Highway 642 in Morinville</caption>
+    <img src="../images/morinville-roundabout-688.jpg" />
+    <caption>Proposed Roundabout on Highway 642 in Morinville</caption>
 </div>
 
 <div class="real-list" markdown=1>
--   **East Vistas Outline Plan TIA** -- 2024, Leduc County, Alberta -- Traffic
-    generation, traffic distribution, capacity analysis <!-- 4173.T01 -->
+-   **East Vistas Outline Plan TIA** -- 2024, Leduc County, Alberta -- *For an
+    urban residential node between Beaumont and Nisku. Part of me wishes that
+    Highway 625 (that runs along the south side of both the development and
+    Beaumont) would have been designated a "future freeway" (aka Edmonton Ring
+    Road #2) a long time ago....* -- Traffic generation, traffic distribution,
+    capacity analysis <!-- 4173.T01 -->
 -   **Burma Road Gravel Pit TIA** -- 2024, Calgary, Alberta -- Intersection
     (Synchro) modelling, intersection treatment warrant <!-- 4171.T01 -->
--   **McTel/Douglasdale TIA** -- 2023, Calgary, Alberta -- Traffic generation,
-    intersection (Synchro) modelling, multi-use internal site capture, right of
-    way review, parking (vehicle, bicycle, and loading stalls) review, transit
-    review <!-- 4161.T01 -->
+-   **McTel/Douglasdale TIA** -- 2023, Calgary, Alberta -- *A large residential
+    complex to be built at a station of the under-construction Green Line LRT
+    in Calgary.* -- Traffic generation, intersection (Synchro) modelling,
+    multi-use internal site capture, right of way review, parking (vehicle,
+    bicycle, and loading stalls) review, transit review <!-- 4161.T01 -->
 -   **Hughes Gravel Pit Access Review** -- 2023, County of Rocky View, Alberta --
     Intersection treatment warrant <!-- 4142.T01 -->
 -   **Highway 512 & Range Road 210A Transportation Review** -- 2023,
@@ -45,10 +50,16 @@ My highway planning is all done offline, but I'll provide links where I can.
 -   **Star Building Supplies TIA** -- 2023, Balzac, Alberta -- Parking review,
     trip generation, access management <!-- 3857.E01 -->
 -   **Highway 642 Functional Planning Study** (FPS) -- 2012-13, Morinville,
-    Alberta -- Traffic forecasting and modeling, prepared proposed corridor
-    treatment, public open houses
+    Alberta -- *Very enjoyable project that invoked working very closely with
+    the planners as they developed the Area Structure Plan (ASP) at the same
+    time. Ultimately proposed a series of roundabouts, in part to minimize the
+    additional right of way required to maintian a functional "main street".* --
+    Traffic forecasting and modeling, prepared proposed corridor treatment,
+    public open houses
     ([historical capture of final report](https://web.archive.org/web/20170628111039/http://www.morinville.ca/index.php/fps))
--   **Mildred Lake TIA** -- 2012-13, RM Wood Buffalo, Alberta -- Analysing
+-   **Mildred Lake TIA** -- 2012-13, RM Wood Buffalo, Alberta -- *This was
+    fun as the crossing vehicles at the intersection where oversided mine
+    trucks!* -- Analysing
     traffic counts, traffic modeling, traffic projections, and intersection
     treatment warrants
 -   **Avenir / Cassidy Lands / St Albert Sports City** -- 2012, St Albert,
@@ -67,7 +78,10 @@ My highway planning is all done offline, but I'll provide links where I can.
 -   **Highway 16 & Campsite Road Interchange** -- 2012, Spruce Grove, Alberta --
     traffic volume forecasts
 -   **Highway 14 Passing Lanes** -- 2012, Strathcona County, Alberta / Alberta
-    Transportation -- Public open house
+    Transportation -- *These have since been built. By volume alone, the highway
+    here could probably warrant being twinning, but isn't because of higher
+    political priorities, so this is being used as a stop-gap for the present
+    time.* -- Public open house
 -   **Meadow Hawk Estates** -- 2012, Strathcona County, Alberta -- Traffic
     modelling and intersection treatment warrants
 -   **Ardrossan Lands** -- 2012, Strathcona County, Alberta -- Traffic
@@ -78,9 +92,18 @@ My highway planning is all done offline, but I'll provide links where I can.
 -   **Taylor Drive** -- 2011-12, Red Deer, Alberta -- Traffic forecasting and
     Synchro modeling for proposed geometric improvements
 -   **Highway 11** (East of Rocky Mountain House to West of Sylvan Lake) --
-    2011, Alberta Transportation -- Preliminary geometric assessment,
+    2011, Alberta Transportation -- *This involved walking most of the highway
+    length between Slyvan Lake and Rocky Mountain House. The highway has been a
+    highway for a long time, and so some of the culverts were wooden! (and
+    probably close to 100 years old!) Eventually, this highway will be twinned,
+    but that project will likely prove messy as Highway 11 runs down a
+    correction line, which means that the intersections on the north and south
+    sides of the highway don't line up.* -- Preliminary geometric assessment,
     field work for report preparation
 -   **Highways 13 & 21 Roundabout** -- 2011, Camrose, Alberta / Alberta Transportation --
+    *This roundabout has since been built, and is able to handle a combine! Part
+    of the reason for building this was that gravel trucks were running the
+    existing stop light!* --
     Synchro modeling of the roundabout, AutoTURN modelling, Public open
     house
 -   **Tomlinson Acreage TIA** -- 2011, Strathcona County, Alberta
@@ -92,8 +115,9 @@ My highway planning is all done offline, but I'll provide links where I can.
     Traffic forecasting and alternative routings developed
 -   **Highway 28A** -- 2008, CFB Namao, Alberta -- Traffic counting
 -   **Highways 2A & 616** -- 2008, Kaynaugh, Alberta -- Traffic counting
--   **Highways 2 & 3 Urban Bypass** -- 2008, Fort MacLeod, Alberta -- Traffic
-    forecasting and modeling
+-   **Highways 2 & 3 Urban Bypass** -- 2008, Fort MacLeod, Alberta -- *Looking
+    at how to build a highway bypass for Fort MacLeod; the highway currently is
+    "Main Street"* -- Traffic forecasting and modeling
     ([Open House slides]({static}../projects/highway-planning/OH2Hwys2and3FtMacleod.pdf))
 </div>
 
@@ -107,9 +131,9 @@ design for others as well.
 -   **[Minchin.ca](http://www.Minchin.ca/index.html) -- Bootstrap Edition** --
     2014-present -- in the 7 years since I originally designed the site,
     one of the
-	biggest changes is that so much of the web in now accessed through smart
-	phones. So this redesign was in large part abour making the site look good
-	on my phone. The theme has now been repackaged as
+    biggest changes is that so much of the web in now accessed through smart
+    phones. So this redesign was in large part abour making the site look good
+    on my phone. The theme has now been repackaged as
     [Seafoam](https://github.com/minchinweb/seafoam), a standalone theme for
     Pelican, a static site generator written in Python and what is used to
     generate this site.
@@ -145,7 +169,7 @@ the code there for most of these projects and several others as well.
     stores your journal in a plain text file, written in Python. I provided
     Pull Requests to add an 'export to Pelican' feature (see
     [PR347](https://github.com/jrnl-org/jrnl/pull/347)), expanding
-    documentation (see [PR124](https://github.com/jrnl-org/jrnl/pull/124)), 
+    documentation (see [PR124](https://github.com/jrnl-org/jrnl/pull/124)),
     maintained DayOne ("classic") support (see
     [PR742](https://github.com/jrnl-org/jrnl/pull/742),
     [PR773](https://github.com/jrnl-org/jrnl/pull/773),
@@ -193,8 +217,8 @@ the code there for most of these projects and several others as well.
 </div>
 
 <div class="center-block thumbnail max-col-md-9">
-	<img src="../images/wmdot-twinned-freeways-688.png" />
-	<caption>WmDOT in action</caption>
+    <img src="../images/wmdot-twinned-freeways-688.png" />
+    <caption>WmDOT in action</caption>
 </div>
 
 <div class="real-list" markdown=1>
@@ -258,7 +282,7 @@ Photography
 -----------
 
 <div class="center-block thumbnail max-col-md-9">
-	<img src="../images/IMG_3252-paris-skyline-688.JPG" />
+    <img src="../images/IMG_3252-paris-skyline-688.JPG" />
 </div>
 
 <div class="real-list" markdown=1>
@@ -276,7 +300,7 @@ Videos
 ------
 
 <div class="center-block thumbnail max-col-md-9">
-	<img src="../images/Lego-stop-motion-688.jpg" />
+    <img src="../images/Lego-stop-motion-688.jpg" />
 </div>
 
 <div class="real-list" markdown=1>
