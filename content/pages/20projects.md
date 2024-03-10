@@ -94,6 +94,7 @@ My highway planning is all done offline, but I'll provide links where I can.
 -   **Highways 2A & 616** -- 2008, Kaynaugh, Alberta -- Traffic counting
 -   **Highways 2 & 3 Urban Bypass** -- 2008, Fort MacLeod, Alberta -- Traffic
     forecasting and modeling
+    ([Open House slides]({static}../projects/highway-planning/OH2Hwys2and3FtMacleod.pdf))
 </div>
 
 Web Design
