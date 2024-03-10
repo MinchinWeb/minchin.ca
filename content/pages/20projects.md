@@ -1,5 +1,5 @@
 title: My Projects
-modified: January 19, 2024
+modified: March 9, 2024
 slug: projects
 icon: fa fa-flask
 
@@ -50,12 +50,12 @@ My highway planning is all done offline, but I'll provide links where I can.
 -   **Star Building Supplies TIA** -- 2023, Balzac, Alberta -- Parking review,
     trip generation, access management <!-- 3857.E01 -->
 -   **Highway 642 Functional Planning Study** (FPS) -- 2012-13, Morinville,
-    Alberta -- *Very enjoyable project that invoked working very closely with
-    the planners as they developed the Area Structure Plan (ASP) at the same
-    time. Ultimately proposed a series of roundabouts, in part to minimize the
-    additional right of way required to maintian a functional "main street".* --
-    Traffic forecasting and modeling, prepared proposed corridor treatment,
-    public open houses
+    Alberta -- *Very enjoyable project that involved working very closely with
+    the planners as they developed the Area Structure Plan (ASP) for "downtown"
+    Morinville at the same time. We ultimately proposed a series of roundabouts,
+    in part to minimize the additional right of way required to maintian a
+    functional "main street".* -- Traffic forecasting and modeling, prepared
+    proposed corridor treatment, public open houses
     ([historical capture of final report](https://web.archive.org/web/20170628111039/http://www.morinville.ca/index.php/fps))
 -   **Mildred Lake TIA** -- 2012-13, RM Wood Buffalo, Alberta -- *This was
     fun as the crossing vehicles at the intersection where oversided mine
@@ -79,9 +79,9 @@ My highway planning is all done offline, but I'll provide links where I can.
     traffic volume forecasts
 -   **Highway 14 Passing Lanes** -- 2012, Strathcona County, Alberta / Alberta
     Transportation -- *These have since been built. By volume alone, the highway
-    here could probably warrant being twinning, but isn't because of higher
-    political priorities, so this is being used as a stop-gap for the present
-    time.* -- Public open house
+    here could probably warrant being twinned, but hasn't been done because of
+    higher political priorities, so this is being used as a stop-gap for the
+    present time.* -- Public open house
 -   **Meadow Hawk Estates** -- 2012, Strathcona County, Alberta -- Traffic
     modelling and intersection treatment warrants
 -   **Ardrossan Lands** -- 2012, Strathcona County, Alberta -- Traffic
@@ -98,7 +98,8 @@ My highway planning is all done offline, but I'll provide links where I can.
     probably close to 100 years old!) Eventually, this highway will be twinned,
     but that project will likely prove messy as Highway 11 runs down a
     correction line, which means that the intersections on the north and south
-    sides of the highway don't line up.* -- Preliminary geometric assessment,
+    sides of the highway don't line up, and many of the historical farm houses
+    were built very close to the highway.* -- Preliminary geometric assessment,
     field work for report preparation
 -   **Highways 13 & 21 Roundabout** -- 2011, Camrose, Alberta / Alberta Transportation --
     *This roundabout has since been built, and is able to handle a combine! Part
@@ -129,8 +130,8 @@ design for others as well.
 
 <div class="real-list" markdown=1>
 -   **[Minchin.ca](http://www.Minchin.ca/index.html) -- Bootstrap Edition** --
-    2014-present -- in the 7 years since I originally designed the site,
-    one of the
+    2014-present -- in the 7 years before this since I originally designed the
+    site, one of the
     biggest changes is that so much of the web in now accessed through smart
     phones. So this redesign was in large part abour making the site look good
     on my phone. The theme has now been repackaged as
@@ -165,25 +166,30 @@ I also maintain a profile at [GitHub](https://github.com/MinchinWeb) and post
 the code there for most of these projects and several others as well.
 
 <div class="real-list" markdown=1>
--   **jrnl** -- 2013-present -- A simple command line journal application that
-    stores your journal in a plain text file, written in Python. I provided
+<!-- Pelican and plugins -->
+-   **jrnl** -- 2013-23 -- A simple command line journal application that
+    stores your journal in a plain text file, written in Python. I ended up
+    [forking the project](https://blog.minchin.ca/2023/09/minchin-jrnl-700-released.html)
+    to maintain functionality that I used daily that had been removed by the
+    (new) maintainers. This was the first open source projects I significantly
+    contributed to. I provided
     Pull Requests to add an 'export to Pelican' feature (see
-    [PR347](https://github.com/jrnl-org/jrnl/pull/347)), expanding
-    documentation (see [PR124](https://github.com/jrnl-org/jrnl/pull/124)),
+    [PR 347](https://github.com/jrnl-org/jrnl/pull/347)), expanding
+    documentation (see [PR 124](https://github.com/jrnl-org/jrnl/pull/124)),
     maintained DayOne ("classic") support (see
-    [PR742](https://github.com/jrnl-org/jrnl/pull/742),
-    [PR773](https://github.com/jrnl-org/jrnl/pull/773),
-    [PR785](https://github.com/jrnl-org/jrnl/pull/785),
-    [PR786](https://github.com/jrnl-org/jrnl/pull/786),
-    [PR928](https://github.com/jrnl-org/jrnl/pull/928), and
-    [PR990](https://github.com/jrnl-org/jrnl/pull/990))
+    [PR 742](https://github.com/jrnl-org/jrnl/pull/742),
+    [PR 773](https://github.com/jrnl-org/jrnl/pull/773),
+    [PR 785](https://github.com/jrnl-org/jrnl/pull/785),
+    [PR 786](https://github.com/jrnl-org/jrnl/pull/786),
+    [PR 928](https://github.com/jrnl-org/jrnl/pull/928), and
+    [PR 990](https://github.com/jrnl-org/jrnl/pull/990))
     and to fix numerous bugs (see
-    [PR110](https://github.com/jrnl-org/jrnl/pull/110),
-    [PR349](https://github.com/jrnl-org/jrnl/pull/349),
-    [PR397](https://github.com/jrnl-org/jrnl/pull/397),
-    [PR416](https://github.com/jrnl-org/jrnl/pull/416),
-    [PR707](https://github.com/jrnl-org/jrnl/pull/704), and
-    [PR909](https://github.com/jrnl-org/jrnl/pull/909)).
+    [PR 110](https://github.com/jrnl-org/jrnl/pull/110),
+    [PR 349](https://github.com/jrnl-org/jrnl/pull/349),
+    [PR 397](https://github.com/jrnl-org/jrnl/pull/397),
+    [PR 416](https://github.com/jrnl-org/jrnl/pull/416),
+    [PR 707](https://github.com/jrnl-org/jrnl/pull/704), and
+    [PR 909](https://github.com/jrnl-org/jrnl/pull/909)).
 -   **Colourettu** -- 2014-17 -- An open-source Python library.
     Colourettu is a small collection of colour functions that can be used to
     determine the (relative) luminosity of a colour and the contrast between
@@ -196,15 +202,15 @@ the code there for most of these projects and several others as well.
 -   **topydo** -- 2015-16 -- A powerful todo list application for the
     console, written in Python. I provided several Pull Requests, including to
     provide colour support on Windows CMD (see
-    [PR49](https://github.com/bram85/topydo/pull/49)), code style improvements
+    [PR 49](https://github.com/bram85/topydo/pull/49)), code style improvements
     to bring the code base in better compliance with [PEP8](http://pep8.org/)
-    (see [PR55](https://github.com/bram85/topydo/pull/55)), remove platform
+    (see [PR 55](https://github.com/bram85/topydo/pull/55)), remove platform
     specific hacks to creating temporary files (see
     [commit](https://github.com/bram85/topydo/commit/0e5977729c2fe357fb8689c79c4d8a09eba699ff)),
     added the ability to print a "screen-ful" of top todo items (see
-    [PR118](https://github.com/bram85/topydo/pull/118)), and added a filter to
+    [PR 118](https://github.com/bram85/topydo/pull/118)), and added a filter to
     selectively hide todo items (see
-    [PR131](https://github.com/bram85/topydo/pull/131)).
+    [PR 131](https://github.com/bram85/topydo/pull/131)).
 -   **green** -- 2016 -- A clean, colorful, fast Python test runner. I
     provided a [Pull Request](https://github.com/CleanCut/green/pull/120) to
     resolve issues when outputting colour to Windows CMD.
