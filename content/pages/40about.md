@@ -1,5 +1,5 @@
 title: About
-modified: July 18, 2020
+modified: March 18, 2024
 slug: about
 icon: fa fa-info-circle
 
@@ -23,17 +23,17 @@ There are a number of sections to this website. In brief:
   came across. It looks cool and links to a number of other pages on my site.
 - **Blog** -- [Blog.Minchin.ca](http://blog.minchin.ca/) -- My summary of some
   of the random, different, and more intersting things I find of the web, and
-  even in the "real" world. Orginally hosted at minchinweb.blogspot.com (all
+  even in the "real" world. Originally hosted at minchinweb.blogspot.com (all
   link are redirected to the new location), it's now powered by
   [Pelican](https://github.com/getpelican/pelican), like the rest of the site.
-- **Geneology** -- [Minchin.ca/Genealogy/](http://minchin.ca/genealogy) -- When
+- **Geneology** -- [Genealogy.Minchin.ca](https://genealogy.minchin.ca/) -- When
   I started into geneology a few years back, one of the first things I did was
   check out Minchin domain names on the web. I found
   [Minchin.net](http://minchin.net), a site for music equipment somewhere on
   the eastern seaboard in the States. We're related, but if I remember right,
   it's rather distant. If you think we might be related,
   [drop me a note](http://minchin.ca/contact.htm) and fill me in on the details.
-- **Projects** -- [Minchin.ca/Projects/](http://minchin.ca/projects/) -- 
+- **Projects** -- [Minchin.ca/Projects/](http://minchin.ca/projects/) --
   Over the years, I’ve worked on a number of projects, both online and off.
   This is meant to link to some of the more exciting ones, particularly those
   found online. Includes Highway Planning, Web Design, Programming, Articles,

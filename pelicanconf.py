@@ -78,7 +78,10 @@ PATH = "content"
 # OUTPUT_PATH = '../minchinweb.github.io-temp/'  # default is 'output/'
 
 # Add Blog to sidebar
-MENUITEMS = (("Blog", "http://blog.minchin.ca/", "fa fa-pencil"),)
+MENUITEMS = (
+    ("Blog", "http://blog.minchin.ca/", "fa fa-pencil"),
+    ("Genealogy", "https://genealogy.minchin.ca/", "glyphicon glyphicon-tree-deciduous"),
+)
 DISPLAY_PAGES_ON_MENU = True
 
 # disable Tags, etc
