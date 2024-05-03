@@ -1,13 +1,13 @@
 title: My Model Railroad Roaster
-modified: Oct 4, 2023
+modified: May 2, 2024
 slug: rr
 status: hidden
 
 | Road | Car Number | Caption                    | Type           | Maker            | Model          | Acquisition            | Price | Notes                                           |
 | ---- | ---------- | -------------------------- | -------------- | ---------------- | -------------- | ---------------------- | ----- | ----------------------------------------------- |
 | CP   | Jupiter    |                            | American 4-4-0 | Bachmann         | 51174          |                        |       | DC                                              |
-| CP   | 9138       | Golden Beaver              | SD90/43MAC     | Kato             | 176-5616       | Edmonton train show    |       | DC                                              |
-| SNCF | X73816     | TER                        | X73500         | Arnold           | HN2479         | Hampshire Models, 2023 | ~$280 | DC                                              |
+| CP   | 9138       | Golden Beaver              | SD90/43MAC     | Kato             | 176-5616       | Edmonton train show    | + ~$70 | DCC 9638                                       |
+| SNCF | X73816     | TER                        | X73500         | Arnold           | HN2479         | Hampshire Models, 2023 | ~$280 + ~$70 | DCC 9675                                 |
 | \*   |            |                            |                |                  |                |                        |       |                                                 |
 | SP   | 101        | Daylight                   | 36' OT         | Roundhouse       | 8909           | Edmonton train show    |       | Overton Coach                                   |
 | SP   | 102        | Daylight                   | 36' OT         | Roundhouse       | 8910           | Edmonton train show    |       | Overton Combine                                 |
@@ -43,7 +43,7 @@ status: hidden
 | \*   |            |                            |                |                  |                |                        |       |                                                 |
 | WM   | 2645       |                            | 50' flatbed    | Model Power      | 45160          | Edm train show, 2023   | $10   |                                                 |
 | \*   |            |                            |                |                  |                |                        |       |                                                 |
-| ?    | 798        | Thunder Bay Mining         | 70 ton ore car | Atlas            | 3216-2.00      | Kijiji, 2024           | free  | no case, missing wheel, square couplers, for L. |
+| ?    | 798        | Thunder Bay Mining         | 70 ton ore car | Atlas            | 3216-2.00      | Kijiji, 2024-04        | free  | no case, missing wheel, square couplers, for L. |
 | \*   |            |                            |                |                  |                |                        |       |                                                 |
 | CN   | 78xxx      |                            | Caboose        |                  |                |                        |       | made in Yugoslavia; metal body and wheels       |
 | \*   |            |                            |                |                  |                |                        |       |                                                 |
