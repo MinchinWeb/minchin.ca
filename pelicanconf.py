@@ -62,6 +62,7 @@ EXTRA_PATH_METADATA = {
     "../extras/TRB_Minchin.ca.2013.XSL": {"path": "TRB_Minchin.ca.2013.XSL"},
     "../extras/googlecbc66a9bfde8606b.html": {"path": "googlecbc66a9bfde8606b.html"},
     "../extras/BingSiteAuth.xml": {"path": "BingSiteAuth.xml"},
+    "../extras/ads.txt": {"path": "ads.txt"},
 }
 
 # Custom settings
