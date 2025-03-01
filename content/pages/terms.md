@@ -1,5 +1,5 @@
 title: Terms of Use for Minchin.ca (and subdomains)
-modified: 2023-10-05 09:59 -0600
+modified: 2025-02-28 20:41 -0700
 status: hidden
 slug: terms
 
@@ -14,9 +14,9 @@ copyright that you agree to respect. The Webmaster further holds a trademark in
 the Site name and logo that you agree to respect.
 
 The contents of this Site is believed to be accurate when published, but are
-supplied "As Is" and without warranty of any kind, expess or implied, and the
-contents may no longer be accurate or up to date. It is your responsibility to
-verify any information presented here that you wish to rely on.
+supplied "As Is" and without warranty of any kind, expressed or implied, and
+the contents may no longer be accurate or up to date. It is your responsibility
+to verify any information presented here that you wish to rely on.
 
 You are invited to provide comments ("Comments") on many pages of this Site. If
 you provide Comments, you retain your copyright in them, however you grant the
@@ -26,6 +26,19 @@ publish (i.e. post; i.e. publicly display), edit, adapt, redact, recreate,
 translate, delete, and sub-license these Comments. You represent that you hold
 the rights necessary to grant such a license. It is at the sole discretion of
 the Webmaster to publish (or un-publish) any Comments.
+
+By accessing and/or reading this Site and its contents, you agree, on behalf of
+your employer, to release the Webmaster from all obligations and waivers
+arising from any and all NON-NEGOTIATED agreements, licenses, terms-of-service,
+shrinkwrap, clickwrap, browsewrap, confidentiality, non-disclosure,
+non-compete, and acceptable use policies ("Bogus Agreements") that the
+Webmaster have entered into with your employer, its partners, licensors,
+agents, and assignees, in perpetuity, without prejudice to the Webmaster's
+ongoing rights and privileges. You further represent that you have the
+authority to release the Webmaster from any Bogus Agreements on behalf of your
+employer.
+
+<!-- Thanks Pluralistic! -->
 
 If the material from this Site (including Comments) is used, or can reasonably
 be assumed to have been used, for or to develop a commercial project
@@ -48,7 +61,7 @@ harmless, of any claims (including losses, damages, liabilities, expenses, and
 legal fees) arising from or connected with your use of this Site, including
 providing Comments. Furthermore, the Webmaster reserves the right, at your
 expense, to assume exclusive defense and control of any matter you are required
-to indemnify the Webmaster in, and you agree to coorporate, at your expense,
+to indemnify the Webmaster in, and you agree to cooperate, at your expense,
 with the Webmaster's defense of such claims.
 
 You agree that the Webmaster's failure to exercise or enforce any right or
