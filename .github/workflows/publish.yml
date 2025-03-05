@@ -17,7 +17,7 @@ jobs:
 
       - name: Install (and Cache) Ubuntu packages
         # includes updating apt sources
-        uses: awalsh128/cache-apt-pkgs-action@latest
+        uses: awalsh128/cache-apt-pkgs-action@v1
         with:
           packages: optipng libjpeg-progs
         # libjpeg-progs for jpegtran
@@ -26,11 +26,11 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install Python
-        id: pthon-install
+        id: python-install
         uses: actions/setup-python@v5
         with:
           # supported versions: https://github.com/actions/python-versions/releases
-          python-version: 3.12
+          python-version: 3.13
           cache: pip
           cache-dependency-path: 'requirements.txt'
 
