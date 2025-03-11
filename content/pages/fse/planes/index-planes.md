@@ -8,6 +8,7 @@ All about planes of interesting (in FSEconomy):
 ## General Aviation
 
 - [Cessna 152]({filename}c152.md)
+- [Cessna 172]({filename}c172.md)
 
 ## Large General Aviation
 
@@ -16,3 +17,6 @@ All about planes of interesting (in FSEconomy):
 ## Business Jets
 
 ## Airliners
+
+- [Douglas DC-3]({filename}dc3.md)
+
