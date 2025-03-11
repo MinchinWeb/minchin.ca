@@ -9,5 +9,6 @@ Has been included in MSFS 2024 as part of thr base game; fuel tanks match the FS
 
 Can be had starting at v$850,000, although all the currently (as of March 11, 2025) for sale models have hundreds of hours on them.
 
+- [Titan](https://fseconomy.net/forum/mp-aircraft/147800-titan-air-leasing-super-competitive-prices) is offering one for lease at v$20,000/month (v$25,000 the first month)
 - [Anderssnorway](https://www.fseconomy.net/forum/general-market-place-discussion/149797-dc3-for-lease) is offering his for lease at v$30,000/month
 
