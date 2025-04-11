@@ -20,7 +20,7 @@ used into the future. A common time horizon for these studies is 50 years out.
 A *Traffic Impact Analysis* is usually smaller in both geography and time, many
 times looking at an intersection 5 to 20 years into the future. A TIA will
 often be done to determine what road system improvements should be made as a
-result of a adjacent, proposed land development project.
+result of an adjacent, proposed land development project.
 
 My highway planning is all done offline, but I'll provide links where I can.
 
@@ -30,96 +30,114 @@ My highway planning is all done offline, but I'll provide links where I can.
 </div>
 
 <div class="real-list" markdown=1>
--   **East Vistas Outline Plan TIA** -- 2024, Leduc County, Alberta -- *For an
-    urban residential node between Beaumont and Nisku. Part of me wishes that
-    Highway 625 (that runs along the south side of both the development and
-    Beaumont) would have been designated a "future freeway" (aka Edmonton Ring
-    Road #2) a long time ago....* -- Traffic generation, traffic distribution,
-    capacity analysis <!-- 4173.T01 -->
--   **Burma Road Gravel Pit TIA** -- 2024, Calgary, Alberta -- Intersection
-    (Synchro) modelling, intersection treatment warrant <!-- 4171.T01 -->
--   **McTel/Douglasdale TIA** -- 2023, Calgary, Alberta -- *A large residential
-    complex to be built at a station of the under-construction Green Line LRT
-    in Calgary.* -- Traffic generation, intersection (Synchro) modelling,
-    multi-use internal site capture, right of way review, parking (vehicle,
-    bicycle, and loading stalls) review, transit review <!-- 4161.T01 -->
--   **Hughes Gravel Pit Access Review** -- 2023, County of Rocky View, Alberta --
-    Intersection treatment warrant <!-- 4142.T01 -->
--   **Highway 512 & Range Road 210A Transportation Review** -- 2023,
-    Lethbridge, Alberta -- Intersection treatment warrant <!-- 4157.T01 -->
--   **Star Building Supplies TIA** -- 2023, Balzac, Alberta -- Parking review,
-    trip generation, access management <!-- 3857.E01 -->
--   **Highway 642 Functional Planning Study** (FPS) -- 2012-13, Morinville,
-    Alberta -- *Very enjoyable project that involved working very closely with
-    the planners as they developed the Area Structure Plan (ASP) for "downtown"
-    Morinville at the same time. We ultimately proposed a series of roundabouts,
-    in part to minimize the additional right of way required to maintian a
-    functional "main street".* -- Traffic forecasting and modeling, prepared
-    proposed corridor treatment, public open houses
-    ([historical capture of final report](https://web.archive.org/web/20170628111039/http://www.morinville.ca/index.php/fps))
--   **Mildred Lake TIA** -- 2012-13, RM Wood Buffalo, Alberta -- *This was
-    fun as the crossing vehicles at the intersection where oversided mine
-    trucks!* -- Analysing
-    traffic counts, traffic modeling, traffic projections, and intersection
-    treatment warrants
--   **Avenir / Cassidy Lands / St Albert Sports City** -- 2012, St Albert,
-    Alberta -- traffic modelling and intersection analysis
--   **Bellamy Hill TIA** -- 2012, Edmonton, Alberta -- Site traffic generation
-    and site access requirements
--   **Grove Drive & Pioneer Road** -- 2012, Spruce Grove, Alberta --
-    Preliminary roundabout design and analysis
--   **Grove Drive & Spruce Village Way** -- 2012, Spruce Grove, Alberta --
-    Intersection level of service analysis and pedestrian crossing
-    control warrant analysis
--   **Grove Drive & Spruce Ridge Road** -- 2012, Spruce Grove, Alberta --
-    Intersection level of service analysis
--   **Queen Street & Jespersen Avenue, Queen Street & Church Road** -- 2012,
-    Spruce Grove, Alberta -- Intersection level of service analysis
--   **Highway 16 & Campsite Road Interchange** -- 2012, Spruce Grove, Alberta --
-    traffic volume forecasts
--   **Highway 14 Passing Lanes** -- 2012, Strathcona County, Alberta / Alberta
-    Transportation -- *These have since been built. By volume alone, the highway
-    here could probably warrant being twinned, but hasn't been done because of
-    higher political priorities, so this is being used as a stop-gap for the
-    present time.* -- Public open house
--   **Meadow Hawk Estates** -- 2012, Strathcona County, Alberta -- Traffic
-    modelling and intersection treatment warrants
--   **Ardrossan Lands** -- 2012, Strathcona County, Alberta -- Traffic
-    modelling and intersection treatment warrants
--   **Highway 2 Functional Planning Study** (North of Morinville to
-    North of Clyde) -- 2012, Alberta Transportation -- Access management
-    and cost estimate
--   **Taylor Drive** -- 2011-12, Red Deer, Alberta -- Traffic forecasting and
-    Synchro modeling for proposed geometric improvements
--   **Highway 11** (East of Rocky Mountain House to West of Sylvan Lake) --
-    2011, Alberta Transportation -- *This involved walking most of the highway
-    length between Slyvan Lake and Rocky Mountain House. The highway has been a
-    highway for a long time, and so some of the culverts were wooden! (and
-    probably close to 100 years old!) Eventually, this highway will be twinned,
-    but that project will likely prove messy as Highway 11 runs down a
-    correction line, which means that the intersections on the north and south
-    sides of the highway don't line up, and many of the historical farm houses
-    were built very close to the highway.* -- Preliminary geometric assessment,
-    field work for report preparation
--   **Highways 13 & 21 Roundabout** -- 2011, Camrose, Alberta / Alberta Transportation --
-    *This roundabout has since been built, and is able to handle a combine! Part
-    of the reason for building this was that gravel trucks were running the
-    existing stop light!* --
-    Synchro modeling of the roundabout, AutoTURN modelling, Public open
-    house
--   **Tomlinson Acreage TIA** -- 2011, Strathcona County, Alberta
--   **Provo Towne Centre Site Redevelopment** -- 2010, Provo, Utah --
-    Traffic Impact Analysis for proposed mixed use redevelopment
--   **US-6 & US-89 Junction** -- 2010, Spanish Fork Canyon, Utah -- Drafting
-    and design of proposed alignment for highway twinning
--   **Highway 1 FPS** (East of Calgary) -- 2008, Alberta Transportation --
-    Traffic forecasting and alternative routings developed
--   **Highway 28A** -- 2008, CFB Namao, Alberta -- Traffic counting
--   **Highways 2A & 616** -- 2008, Kaynaugh, Alberta -- Traffic counting
--   **Highways 2 & 3 Urban Bypass** -- 2008, Fort MacLeod, Alberta -- *Looking
-    at how to build a highway bypass for Fort MacLeod; the highway currently is
-    "Main Street"* -- Traffic forecasting and modeling
-    ([Open House slides]({static}../projects/highway-planning/OH2Hwys2and3FtMacleod.pdf))
+- **101 Street Operations Presentation** -- 2025, Lac La Biche, Alberta --
+  *Presentation to County Council and follow-up report on one-way operations
+  along 101 Street and various alternate configurations and their
+  implications* -- existing intersection and roadway operations review, public
+  presentation  <!-- 4312.T01 -->
+- **Sierra Ridge TIA** -- 2024-25 -- Sturgeon County, Alberta -- *~275 county
+  residential lots, just east of Gibbons. Complicated by the fact that existing
+  neighbours didn't want others using "their" road and the site was at the end
+  of the existing road network, set against the Sturgeon River.* -- traffic
+  distribution, review background highway traffic growth, highway intersection
+  treatment warrants <!-- 4075.T01 / 24 & 38 -->
+- **Varme Energy TIA** -- 2025, Strathcona County, Alberta -- *access for a
+  proposed industrial site* -- industrial traffic generation, highway
+  intersection treatment warrants <!-- 4075.T01 / 21 -->
+- **Blackbrier Access** -- 2024, Calgary, Alberta -- *a proposed freeway
+  ramp access to Sarcee Trail in west Calgary* -- freeway ramp functional
+  design, freeway capacity review (ramp, weaving) <!-- 4226.T01 -->
+- **Lakeside Costco** -- 2024-25, Lloydminster, Alberta -- Traffic generation,
+  traffic distribution, intersection capacity analysis, roundabout capacity
+  review <!-- 3595.E01 -->
+- **Aurora Meadows Outline Plan TIA** -- 2024-25, East Vistas, Leduc County,
+  Alberta -- *For an urban residential node between Beaumont and Nisku. Part of
+  me wishes that Highway 625 (that runs along the south side of both the
+  development and Beaumont) would have been designated a "future freeway" (aka
+  Edmonton Ring Road #2) a long time ago....* -- Traffic generation, traffic
+  distribution, capacity analysis <!-- 4173.T01 -->
+- **Burma Road Gravel Pit TIA** -- 2024, Calgary, Alberta -- Intersection
+  (Synchro) modelling, intersection treatment warrant <!-- 4171.T01 -->
+- **McTel/Douglasdale TIA** -- 2023, Calgary, Alberta -- *A large residential
+  complex to be built at a station of the under-construction Green Line LRT
+  in Calgary.* -- Traffic generation, intersection (Synchro) modelling,
+  multi-use internal site capture, right of way review, parking (vehicle,
+  bicycle, and loading stalls) review, transit review <!-- 4161.T01 -->
+- **Hughes Gravel Pit Access Review** -- 2023, County of Rocky View, Alberta --
+  Intersection treatment warrant <!-- 4142.T01 -->
+- **Highway 512 & Range Road 210A Transportation Review** -- 2023,
+  Lethbridge, Alberta -- Intersection treatment warrant <!-- 4157.T01 -->
+- **Star Building Supplies TIA** -- 2023, Balzac, Alberta -- Parking review,
+  trip generation, access management <!-- 3857.E01 -->
+- **Highway 642 Functional Planning Study** (FPS) -- 2012-13, Morinville,
+  Alberta -- *Very enjoyable project that involved working very closely with
+  the planners as they developed the Area Structure Plan (ASP) for "downtown"
+  Morinville at the same time. We ultimately proposed a series of roundabouts,
+  in part to minimize the additional right of way required to maintian a
+  functional "main street".* -- Traffic forecasting and modeling, prepared
+  proposed corridor treatment, public open houses
+  ([historical capture of final report](https://web.archive.org/web/20170628111039/http://www.morinville.ca/index.php/fps))
+- **Mildred Lake TIA** -- 2012-13, RM Wood Buffalo, Alberta -- *This was
+  fun as the crossing vehicles at the intersection where oversided mine
+  trucks!* -- Analysing traffic counts, traffic modeling, traffic projections,
+  and intersection treatment warrants
+- **Avenir / Cassidy Lands / St Albert Sports City** -- 2012, St Albert,
+  Alberta -- traffic modelling and intersection analysis
+- **Bellamy Hill TIA** -- 2012, Edmonton, Alberta -- Site traffic generation
+  and site access requirements
+- **Grove Drive & Pioneer Road** -- 2012, Spruce Grove, Alberta --
+  Preliminary roundabout design and analysis
+- **Grove Drive & Spruce Village Way** -- 2012, Spruce Grove, Alberta --
+  Intersection level of service analysis and pedestrian crossing
+  control warrant analysis
+- **Grove Drive & Spruce Ridge Road** -- 2012, Spruce Grove, Alberta --
+  Intersection level of service analysis
+- **Queen Street & Jespersen Avenue, Queen Street & Church Road** -- 2012,
+  Spruce Grove, Alberta -- Intersection level of service analysis
+- **Highway 16 & Campsite Road Interchange** -- 2012, Spruce Grove, Alberta --
+  traffic volume forecasts
+- **Highway 14 Passing Lanes** -- 2012, Strathcona County, Alberta / Alberta
+  Transportation -- *These have since been built. By volume alone, the highway
+  here could probably warrant being twinned, but hasn't been done because of
+  higher political priorities, so this is being used as a stop-gap for the
+  present time.* -- Public open house
+- **Meadow Hawk Estates** -- 2012, Strathcona County, Alberta -- Traffic
+  modelling and intersection treatment warrants
+- **Ardrossan Lands** -- 2012, Strathcona County, Alberta -- Traffic
+  modelling and intersection treatment warrants
+- **Highway 2 Functional Planning Study** (North of Morinville to
+  North of Clyde) -- 2012, Alberta Transportation -- Access management
+  and cost estimate
+- **Taylor Drive** -- 2011-12, Red Deer, Alberta -- Traffic forecasting and
+  Synchro modeling for proposed geometric improvements
+- **Highway 11** (East of Rocky Mountain House to West of Sylvan Lake) --
+  2011, Alberta Transportation -- *This involved walking most of the highway
+  length between Slyvan Lake and Rocky Mountain House. The highway has been a
+  highway for a long time, and so some of the culverts were wooden! (and
+  probably close to 100 years old!) Eventually, this highway will be twinned,
+  but that project will likely prove messy as Highway 11 runs down a
+  correction line, which means that the intersections on the north and south
+  sides of the highway don't line up, and many of the historical farm houses
+  were built very close to the highway.* -- Preliminary geometric assessment,
+  field work for report preparation
+- **Highways 13 & 21 Roundabout** -- 2011, Camrose, Alberta / Alberta
+  Transportation -- *This roundabout has since been built, and is able to
+  handle a combine! Part of the reason for building this was that gravel trucks
+  were running the existing stop light!* -- Synchro modeling of the roundabout,
+  AutoTURN modelling, Public open house
+- **Tomlinson Acreage TIA** -- 2011, Strathcona County, Alberta
+- **Provo Towne Centre Site Redevelopment** -- 2010, Provo, Utah -- Traffic
+  Impact Analysis for proposed mixed use redevelopment
+- **US-6 & US-89 Junction** -- 2010, Spanish Fork Canyon, Utah -- Drafting and
+  design of proposed alignment for highway twinning
+- **Highway 1 FPS** (East of Calgary) -- 2008, Alberta Transportation --
+  Traffic forecasting and alternative routings developed
+- **Highway 28A** -- 2008, CFB Namao, Alberta -- Traffic counting
+- **Highways 2A & 616** -- 2008, Kaynaugh, Alberta -- Traffic counting
+- **Highways 2 & 3 Urban Bypass** -- 2008, Fort MacLeod, Alberta -- *Looking
+  at how to build a highway bypass for Fort MacLeod; the highway currently is
+  "Main Street"* -- Traffic forecasting and modeling
+  ([Open House slides]({static}../projects/highway-planning/OH2Hwys2and3FtMacleod.pdf))
 </div>
 
 Web Design
@@ -259,8 +277,8 @@ the code there for most of these projects and several others as well.
 Articles
 --------
 
-I have kept a blog at [blog.minchin.ca](http://blog.minchin.ca) since
-2006. Almost all of my online writing first appear here.
+I have kept a blog at [blog.minchin.ca](http://blog.minchin.ca) since 2006.
+Almost all of my online writing first appear here.
 
 <div class="real-list" markdown=1>
 -   **[Low Cost Index
