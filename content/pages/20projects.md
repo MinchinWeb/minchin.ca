@@ -50,9 +50,9 @@ My highway planning is all done offline, but I'll provide links where I can.
 - **Lakeside Costco** -- 2024-25, Lloydminster, Alberta -- Traffic generation,
   traffic distribution, intersection capacity analysis, roundabout capacity
   review <!-- 3595.E01 -->
-- **Aurora Meadows Outline Plan TIA** -- 2024-25, East Vistas, Leduc County,
-  Alberta -- *For an urban residential node between Beaumont and Nisku. Part of
-  me wishes that Highway 625 (that runs along the south side of both the
+- **Aurora Meadows Outline Plan Update TIA** -- 2024-25, East Vistas, Leduc
+  County, Alberta -- *For an urban residential node between Beaumont and Nisku.
+  Part of me wishes that Highway 625 (that runs along the south side of both the
   development and Beaumont) would have been designated a "future freeway" (aka
   Edmonton Ring Road #2) a long time ago....* -- Traffic generation, traffic
   distribution, capacity analysis <!-- 4173.T01 -->
@@ -178,13 +178,16 @@ design for others as well.
 Programming
 -----------
 
-Programming is something I have enjoyed for many years. Between 2010 and 2013, by focus was largely on writing AI's for OpenTTD (see WmDOT below). Since 2013, my focus has been solving problems of personal interest using Python. Some of my projects are listed below.
+Programming is something I have enjoyed for many years. Between 2010 and 2013,
+by focus was largely on writing AI's for OpenTTD (see WmDOT below). Since 2013,
+my focus has been solving problems of personal interest using Python. Some of
+my projects are listed below.
 
 I also maintain a profile at [GitHub](https://github.com/MinchinWeb) and post
 the code there for most of these projects and several others as well.
 
+<!-- TODO: add Pelican and plugins -->
 <div class="real-list" markdown=1>
-<!-- Pelican and plugins -->
 -   **jrnl** -- 2013-23 -- A simple command line journal application that
     stores your journal in a plain text file, written in Python. I ended up
     [forking the project](https://blog.minchin.ca/2023/09/minchin-jrnl-700-released.html)
