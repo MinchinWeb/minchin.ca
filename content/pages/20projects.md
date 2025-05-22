@@ -34,7 +34,15 @@ My highway planning is all done offline, but I'll provide links where I can.
   *Presentation to County Council and follow-up report on one-way operations
   along 101 Street and various alternate configurations and their
   implications* -- existing intersection and roadway operations review, public
-  presentation  <!-- 4312.T01 -->
+  presentation <!-- 4312.T01 -->
+- **Stony Plain Parking Study** -- 2024-25, Stony Plain, Alberta -- *The Town
+  asked us to look at their Land Use Bylaw's (LUB) parking requirements,
+  compare them actual parking usage, and propose possible changes. Lead a
+  multi-disciplinary team remotely. I lead both the proposal and the project
+  teams.* -- review of existing policy, policy development, (parking) data
+  collection, project management <!-- 4234.T01 -->
+    - [Final Report]({static}../projects/highway-planning/Stony-Plain-Parking-Study-Report.pdf)
+      <!-- https://www.stonyplain.com/en/town-hall/resources/Documents/Stony-Plain-Parking-Study-Report.pdf -->
 - **Sierra Ridge TIA** -- 2024-25 -- Sturgeon County, Alberta -- *~275 county
   residential lots, just east of Gibbons. Complicated by the fact that existing
   neighbours didn't want others using "their" road and the site was at the end
@@ -44,6 +52,7 @@ My highway planning is all done offline, but I'll provide links where I can.
 - **Varme Energy TIA** -- 2025, Strathcona County, Alberta -- *access for a
   proposed industrial site* -- industrial traffic generation, highway
   intersection treatment warrants <!-- 4075.T01 / 21 -->
+    - CBC Article about the [approval of the proposed on-site power generation](https://www.cbc.ca/news/canada/edmonton/alberta-utilities-commission-greenlights-application-for-waste-to-energy-facility-1.7536377)
 - **Blackbrier Access** -- 2024, Calgary, Alberta -- *a proposed freeway
   ramp access to Sarcee Trail in west Calgary* -- freeway ramp functional
   design, freeway capacity review (ramp, weaving) <!-- 4226.T01 -->
@@ -76,7 +85,21 @@ My highway planning is all done offline, but I'll provide links where I can.
   in part to minimize the additional right of way required to maintian a
   functional "main street".* -- Traffic forecasting and modeling, prepared
   proposed corridor treatment, public open houses
-  ([historical capture of final report](https://web.archive.org/web/20170628111039/http://www.morinville.ca/index.php/fps))
+    - historical capture of the final report's [landing page](https://web.archive.org/web/20170628111039/http://www.morinville.ca/index.php/fps) (on the Town's website)
+    - [Report Body]({static}../projects/highway-planning/hwy-642-FPS-report-_body.pdf),
+      plus Appendices
+      [A]({static}../projects/highway-planning/hwy-642-FPS-report-AppA.pdf)
+      (Background Information),
+      [B]({static}../projects/highway-planning/hwy-642-FPS-report-AppB.pdf)
+      (Evaluation of Conventional Intersection Options),
+      [C]({static}../projects/highway-planning/hwy-642-FPS-report-AppC.pdf)
+      (Traffic (volumes and operations)),
+      [D]({static}../projects/highway-planning/hwy-642-FPS-report-AppD.pdf)
+      ((historical) Collisions Statistics),
+      [E]({static}../projects/highway-planning/hwy-642-FPS-report-AppE.pdf)
+      (Franchise Utility Plans),
+      and [F]({static}../projects/highway-planning/hwy-642-FPS-report-AppF.pdf)
+      (Cost Estimates).
 - **Mildred Lake TIA** -- 2012-13, RM Wood Buffalo, Alberta -- *This was
   fun as the crossing vehicles at the intersection where oversided mine
   trucks!* -- Analysing traffic counts, traffic modeling, traffic projections,
@@ -137,7 +160,7 @@ My highway planning is all done offline, but I'll provide links where I can.
 - **Highways 2 & 3 Urban Bypass** -- 2008, Fort MacLeod, Alberta -- *Looking
   at how to build a highway bypass for Fort MacLeod; the highway currently is
   "Main Street"* -- Traffic forecasting and modeling
-  ([Open House slides]({static}../projects/highway-planning/OH2Hwys2and3FtMacleod.pdf))
+    - [Open House slides]({static}../projects/highway-planning/OH2Hwys2and3FtMacleod.pdf)
 </div>
 
 Web Design
