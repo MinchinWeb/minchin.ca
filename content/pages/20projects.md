@@ -103,7 +103,7 @@ My highway planning is all done offline, but I'll provide links where I can.
 - **Mildred Lake TIA** -- 2012-13, RM Wood Buffalo, Alberta -- *This was
   fun as the crossing vehicles at the intersection where oversided mine
   trucks!* -- Analysing traffic counts, traffic modeling, traffic projections,
-  and intersection treatment warrants
+  and intersection treatment warrants <!-- 8006 -->
 - **Avenir / Cassidy Lands / St Albert Sports City** -- 2012, St Albert,
   Alberta -- traffic modelling and intersection analysis
 - **Bellamy Hill TIA** -- 2012, Edmonton, Alberta -- Site traffic generation

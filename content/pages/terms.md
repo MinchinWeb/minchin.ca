@@ -1,5 +1,5 @@
 title: Terms of Use for Minchin.ca (and subdomains)
-modified: 2025-02-28 20:41 -0700
+modified: 2025-08-27 09:43 -0600
 status: hidden
 slug: terms
 
@@ -36,15 +36,16 @@ Webmaster have entered into with your employer, its partners, licensors,
 agents, and assignees, in perpetuity, without prejudice to the Webmaster's
 ongoing rights and privileges. You further represent that you have the
 authority to release the Webmaster from any Bogus Agreements on behalf of your
-employer.
+employer. This indemnity will survive the termination of your relationship with
+your employer.
 
 <!-- Thanks Pluralistic! -->
 
 If the material from this Site (including Comments) is used, or can reasonably
 be assumed to have been used, for or to develop a commercial project
 ("Commercial Project"), the Webmaster shall have right to access and use, at no
-cost, that Commerical Project, including its most expensive and comprehensive
-tiers, for both personal and commerical uses. This right will continue even if
+cost, that Commercial Project, including its most expensive and comprehensive
+tiers, for both personal and commercial uses. This right will continue even if
 the material from this Site is removed from the Commercial Project. Examples
 including, but limited to: a mirror of this Site, republishing pages from this
 Site, a genealogical database, a Large Langage Model (LLM), or an "AI" system
