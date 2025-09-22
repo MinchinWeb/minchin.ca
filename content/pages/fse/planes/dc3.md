@@ -1,5 +1,5 @@
 title: Douglas DC-3
-modified: March 11, 2025
+modified: September 21, 2025
 slug: fse/planes/dc3
 status: hidden
 
@@ -12,8 +12,9 @@ Once off the ground, it climbs well.
 Has been included in MSFS 2024 as part of the base game; fuel tanks match the
 FSE layout.
 
-Can be had starting at v$850,000, although all the currently (as of March 11,
-2025) for sale models have hundreds of hours on them.
+Can be had starting (in September 2025) at v$800,000, although all the
+currently (as of March 11, 2025) for sale models have hundreds of hours on
+them.
 
 - [Titan](https://fseconomy.net/forum/mp-aircraft/147800-titan-air-leasing-super-competitive-prices)
   is offering one for lease at v$20,000/month (v$25,000 the first month)
