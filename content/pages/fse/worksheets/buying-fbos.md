@@ -64,5 +64,7 @@ list of them
     intention to allow updates going forward, the first of these has yet to
     role out.
 [^2]: 25% discount after 20,000 kg
-[^3]: 10,000 kg per gate, and 2,000 kg for the passenger terminal -- <https://sites.google.com/site/fseoperationsguide/fbos/creating-buying-and-selling-fbos?authuser=0>
+[^3]: 10,000 kg per gate, and 2,000 kg for the passenger terminal. A repair
+    shop would cost an additional 2,000 kg of building materials. --
+    <https://sites.google.com/site/fseoperationsguide/fbos/creating-buying-and-selling-fbos?authuser=0>
 [^4]: 10 kg/day/lot; assuming 30.4 days/month

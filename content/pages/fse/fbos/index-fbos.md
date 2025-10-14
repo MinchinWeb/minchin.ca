@@ -13,7 +13,7 @@ All about particular FBOs of interest.
         - Castor -- [CER2](https://server.fseconomy.net/airport.jsp?icao=CER2)
         - Cardston -- [CEA6](https://server.fseconomy.net/airport.jsp?icao=CEA6)
         - Twin Island -- currently own -- [CEE6](https://server.fseconomy.net/airport.jsp?icao=CEE6)
-        - Airdrie -- currently buying -- [CEF4](https://server.fseconomy.net/airport.jsp?icao=CEF4)
+        - Airdrie -- currently own -- [CEF4](https://server.fseconomy.net/airport.jsp?icao=CEF4)
 - United States
     - Florida
         - [2FA2]({filename}2fa2.md) -- formerly owned -- [2FA2](https://server.fseconomy.net/airport.jsp?icao=2FA2)

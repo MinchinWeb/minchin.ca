@@ -17,6 +17,8 @@ All about planes of interesting (in FSEconomy):
 
 ## Business Jets
 
+- [Cessna Citation CJ4]({filename}c25c.md)
+
 ## Airliners
 
 - [Douglas DC-3]({filename}dc3.md)
@@ -29,4 +31,5 @@ All about planes of interesting (in FSEconomy):
 | Cessna 172 | 3 | 355 kg | 100 knt | 770 nm | v$,1,096 |
 | Cessna 208 | 13 | 1,833 kg | ~140 / 182 knt | ~850 / 1092 nm | v$3,630 |
 | Beechraft 350 | 14 | 2,604 kg | ~180 / 258 knt | 1754 nm | ~v$5k |
+| Cessna CJ4 | 10 | 500 kg | ~180 / 400 knt | 2,080 nm | ~$6k |
 | DC-3 | 26 | 4,353 kg | 140 knt | 1190 nm | ~v$6k |
