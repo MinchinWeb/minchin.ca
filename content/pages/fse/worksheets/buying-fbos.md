@@ -14,8 +14,8 @@ existing FBOs are kind of all over the map. 1-lots can start as low as $50k,
 2-lots often start about $200k, and 3-lots start in ~$3.5 million.
 
 I think many of the discount ones struggle because they don't show up in the
-simulator (e.g. the airport has closed since FSE started) or are labeled different
-between FSE and the simulator[^1].
+simulator (e.g. the airport has closed since FSE started) or are labeled
+different between FSE and the simulator[^1].
 
 Assuming building materials at $4/kg[^2] and supplies at $6.75/kg (the current
 computer provided price), to build up an FBO, including passenger terminal[^3],
@@ -31,9 +31,9 @@ May want to consider building a repair shop at the same time (extra 2,000 kg of
 building material).
 
 If you tare down a FBO, you get 60% of the material back. So it may be
-worthwhile to buy single lot FBOs under $48,600 just for material.
+worthwhile to buy single lot FBOs under $28,800 just for material.
 
-**XX** what plane to use to move that material?
+**XX** What plane to use to move that material?
 
 Per the developers, the idea is you can pay for the upkeep for a FBO buy flying
 the jobs it produces three times. It's pretty hard to make a FBO pay for itself
@@ -56,7 +56,7 @@ FBOs to keep up. Rough math, if you could fly perfectly with a Cessna 208 (13
 passengers) between two FBOs, you'd need 18 round trips for a pair of 2-lot
 FBOs and 41 round trips for a pair of 3-lot FBOs.
 
-**XX** number of FBOs that get more than 41 aircraft movements per month, and a
+**XX** Number of FBOs that get more than 41 aircraft movements per month, and a
 list of them
 
 [^1]: for a very long time, the FSE FBO database has been frozen, not even
