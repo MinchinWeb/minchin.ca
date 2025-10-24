@@ -84,7 +84,6 @@ PATH = "content"
 MENUITEMS = (
     ("Blog", "http://blog.minchin.ca/", "fa fa-pencil"),
     ("Genealogy", "https://genealogy.minchin.ca/", "glyphicon glyphicon-tree-deciduous"),
-    ("Pour Nos Enfants", "https://cscn.minchin.ca/", "fa fa-fw fa-school"),
 )
 DISPLAY_PAGES_ON_MENU = True
 
