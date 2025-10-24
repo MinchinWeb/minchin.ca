@@ -14,3 +14,6 @@ typogrify
 # sub-dependencies; minimums for security
 pillow >= 10.0.1
 jinja2 >= 3.1.6
+
+# required for Ubuntu (GitHub Actions) builds
+pytz; sys_platform=="linux"
