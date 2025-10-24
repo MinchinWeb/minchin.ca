@@ -92,6 +92,8 @@ pyproject-hooks==1.2.0
     #   pip-tools
 python-dateutil==2.9.0.post0
     # via pelican
+pytz==2025.2
+    # via -r requirements.in
 rich==14.2.0
     # via pelican
 seafoam==2.13.0
