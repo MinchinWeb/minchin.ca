@@ -1,12 +1,12 @@
 name: Sort Imports with isort
 
 # Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the ~~master~~ django branch
+# events but only for the ~~master~~ pelican branch
 on:
   push:
     branches: [ pelican ]
-  pull_request:
-    branches: [ pelican ]
+  # pull_request:
+  #   branches: [ pelican ]
   workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
