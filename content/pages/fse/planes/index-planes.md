@@ -38,15 +38,18 @@ All about planes of interesting (in FSEconomy):
 
 ## MSFS 2024 Flying Models
 
-| Plane                 | Pax | Cargo    | in MSFS2024 | Recommended Model    |
-| --------------------- | --- | -------- | ----------- | -------------------- |
-| [Cessna 152][c152]    | 2   | 226 kg   | ✅          | [WBSim 152][c152-dl] |
-| [Cessna 172][c172]    | 3   | 355 kg   | ✅          | (built-in)           |
-| [Cessna 185][c185]    | 5   | 715 kg   | ✅          | [FSE Tanks][c185-dl] |
-| [Cessna 208][c208]    | 13  | 1,833 kg | ✅          | (built-in)           |
-| [Beechraft 350][b350] | 14  | 2,604 kg | ✅          | (built-in)           |
-| [Cessna CJ4][c25c]    | 10  | 500 kg   | ✅          | (built-in)           |
-| [DC-3][dc3]           | 26  | 4,353 kg | ✅          | (built-in)           |
+| Plane                 | Pax | Cargo    | in MSFS2024 | Recommended Model    | FSE Tank Match       |
+| --------------------- | --- | -------- | ----------- | -------------------- | -------------------- |
+| [Cessna 152][c152]    | 2   | 226 kg   | ✅          | [WBSim 152][c152-dl] |                      |
+| [Cessna 172][c172]    | 3   | 355 kg   | ✅          | (built-in)           |                      |
+| [Cessna 185][c185]    | 5   | 715 kg   | ✅          | (built-in)           | [FSE Tanks][c185-dl] |
+| [Cessna 208][c208]    | 13  | 1,833 kg | ✅          | (built-in)           |                      |
+| [Beechraft 350][b350] | 14  | 2,604 kg | ✅          | (built-in)           |                      |
+| [Cessna CJ4][c25c]    | 10  | 500 kg   | ✅          | (built-in)           |                      |
+| [DC-3][dc3]           | 26  | 4,353 kg | ✅          | (built-in)           |                      |
+
+***N.b.**: You are unlikely to be able to carry the full passenger and cargo
+compliment at the same time.*
 
 
 [b350]: {filename}b350.md
