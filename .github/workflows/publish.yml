@@ -34,8 +34,11 @@ jobs:
           cache: pip
           cache-dependency-path: 'requirements.txt'
 
-      - name: Upgrade Pip, etc
-        run: python -m pip install pip setuptools wheel --upgrade
+      - name: Upgrade Pip
+        run: python -m pip install pip==25.2
+
+      - name: Upgrade Setuptools, Wheel, Build
+        run: python -m pip install setuptools wheel build --upgrade
 
       - name: Install invoke, etc
         run: pip install invoke minchin.text
