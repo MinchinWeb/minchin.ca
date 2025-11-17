@@ -2,6 +2,8 @@ title: Planes
 modified: September 21, 2025
 slug: fse/planes
 status: hidden
+at: FSEconomy
+at_link: fse/
 
 All about planes of interesting (in FSEconomy):
 
@@ -43,7 +45,7 @@ All about planes of interesting (in FSEconomy):
 | [Cessna 152][c152]    | 2   | 226 kg   | ✅          | [WBSim 152][c152-dl] |                      |
 | [Cessna 172][c172]    | 3   | 355 kg   | ✅          | (built-in)           |                      |
 | [Cessna 185][c185]    | 5   | 715 kg   | ✅          | (built-in)           | [FSE Tanks][c185-dl] |
-| [Cessna 208][c208]    | 13  | 1,833 kg | ✅          | (built-in)           |                      |
+| [Cessna 208][c208]    | 13  | 1,833 kg | ✅          | (built-in)           | ≈                    |
 | [Beechraft 350][b350] | 14  | 2,604 kg | ✅          | (built-in)           |                      |
 | [Cessna CJ4][c25c]    | 10  | 500 kg   | ✅          | (built-in)           |                      |
 | [DC-3][dc3]           | 26  | 4,353 kg | ✅          | (built-in)           |                      |
