@@ -2,6 +2,8 @@ title: Renting Planes
 modified: March 4, 2025
 slug: fse/worksheets/renting-planes
 status: hidden
+at: FSEconomy
+at_link: fse/
 
 **XX** current rental prices
 

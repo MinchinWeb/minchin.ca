@@ -2,6 +2,8 @@ title: FSEconomy Worksheets
 modified: October 13, 2025
 slug: fse/worksheets
 status: hidden
+at: FSEconomy
+at_link: fse/
 
 Let's sit down and do the math on FSEconomy.
 

@@ -2,6 +2,8 @@ title: Douglas DC-3
 modified: September 21, 2025
 slug: fse/planes/dc3
 status: hidden
+at: FSEconomy
+at_link: fse/
 
 ## In FSEconomy
 

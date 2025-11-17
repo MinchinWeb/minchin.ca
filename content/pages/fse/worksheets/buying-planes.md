@@ -2,6 +2,8 @@ title: Buying Planes
 modified: March 4, 2025
 slug: fse/worksheets/buying-planes
 status: hidden
+at: FSEconomy
+at_link: fse/
 
 Does it make sense to buy a plane? You can generally rent one, and rent is
 usually about 1/1,000th of the purchase price. But if you own a plane, you can

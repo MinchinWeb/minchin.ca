@@ -1,6 +1,8 @@
 title: Ordering Fuel Costs
 modified: October 13, 2025
 slug: fse/worksheets/fbo-fuel
+at: FSEconomy
+at_link: fse/
 
 Getting a quote (seems to) return the same price at all FBOs.
 

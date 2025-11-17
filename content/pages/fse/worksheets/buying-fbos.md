@@ -2,6 +2,8 @@ title: Buying FBOs
 modified: March 4, 2025
 slug: fse/worksheets/buying-fbos
 status: hidden
+at: FSEconomy
+at_link: fse/
 
 Does it make sense to buy an FBO?
 
