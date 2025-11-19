@@ -9,13 +9,13 @@ All about planes of interesting (in FSEconomy):
 
 ## General Aviation
 
-- [Cessna 152][c152]
+- [Cessna 152][c152] -- *a favorite!*
 - [Cessna 172][c172]
 - [Cessna 185][c185]
 
 ## Large General Aviation
 
-- [Cessna 208][c208] "Grand Caravan"
+- [Cessna 208][c208] "Grand Caravan" -- *a workhorse*
 - Beechcraft [King Air 350][b350]
 
 ## Business Jets
@@ -35,7 +35,7 @@ All about planes of interesting (in FSEconomy):
 | [Cessna 185][c185]    | 5   | 715 kg   | 120 knt                         | 816 nm                  | v$1,400             |
 | [Cessna 208][c208]    | 13  | 1,833 kg | ~140 / 182 knt                  | ~850 / 1,092 nm         | v$3,630             |
 | [Beechraft 350][b350] | 14  | 2,604 kg | ~180 / 258 knt                  | 1,754 nm                | ~v$5k               |
-| [Cessna CJ4][c25c]    | 10  | 500 kg   | ~180 / 400 knt                  | 2,080 nm                | ~$6k                |
+| [Cessna CJ4][c25c]    | 10  | 500 kg   | ~180 / 400 knt                  | 2,080 nm                | ~v$6k                |
 | [DC-3][dc3]           | 26  | 4,353 kg | 140 knt                         | 1190 nm                 | ~v$6k               |
 
 ## MSFS 2024 Flying Models
@@ -51,7 +51,8 @@ All about planes of interesting (in FSEconomy):
 | [DC-3][dc3]           | 26  | 4,353 kg | ✅          | (built-in)           |                      |
 
 ***N.b.**: You are unlikely to be able to carry the full passenger and cargo
-compliment at the same time.*
+compliment at the same time.
+Or a full passenger/cargo complement and a full fuel load.*
 
 
 [b350]: {filename}b350.md
