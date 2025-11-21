@@ -35,20 +35,50 @@ All about planes of interesting (in FSEconomy):
 | [Cessna 185][c185]    | 5   | 715 kg   | 120 knt                         | 816 nm                  | v$1,400             |
 | [Cessna 208][c208]    | 13  | 1,833 kg | ~140 / 182 knt                  | ~850 / 1,092 nm         | v$3,630             |
 | [Beechraft 350][b350] | 14  | 2,604 kg | ~180 / 258 knt                  | 1,754 nm                | ~v$5k               |
-| [Cessna CJ4][c25c]    | 10  | 500 kg   | ~180 / 400 knt                  | 2,080 nm                | ~v$6k                |
+| [Cessna CJ4][c25c]    | 10  | 500 kg   | ~180 / 400 knt                  | 2,080 nm                | ~v$6k               |
 | [DC-3][dc3]           | 26  | 4,353 kg | 140 knt                         | 1190 nm                 | ~v$6k               |
 
 ## MSFS 2024 Flying Models
 
-| Plane                 | Pax | Cargo    | in MSFS2024 | Recommended Model    | FSE Tank Match       |
-| --------------------- | --- | -------- | ----------- | -------------------- | -------------------- |
-| [Cessna 152][c152]    | 2   | 226 kg   | ✅          | [WBSim 152][c152-dl] |                      |
-| [Cessna 172][c172]    | 3   | 355 kg   | ✅          | (built-in)           |                      |
-| [Cessna 185][c185]    | 5   | 715 kg   | ✅          | (built-in)           | [FSE Tanks][c185-dl] |
-| [Cessna 208][c208]    | 13  | 1,833 kg | ✅          | (built-in)           | ≈                    |
-| [Beechraft 350][b350] | 14  | 2,604 kg | ✅          | (built-in)           |                      |
-| [Cessna CJ4][c25c]    | 10  | 500 kg   | ✅          | (built-in)           |                      |
-| [DC-3][dc3]           | 26  | 4,353 kg | ✅          | (built-in)           |                      |
+| FSE Plane                                | Pax | Cargo    | in MSFS2024 | MSFS Model                   | FSE Tank Match         |
+| ---------------------------------------- | --- | -------- | ----------- | ---------------------------- | ---------------------- |
+| [Cessna 152][c152]                       | 2   | 226 kg   | ✅          | [WBSim 152][c152-dl]         | ✅                     |
+| [Cessna 172][c172]                       | 3   | 355 kg   | ✅          | (built-in)                   | ≈                      |
+| [Cessna 185][c185]                       | 5   | 715 kg   | ✅          | (built-in)                   | [FSE Tanks][c185-dl]   |
+| [Cessna 208][c208]                       | 13  | 1,833 kg | ✅          | (built-in)                   | ≈                      |
+| [Beechraft 350][b350]                    | 14  | 2,604 kg | ✅          | (built-in)                   | ≈                      |
+| [Cessna CJ4][c25c]                       | 10  | 500 kg   | ✅          | (built-in)                   | ≈                      |
+| [DC-3][dc3]                              | 26  | 4,353 kg | ✅          | (built-in)                   | ✅                     |
+| --                                       | --  | --       | --          | --                           | --                     |
+| Aero Vodochody L-39                      | --  | -- kg    | ✅          | (built-in)                   | ❌                     |
+| Airbus A320 (MSFS)                       | --  | -- kg    | ✅          | Airbus A310-300              | ❌                     |
+| Airbus A320 (MSFS)                       | --  | -- kg    | ✅          | Airbus A320neo (v2)          | ≈ ??                   |
+| Airbus A321                              | --  | -- kg    | ✅          | Airbus A321LR                | ❌                     |
+| Airbus A321                              | --  | -- kg    | ✅          | Airbus A330-300P2F (GE)      | ❌                     |
+| Lockheed C-130 (Generic)                 | --  | -- kg    | ✅          | Airbus A400M                 | ❌                     |
+| Airbus A321                              | --  | -- kg    | ✅          | Airbus Beluga XL (A330-743L) | ❌                     |
+| Eurocopter AS-350 Ecureuil               | --  | -- kg    | ✅          | Airbus H125                  | ≈ (and fixable...)     |
+| Aviat Pitts Special (MSFS)               | --  | -- kg    | ✅          | Aviat Pitts Special S-1S     | ❌ (and fixable...)    |
+| Aviat Pitts Special (MSFS)               | --  | -- kg    | ✅          | Aviat Pitts Special S-2S     | ❌ (and fixable...)    |
+| Bell 407                                 | --  | -- kg    | ✅          | Bell Model 407               | ❌                     |
+| Boeing 737 Max                           | --  | -- kg    | ✅          | Boeing 737-800               | ≈ (and fixable...)     |
+| Boeing 747-400                           | --  | -- kg    | ✅          | Boeing 747-8                 | ❌                     |
+| Piper PA-28 Arrow                        | --  | -- kg    | ✅          | CGS Hawk Arrow II            | ❌                     |
+| Columbia 400                             | --  | -- kg    | ✅          | Cessna C400 Corvalis TT      | ≈ (and fixable...)     |
+| Cessna 206 Stationair                    | --  | -- kg    | dl          | Cessna T206H Stationair      | ≈ (and fixable...)     |
+| Cirrus Vision SF50                       | --  | -- kg    | ✅          | Cirrus Vision Jet G2         | ≈ (and fixable...)     |
+| Piper J-3 Cub                            | --  | -- kg    | ✅          | [...] CAP-4                  | ≈ (and fixable...)     |
+| Cub Crafters XCub (MSFS)                 | --  | -- kg    | ✅          | CubCrafters NXCub            | ✅                     |
+| Cub Crafters XCub (MSFS)                 | --  | -- kg    | ✅          | CubCrafters X Cub            | ✅                     |
+| Curtiss JN-4 Jenny                       | --  | -- kg    | ✅          | (built-in)                   | ✅                     |
+| Socata TBM 930 (MSFS)                    | --  | -- kg    | ✅          | Daher TBM 930                | ≈ (and fixable...)     |
+| DHC-6 300 Twin Otter (Aerosoft Extended) | --  | -- kg    | ✅          | De Havilland DHC-6-300       | ❌ (failed tank match) |
+| Diamond DA40D DiamondStart               | --  | -- kg    | ✅          | Diamond Aircraft DA-40 NG    | ❌ (and fixable...)    |
+| Diamond DA62                             | --  | -- kg    | ✅          | Diamond Aircraft DA64        | ✅                     |
+| Airbus H135 HPG                          | --  | -- kg    | ✅          | Eurocopter EC-135 T1         | ❌                     |
+| Vans RV-7/7A                             | --  | -- kg    | ✅          | Extra 330LT                  | ❌                     |
+| Grumman G-21 Goose                       | --  | -- kg    | ✅          | (built-in)                   | ❌ (and fixable...)    |
+
 
 ***N.b.**: You are unlikely to be able to carry the full passenger and cargo
 compliment at the same time.
