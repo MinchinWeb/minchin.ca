@@ -1,5 +1,5 @@
 title: Planes
-modified: September 21, 2025
+modified: November 27, 2025
 slug: fse/planes
 status: hidden
 at: FSEconomy
@@ -9,9 +9,10 @@ All about planes of interesting (in FSEconomy):
 
 ## General Aviation
 
-- [Cessna 152][c152] -- *a favorite!*
-- [Cessna 172][c172]
-- [Cessna 185][c185]
+- [Cessna 152][c152] "Aerobat" -- *a favorite!*
+- [Cessna 172][c172] "Skyhawk"
+- [Cessna 18s][c182] "Skylane"
+- [Cessna 185][c185] "Skywagon"
 
 ## Large General Aviation
 
@@ -32,6 +33,7 @@ All about planes of interesting (in FSEconomy):
 | --------------------- | --- | -------- | ------------------------------- | ----------------------- | ------------------- |
 | [Cessna 152][c152]    | 2   | 226 kg   | 90 knt                          | 387 nm                  | v$435               |
 | [Cessna 172][c172]    | 3   | 355 kg   | 100 knt                         | 770 nm                  | v$1,096             |
+| [Cessna 182][c182]    | 3   | 512 kg   | 120 / 125 knt                         | 816 nm                  | v$1,300             |
 | [Cessna 185][c185]    | 5   | 715 kg   | 120 knt                         | 816 nm                  | v$1,400             |
 | [Cessna 208][c208]    | 13  | 1,833 kg | ~140 / 182 knt                  | ~850 / 1,092 nm         | v$3,630             |
 | [Beechraft 350][b350] | 14  | 2,604 kg | ~180 / 258 knt                  | 1,754 nm                | ~v$5k               |
@@ -44,6 +46,7 @@ All about planes of interesting (in FSEconomy):
 | ---------------------------------------- | --- | -------- | ----------- | ---------------------------- | ---------------------- |
 | [Cessna 152][c152]                       | 2   | 226 kg   | ✅          | [WBSim 152][c152-dl]         | ✅                     |
 | [Cessna 172][c172]                       | 3   | 355 kg   | ✅          | (built-in)                   | ≈                      |
+| [Cessna 182][c182]                       | 3   | 512 kg   | ❌          | use Cessna 185 variant                   | [FSE Cessna 185][c185-dl]   |
 | [Cessna 185][c185]                       | 5   | 715 kg   | ✅          | (built-in)                   | [FSE Tanks][c185-dl]   |
 | [Cessna 208][c208]                       | 13  | 1,833 kg | ✅          | (built-in)                   | ≈                      |
 | [Beechraft 350][b350]                    | 14  | 2,604 kg | ✅          | (built-in)                   | ≈                      |
@@ -89,6 +92,7 @@ Or a full passenger/cargo complement and a full fuel load.*
 [c152]: {filename}c152.md
 [c152-dl]: {filename}c152.md#download
 [c172]: {filename}c172.md
+[c182]: {filename}c182.md
 [c185]: {filename}c185.md
 [c185-dl]: {filename}c185.md#download
 [c208]: {filename}c208.md
