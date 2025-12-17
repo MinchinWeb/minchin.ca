@@ -9,7 +9,7 @@ All about planes of interesting (in FSEconomy):
 
 ## General Aviation
 
-- [Cessna 152][c152] "Aerobat" -- *a favorite!*
+- [Cessna 152][c152] "Aerobat" -- *a favourite!*
 - [Cessna 172][c172] "Skyhawk"
 - [Cessna 182][c182] "Skylane"
 - [Cessna 185][c185] "Skywagon"
