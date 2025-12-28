@@ -18,6 +18,7 @@ All about planes of interesting (in FSEconomy):
 
 - [Cessna 208][c208] "Grand Caravan" -- *a workhorse*
 - Beechcraft [King Air 350][b350]
+- Grumman [G-21 "Goose"][g21] (and ["Turbo Goose"][g21-turbo])
 
 ## Business Jets
 
@@ -27,7 +28,7 @@ All about planes of interesting (in FSEconomy):
 
 - [Douglas DC-3][dc3]
 
-## Comparision Chart
+## Comparison Chart
 
 | Plane                 | Pax | Cargo    | (Nominal/Official) Cruise Speed | (Useful/Official) Range | Monthly Maintenance |
 | --------------------- | --- | -------- | ------------------------------- | ----------------------- | ------------------- |
@@ -80,8 +81,8 @@ All about planes of interesting (in FSEconomy):
 | Diamond DA62                             | --  | -- kg    | ✅          | Diamond Aircraft DA64        | ✅                     |
 | Airbus H135 HPG                          | --  | -- kg    | ✅          | Eurocopter EC-135 T1         | ❌                     |
 | Vans RV-7/7A                             | --  | -- kg    | ✅          | Extra 330LT                  | ❌                     |
-| Grumman G-21 Goose                       | --  | -- kg    | ✅          | (built-in)                   | ❌ (and fixable...)    |
-
+| [Grumman G-21 Goose][g21]                | 9   | 1,343 kg | ✅          | (built-in)                   | [FSE Tanks][g21-dl]    |
+| [Grumman Turbo Goose][g21-turbo]         | 9   | 2,418 kg | ❌          | use [FSE G-21][g21-dl] variant | ✅   |
 
 ***N.b.**: You are unlikely to be able to carry the full passenger and cargo
 compliment at the same time.
@@ -98,3 +99,6 @@ Or a full passenger/cargo complement and a full fuel load.*
 [c208]: {filename}c208.md
 [c25c]: {filename}c25c.md
 [dc3]: {filename}dc3.md
+[g21]: {filename}g21.md
+[g21-dl]: {filename}g21.md#download
+[g21-turbo]: {filename}g21.md#turbo
