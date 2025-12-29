@@ -26,3 +26,5 @@ Can approach from the east (e.g. from Airdrie) either up the Bow Valley/Highway
 XX Link to download
 
 1-lot in game
+
+[CYBA in FSEconomy](https://server.fseconomy.net/airport.jsp?icao=CYBA)

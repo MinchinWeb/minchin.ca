@@ -45,6 +45,7 @@ DEFAULT_PAGINATION = False
 # static paths will be copied under the same name
 STATIC_PATHS = [
     "images",
+    "images/fse",
     "../extras",
     "css",
     "projects/design",
@@ -147,15 +148,18 @@ MARKDOWN = {
         "markdown.extensions.extra": {},
         "markdown.extensions.meta": {},
         "markdown.extensions.def_list": {},
+        "pymdownx.tilde": {},  # strikethrough (and subscript)  # working??
     },
     "output_format": "html5",
 }
+
 
 # `assets` sounds good, but I can't figure out how to get it to work for my CSS
 # `better_figures_and_images` didn't seem to do what I wanted (see Projects)
 # `gallery` looks good, but don't have a use here yet
 # `liquid_tags` might be useful...
 
+IMAGE_PROCESS_PARSER = "html5lib"
 
 # # Make things disappear
 DISPLAY_CATEGORIES_ON_MENU = False

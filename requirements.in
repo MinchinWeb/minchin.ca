@@ -1,5 +1,6 @@
 invoke >= 0.20.2
 markdown
+pymdown-extensions
 minchin.pelican.plugins.autoloader >= 1.2.4
 minchin.pelican.plugins.cname >= 1.2.0
 minchin.pelican.plugins.nojekyll
@@ -10,6 +11,8 @@ pelican-extended-sitemap
 pip-tools
 seafoam >= 2.4.1
 typogrify
+# process site using HTML5
+html5lib
 
 # sub-dependencies; minimums for security
 pillow >= 10.0.1
