@@ -10,7 +10,7 @@ All about particular FBOs of interest.
 - Canada
     - Alberta
         - Cooking Lake -- [CEZ3](https://server.fseconomy.net/airport.jsp?icao=CEZ3)
-        - Josephberg -- currently own -- [CFB6]({filename}CFB6.md)
+        - Josephberg -- currently own -- [CFB6]({filename}cfb6.md)
         - Two Hills -- [CEL6](https://server.fseconomy.net/airport.jsp?icao=CEL6)
         - Castor -- [CER2](https://server.fseconomy.net/airport.jsp?icao=CER2)
         - Cardston -- [CEA6](https://server.fseconomy.net/airport.jsp?icao=CEA6)
