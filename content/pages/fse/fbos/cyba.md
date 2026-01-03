@@ -4,6 +4,8 @@ slug: fse/fbos/cyba
 status: hidden
 at: FSEconomy
 at_link: fse/
+at_2: FBOs
+at_2_link: fse/fbos/
 
 Location: XX  
 Elevation: XX (just above sea level)  

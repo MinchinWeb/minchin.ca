@@ -107,7 +107,7 @@ pyyaml==6.0.3
     # via pymdown-extensions
 rich==14.2.0
     # via pelican
-seafoam==2.14.1
+seafoam==2.15.1
     # via -r requirements.in
 six==1.17.0
     # via

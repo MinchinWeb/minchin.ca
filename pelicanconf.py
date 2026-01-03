@@ -159,7 +159,9 @@ MARKDOWN = {
 # `gallery` looks good, but don't have a use here yet
 # `liquid_tags` might be useful...
 
-IMAGE_PROCESS_PARSER = "html5lib"
+IMAGE_PROCESS_PARSER = SEAFOAM_PARSER = "html5lib"
+SEAFOAM_DEV_MODE = True
+OPTIMIZE_IMAGES_DEV_MODE = True
 
 # # Make things disappear
 DISPLAY_CATEGORIES_ON_MENU = False

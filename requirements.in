@@ -9,7 +9,7 @@ pelican >= 3.7
 pelican-extended-sitemap
 # pelican-minify  # causes issues with jquery
 pip-tools
-seafoam >= 2.4.1
+seafoam >= 2.15.1
 typogrify
 # process site using HTML5
 html5lib

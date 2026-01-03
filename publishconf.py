@@ -36,3 +36,6 @@ PLUGINS = PLUGINS + [
     # "minchin.pelican.plugins.cname",
     # "minchin.pelican.plugins.nojekyll",
 ]
+
+SEAFOAM_DEV_MODE = False  # turn on image processing
+OPTIMIZE_IMAGES_DEV_MODE = False

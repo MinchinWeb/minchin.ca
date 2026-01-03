@@ -38,9 +38,9 @@ All about planes of interesting (in FSEconomy):
 | [Cessna 185][c185]               | 5   | 715 kg   | 120 knt                         | 816 nm                  | v$1,400             |
 | [Cessna 208][c208]               | 13  | 1,833 kg | ~140 / 182 knt                  | ~850 / 1,092 nm         | v$3,630             |
 | [Beechraft 350][b350]            | 14  | 2,604 kg | ~180 / 258 knt                  | 1,754 nm                | ~v$5k               |
-| [Cessna CJ4][c25c]               | 10  | 500 kg   | ~180 / 400 knt                  | 2,080 nm                | ~v$6k               |
 | [Grumman G-21 Goose][g21]        | 9   | 1,343 kg | ~150 / 155 knt                  | 1,100 nm                | ~v$3k               |
 | [Grumman Turbo Goose][g21-rutbo] | 9   | 2,418 kg | ~150 / 200 knt                  | 840 nm                  | ~v$3,300            |
+| [Cessna CJ4][c25c]               | 10  | 500 kg   | ~180 / 400 knt                  | 2,080 nm                | ~v$6k               |
 | [DC-3][dc3]                      | 26  | 4,353 kg | 140 knt                         | 1190 nm                 | ~v$6k               |
 
 ## MSFS 2024 Flying Models
@@ -53,6 +53,8 @@ All about planes of interesting (in FSEconomy):
 | [Cessna 185][c185]                       | 5   | 715 kg   | ✅          | (built-in)                            | [FSE Tanks][c185-dl]   |
 | [Cessna 208][c208]                       | 13  | 1,833 kg | ✅          | (built-in)                            | ≈                      |
 | [Beechraft 350][b350]                    | 14  | 2,604 kg | ✅          | (built-in)                            | ≈                      |
+| [Grumman G-21 Goose][g21]                | 9   | 1,343 kg | ✅          | (built-in)                            | [FSE Tanks][g21-dl]    |
+| [Grumman Turbo Goose][g21-turbo]         | 9   | 2,418 kg | ❌          | use [FSE G-21][g21-dl] variant        | ✅                     |
 | [Cessna CJ4][c25c]                       | 10  | 500 kg   | ✅          | (built-in)                            | ≈                      |
 | [DC-3][dc3]                              | 26  | 4,353 kg | ✅          | (built-in)                            | ✅                     |
 | --                                       | --  | --       | --          | --                                    | --                     |
@@ -83,8 +85,6 @@ All about planes of interesting (in FSEconomy):
 | Diamond DA62                             | --  | -- kg    | ✅          | Diamond Aircraft DA64                 | ✅                     |
 | Airbus H135 HPG                          | --  | -- kg    | ✅          | Eurocopter EC-135 T1                  | ❌                     |
 | Vans RV-7/7A                             | --  | -- kg    | ✅          | Extra 330LT                           | ❌                     |
-| [Grumman G-21 Goose][g21]                | 9   | 1,343 kg | ✅          | (built-in)                            | [FSE Tanks][g21-dl]    |
-| [Grumman Turbo Goose][g21-turbo]         | 9   | 2,418 kg | ❌          | use [FSE G-21][g21-dl] variant        | ✅                     |
 
 ***N.b.**: You are unlikely to be able to carry the full passenger and cargo
 compliment at the same time.

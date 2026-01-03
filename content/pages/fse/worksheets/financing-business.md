@@ -4,6 +4,8 @@ slug: fse/worksheets/financing-business
 status: hidden
 at: FSEconomy
 at_link: fse/
+at_2: Worksheets
+at_2_link: fse/worksheets/
 
 [MyrAir](https://sites.google.com/view/myrair) offers ~$500 million in
 financing, at 0%. I've wondered if the real money to be made is people that get

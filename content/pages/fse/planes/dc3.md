@@ -4,6 +4,8 @@ slug: fse/planes/dc3
 status: hidden
 at: FSEconomy
 at_link: fse/
+at_2: Planes
+at_2_link: fse/planes/
 
 ## In FSEconomy
 

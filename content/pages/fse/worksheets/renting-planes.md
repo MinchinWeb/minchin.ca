@@ -4,6 +4,8 @@ slug: fse/worksheets/renting-planes
 status: hidden
 at: FSEconomy
 at_link: fse/
+at_2: Worksheets
+at_2_link: fse/worksheets/
 
 **XX** current rental prices
 
