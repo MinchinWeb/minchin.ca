@@ -9,8 +9,9 @@ at_2_link: fse/worksheets/
 
 **Basic Question**: Does it make sense to buy an FBO?
 
-**Simple Answer**: Buy it for pride, for vanity, or because you want to fly a route in or out of it.
-It is rather hard to make money off of landing fees (i.e. "passively") alone.
+**Simple Answer**: Buy it for pride, for vanity, or because you want to fly a
+route in or out of it. It is rather hard to make money off of landing fees
+(i.e. "passively") alone.
 
 **More Details**:
 
@@ -78,9 +79,9 @@ lottery is open for a week for each round; any FBO's not sold this way are torn
 down and become available for anyone to come in and build an FBO anew.
 
 Per the developers, the idea is you can pay for the upkeep for an FBO by flying
-the jobs it produces three times. It's pretty hard to make an FBO pay for itself
-just on other people flying through. Let's do some math: let's assume each
-passenger job pays v$700, and you keep 95% if you fly the passengers
+the jobs it produces three times. It's pretty hard to make an FBO pay for
+itself just on other people flying through. Let's do some math: let's assume
+each passenger job pays v$700, and you keep 95% if you fly the passengers
 (convienantly ignoring any plane rental/maintenance or fuel costs, which could
 cut this in half...), and 5% ground fees if someone else flies your passengers
 (this effectively assumes that you don't own the FBO at the other end of the

@@ -1,5 +1,5 @@
 title: Fixed Base Operators (FBOs)
-modified: September 16, 2025
+modified: January 5, 2025
 slug: fse/fbos
 status: hidden
 at: FSEconomy
@@ -17,6 +17,9 @@ All about particular FBOs of interest.
         - Twin Island -- currently own -- [CEE6](https://server.fseconomy.net/airport.jsp?icao=CEE6)
         - Airdrie -- currently own -- [CEF4]({filename}cef4.md)
         - Banff -- currently own -- [CYBA]({filename}cyba.md)
+        - Whetstone/Del Bonita -- currently own -- [CEQ4]({filename}h28.md) (aka H28)
 - United States
     - Florida
         - [2FA2]({filename}2fa2.md) -- formerly owned -- [2FA2](https://server.fseconomy.net/airport.jsp?icao=2FA2)
+    - Montana
+        - Whetstone/Del Bonita -- currently own -- [H28]({filename}h28.md) (aka CEQ4)
