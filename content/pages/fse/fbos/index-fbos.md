@@ -1,5 +1,5 @@
 title: Fixed Base Operators (FBOs)
-modified: January 5, 2025
+modified: March 16, 2025
 slug: fse/fbos
 status: hidden
 at: FSEconomy
@@ -13,7 +13,7 @@ All about particular FBOs of interest.
         - Josephberg -- currently own -- [CFB6]({filename}cfb6.md)
         - Two Hills -- [CEL6](https://server.fseconomy.net/airport.jsp?icao=CEL6)
         - Castor -- [CER2](https://server.fseconomy.net/airport.jsp?icao=CER2)
-        - Cardston -- [CEA6](https://server.fseconomy.net/airport.jsp?icao=CEA6)
+        - Cardston -- currently own (half) -- [CEA6](https://server.fseconomy.net/airport.jsp?icao=CEA6)
         - Twin Island -- currently own -- [CEE6](https://server.fseconomy.net/airport.jsp?icao=CEE6)
         - Airdrie -- currently own -- [CEF4]({filename}cef4.md)
         - Banff -- currently own -- [CYBA]({filename}cyba.md)
