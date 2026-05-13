@@ -1,0 +1,7 @@
+User-agent: *
+
+Disallow: /theme/
+Disallow: /404/
+
+Sitemap: https://minchin.ca/sitemap.xml
+Sitemap: https://blog.minchin.ca/sitemap.xml

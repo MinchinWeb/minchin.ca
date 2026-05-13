@@ -66,6 +66,7 @@ EXTRA_PATH_METADATA = {
     "../extras/googlecbc66a9bfde8606b.html": {"path": "googlecbc66a9bfde8606b.html"},
     "../extras/BingSiteAuth.xml": {"path": "BingSiteAuth.xml"},
     "../extras/ads.txt": {"path": "ads.txt"},
+    "../extras/robots.txt": {"path": "robots.txt"},
 }
 
 # Custom settings
